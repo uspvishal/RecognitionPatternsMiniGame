@@ -258,8 +258,8 @@ namespace USP.MiniGame.Addition
                 // StartCoroutine(PlaySuccessAndNextAudio(clips.voiceOvers[currentSuccessfullyDragged-1].complete,null,0));
                 Debug.Log("Level Finish");
                 //FOR CURRENT SUCCESSFULLY DRAGGED
-                var clip = AudioLibrary.instance.GetAudioByEnum(CounterVOs[currentSuccessfullyDragged - 1]);
-                StartCoroutine(PlaySuccessAndNextAudio(clip, null, .5f));
+                // var clip = AudioLibrary.instance.GetAudioByEnum(CounterVOs[currentSuccessfullyDragged - 1]);
+                // StartCoroutine(PlaySuccessAndNextAudio(clip, null, .5f));
                 //-------------------------------------------------------------------------
                 DOVirtual.DelayedCall(.5f, () =>
                 {
@@ -271,14 +271,22 @@ namespace USP.MiniGame.Addition
                     }));
                 });
             }
-            else
-            {
-                var clip = AudioLibrary.instance.GetAudioByEnum(CounterVOs[currentSuccessfullyDragged - 1]);
-                StartCoroutine(PlaySuccessAndNextAudio(clip, null, .3f));
-                /* if(clips.voiceOvers!=null && clips.voiceOvers.Length>0){
-                     StartCoroutine(PlaySuccessAndNextAudio(clips.voiceOvers[currentSuccessfullyDragged-1].complete,clips.voiceOvers[currentSuccessfullyDragged].start,clips.voiceOvers[currentSuccessfullyDragged].startDelay));
-                 }*/
-            }
+            /*  else
+              {
+                  var clip = AudioLibrary.instance.GetAudioByEnum(CounterVOs[currentSuccessfullyDragged - 1]);
+                  if (clip)
+                  {
+                      StartCoroutine(PlaySuccessAndNextAudio(clip, null, .3f));
+
+                  }
+                  else
+                  {
+                      Debug.LogError("CLIP NOT FOUND!, SKIPPING");
+                  }
+                  /* if(clips.voiceOvers!=null && clips.voiceOvers.Length>0){
+                       StartCoroutine(PlaySuccessAndNextAudio(clips.voiceOvers[currentSuccessfullyDragged-1].complete,clips.voiceOvers[currentSuccessfullyDragged].start,clips.voiceOvers[currentSuccessfullyDragged].startDelay));
+                   }
+              }*/
         }
 
         IEnumerator PlaySuccessAndNextAudio(AudioClip clip, AudioClip next, float delay)

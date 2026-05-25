@@ -59,6 +59,10 @@ namespace USP.MiniGame.Addition
             {
                 return null;
             }
+            if (audioLib == null || audioLib.Count > 0)
+            {
+                return null;
+            }
             Debug.Log((int)id);
             var audioC = audioLib[(int)id - 1];
             return isMale ? audioC.male : audioC.female;

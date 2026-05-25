@@ -60,6 +60,7 @@ namespace USP.MiniGame.Addition
             public void Pick()
             {
 
+                  Debug.Log("Pick");
                   CancelReleaseCoroutine();
                   CancelReturn();
                   UtilityEventsManager.CurrentPieceDragged = this;
