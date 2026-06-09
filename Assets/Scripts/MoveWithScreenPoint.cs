@@ -40,7 +40,7 @@ namespace USP.MiniGame.Addition
             UpdatePosition();
         }
 
-        public void UpdatePosition()
+        private void UpdatePosition()
         {
             if (targetCamera == null) return;
 
@@ -94,10 +94,12 @@ namespace USP.MiniGame.Addition
         }
 
 
+
     }
 
 
-    #endregion
+
+        #endregion
 
 
 

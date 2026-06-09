@@ -11,7 +11,7 @@ namespace USP.MiniGame.recognitionPatterns
     [ExecuteAlways]
     public class WorldGridLayout : MonoBehaviour
     {
-        
+
         public float spacing = 0.2f;
         public float spacingIPAD = .1f;
 
@@ -49,7 +49,7 @@ namespace USP.MiniGame.recognitionPatterns
                 {
                     totalWidth += GetSize(sr);
                 }
-                
+
                 if (i < childCount - 1)
                     totalWidth += finalSpacing;
             }
@@ -79,8 +79,14 @@ namespace USP.MiniGame.recognitionPatterns
                 Transform child = transform.GetChild(i);
 
                 SpriteRenderer sr = child.GetComponent<SpriteRenderer>();
+                Vector3 offset = Vector3.zero;
+                WorldGridItemProperties properties = child.GetComponent<WorldGridItemProperties>();
+                if (properties != null)
+                {
+                    offset = properties.offset;
+                }
 
-                if (sr == null)
+                if (sr == null || !child.gameObject.activeInHierarchy)
                     continue;
 
                 float size = GetSize(sr);
@@ -92,11 +98,11 @@ namespace USP.MiniGame.recognitionPatterns
 
                 if (horizontal)
                 {
-                    pos = transform.position + new Vector3(current, 0, 0);
+                    pos = transform.position + new Vector3(current, 0, 0) + offset;
                 }
                 else
                 {
-                    pos = transform.position + new Vector3(0, current, 0);
+                    pos = transform.position + new Vector3(0, current, 0) + offset;
                 }
 
                 child.position = pos;
@@ -104,6 +110,12 @@ namespace USP.MiniGame.recognitionPatterns
                 // move to next slot
                 current += size * 0.5f + finalSpacing;
             }
+        }
+
+        public void moveTowardsX(float directionValue)
+        {
+            var final = this.transform.position.x + directionValue;
+            transform.DOMoveX(final, .3f);
         }
 
         private void Awake()
@@ -123,7 +135,100 @@ namespace USP.MiniGame.recognitionPatterns
             UpdatePosition();
         }
 
-        public  bool IsWideAspect
+
+        public void Refresh()
+        {
+            UpdatePosition();
+        }
+
+        public void RefreshSmooth()
+        {
+            int childCount = transform.childCount;
+
+            if (childCount == 0)
+                return;
+
+            float totalWidth = 0f;
+            Debug.Log("IS IPAD " + IsWideAspect);
+            float finalSpacing = IsWideAspect ? spacing : spacingIPAD;
+            // Calculate total required width
+            for (int i = 0; i < childCount; i++)
+            {
+                Transform child = transform.GetChild(i);
+
+                SpriteRenderer sr = child.GetComponent<SpriteRenderer>();
+                if (child.gameObject.activeInHierarchy)
+                {
+                    if (sr != null)
+                    {
+                        totalWidth += GetSize(sr);
+                    }
+
+                    if (i < childCount - 1)
+                        totalWidth += finalSpacing;
+                }
+
+            }
+
+            // Determine starting offset
+            float startOffset = 0f;
+
+            switch (alignment)
+            {
+                case Alignment.Left:
+                    startOffset = 0f;
+                    break;
+
+                case Alignment.Center:
+                    startOffset = -totalWidth * 0.5f;
+                    break;
+
+                case Alignment.Right:
+                    startOffset = -totalWidth;
+                    break;
+            }
+
+            float current = startOffset;
+
+            for (int i = 0; i < childCount; i++)
+            {
+                Transform child = transform.GetChild(i);
+
+                SpriteRenderer sr = child.GetComponent<SpriteRenderer>();
+                Vector3 offset = Vector3.zero;
+                WorldGridItemProperties properties = child.GetComponent<WorldGridItemProperties>();
+                if (properties != null || !child.gameObject.activeInHierarchy)
+                {
+                    offset = properties.offset;
+                }
+
+                if (sr == null || !child.gameObject.activeInHierarchy)
+                    continue;
+
+                float size = GetSize(sr);
+
+                // move to center of sprite
+                current += size * 0.5f;
+
+                Vector3 pos;
+
+                if (horizontal)
+                {
+                    pos = transform.position + new Vector3(current, 0, 0) + offset;
+                }
+                else
+                {
+                    pos = transform.position + new Vector3(0, current, 0) + offset;
+                }
+
+                child.DOMove(pos, .2f);
+
+                // move to next slot
+                current += size * 0.5f + finalSpacing;
+            }
+        }
+
+        public bool IsWideAspect
         {
             get
             {
@@ -143,7 +248,7 @@ namespace USP.MiniGame.recognitionPatterns
                 return runtimeAspect <= 1.29f || runtimeAspect >= 1.36f;
             }
         }
-       
+
 
 #if UNITY_EDITOR
         private void OnTransformChildrenChanged()

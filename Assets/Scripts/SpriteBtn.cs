@@ -20,6 +20,14 @@ namespace USP.MiniGame.Addition
         public float duration;
         AudioSource source;
 
+        [System.Serializable]
+        public struct DelayedEvents
+        {
+            public UnityEvent m_event;
+            public float delay;
+        }
+        public DelayedEvents[] delayedEvents;
+
         public AudioClip clip;
 
         [SerializeField] bool useChildEffect;
@@ -98,7 +106,16 @@ namespace USP.MiniGame.Addition
                 ChildEffectOne();
 
             UtilityEventsManager.CorrectAnswer -= ShakeEffect;
+            ExecuteDelayedEvents();
 
+        }
+
+        void ExecuteDelayedEvents()
+        {
+            foreach (var x in delayedEvents)
+            {
+                DOVirtual.DelayedCall(x.delay, () => { x.m_event?.Invoke(); });
+            }
         }
 
 
