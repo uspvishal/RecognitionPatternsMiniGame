@@ -22714,7 +22714,127 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82f0afd42552cd14bbb1839bb558d286, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.AudioLibrary
-  audioLib: []
+  audioLib:
+  - name: LOOK AT THE PATTERN IT_S AB AB
+    female: {fileID: 8300000, guid: cc3d09483758dd44f8fcb4c10c0a4a35, type: 3}
+    male: {fileID: 8300000, guid: 40056877985a40244981b9cc263e20f3, type: 3}
+  - name: GRAPES ORANGE GRAPES ORANGE
+    female: {fileID: 8300000, guid: ea734a29028ebe441842611df70bf314, type: 3}
+    male: {fileID: 8300000, guid: bd8bfbbe2a9ac5440a448891295375d4, type: 3}
+  - name: LOOK CAREFULLY AND FOLLOW THE PATTERNS
+    female: {fileID: 8300000, guid: 8017324625cb3b148b8a4afda4f87c59, type: 3}
+    male: {fileID: 8300000, guid: 06987075f5d98eb4ca9949c29968db91, type: 3}
+  - name: GREAT ITS STILL AN AB AB PATTERN
+    female: {fileID: 8300000, guid: cac4e2bde6fccf3408832e95841ac4c3, type: 3}
+    male: {fileID: 8300000, guid: 2d9d09bfa2f1fa44c980b391ee6442c4, type: 3}
+  - name: BANANA APPLE BANANA APPLE
+    female: {fileID: 8300000, guid: 52d6b3228af257049812cac879d9f1b7, type: 3}
+    male: {fileID: 8300000, guid: 960d28a1b450bea4e9a672358bff3c2a, type: 3}
+  - name: DRAG AND MATCH THE PATTERN
+    female: {fileID: 8300000, guid: 3c4a0f40b076e554f9220b66b3117ccf, type: 3}
+    male: {fileID: 8300000, guid: 847091ffc19e69244a4fd47ef255bf89, type: 3}
+  - name: LETS COMPLETE THE AB PATTERN
+    female: {fileID: 8300000, guid: 85bcecbd3f6a18245a67f7e000a237c4, type: 3}
+    male: {fileID: 8300000, guid: 332fa24315111404e93ca304770ff29a, type: 3}
+  - name: CAN BOTTLE CAN BOTTLE
+    female: {fileID: 8300000, guid: ce8ccb93c85af7a449d56f8ba62f20f2, type: 3}
+    male: {fileID: 8300000, guid: b7d6d5b0694d20546af48bc0de82af12, type: 3}
+  - name: WHAT COMES NEXT_ DRAG THE MISSING ITEM
+    female: {fileID: 8300000, guid: 55a43d509391be548b5dc1ed3d12aa3a, type: 3}
+    male: {fileID: 8300000, guid: 9b4202f04e36c574d8922f3048d4678c, type: 3}
+  - name: KEEP GOING COMPLETE THE AB AB PATTERN
+    female: {fileID: 8300000, guid: 22bd881dd3ff77f49bd8ced2455add7a, type: 3}
+    male: {fileID: 8300000, guid: 261a9fa71fa546249b4691025e4bbe9e, type: 3}
+  - name: MILK CAN COFFEE CUP MILK CAN COFFEE CUP
+    female: {fileID: 8300000, guid: 390f2bf70e70a6b46bfbc5284db9c498, type: 3}
+    male: {fileID: 8300000, guid: 3ff93c1798219554ba410dbe7c6b58be, type: 3}
+  - name: FIND WHATS MISSING AND COMPLETE THE PATTERN
+    female: {fileID: 8300000, guid: 209d28d6e16d89b4b92223a8a834f7b6, type: 3}
+    male: {fileID: 8300000, guid: 01d5b7cfda486d244a6d68cd508081f1, type: 3}
+  - name: NOW ITS YOUR TURN TO BUILD AN AB PATTERN
+    female: {fileID: 8300000, guid: 5e075db5c334d3149a39e77580c84097, type: 3}
+    male: {fileID: 8300000, guid: b74b78603ccd061488d35c835a81bec1, type: 3}
+  - name: DONUT CUPCAKE DONUT CUPCAKE
+    female: {fileID: 8300000, guid: 4e980c6ae6a89ca43a0e795980ec8061, type: 3}
+    male: {fileID: 8300000, guid: fd90f9c22f328f44aaf96fa134fc0dc2, type: 3}
+  - name: DRAG AND PLACE THEM IN THE RIGHT ORDER
+    female: {fileID: 8300000, guid: d2364d6e84b013041897ce4ecc3b2438, type: 3}
+    male: {fileID: 8300000, guid: 67786a8de5a797540bdc6d8202438a7c, type: 3}
+  - name: LETS TRY ANOTHER AB PATTERN
+    female: {fileID: 8300000, guid: f989dfe126bd70045bcb412a266336df, type: 3}
+    male: {fileID: 8300000, guid: 5692e501a0cbc0843bd59b0e45a6ab5d, type: 3}
+  - name: COOKIE CROISSANT COOKIE CROISSANT
+    female: {fileID: 8300000, guid: 7ee6ba2a5083a7743a3712a4837e91f1, type: 3}
+    male: {fileID: 8300000, guid: ce284dc8fd896964696cdf6fe71456da, type: 3}
+  - name: FILL IN THE PATTERN
+    female: {fileID: 8300000, guid: 132ed81bc9351dc40a758f354789900d, type: 3}
+    male: {fileID: 8300000, guid: e1582dddc2afe164d8f1fc38d1b67a92, type: 3}
+  - name: PERFECT YOU FOLLOWED THE AB PATTERN
+    female: {fileID: 8300000, guid: 7be86cdf7bd81954aa46b0b9f039ddb8, type: 3}
+    male: {fileID: 8300000, guid: f98e2dd886e6f6d47889499304952832, type: 3}
+  - name: OOPS THIS DOESNT FOLLOW THE AB PATTERN
+    female: {fileID: 8300000, guid: 9572b310b6ae0f2449a850c6bff251b1, type: 3}
+    male: {fileID: 8300000, guid: 1de4102ad5513eb48876eb29c394748c, type: 3}
+  - name: THINK AB PATTERN WHAT COMES NEXT_
+    female: {fileID: 8300000, guid: 354d69e333153ff45a0c394b05d59c88, type: 3}
+    male: {fileID: 8300000, guid: 4ec1c268cdefded42a47dcac35a25ba1, type: 3}
+  - name: OH NO SOMETHING DOESNT BELONG
+    female: {fileID: 8300000, guid: 17f25f601b1702e43a115fd8cba4ab97, type: 3}
+    male: {fileID: 8300000, guid: 9442a673c07757c40a28f72646613581, type: 3}
+  - name: THIS IS AN AB PATTERN RED ORANGE RED ORANGE
+    female: {fileID: 8300000, guid: e6a35574be97bc843a130c63ed61c309, type: 3}
+    male: {fileID: 8300000, guid: 81556018c617214499ecc58278a2c9d5, type: 3}
+  - name: TAP THE ITEM THAT BREAKS THE PATTERN
+    female: {fileID: 8300000, guid: ed7838cdfe5942444b611f1bb17b1cad, type: 3}
+    male: {fileID: 8300000, guid: bc881b737fb49f7408ced1b2e153bac8, type: 3}
+  - name: LOOK AGAIN ANOTHER AB AB PATTERN
+    female: {fileID: 8300000, guid: 24c3dee4f7fd17f4bb64ba3381fe078b, type: 3}
+    male: {fileID: 8300000, guid: bd8bda7c6feb4d6469e9738cc2f12169, type: 3}
+  - name: BUS CAR BUS CAR
+    female: {fileID: 8300000, guid: 34b552f8da999974499ae260befb5c3a, type: 3}
+    male: {fileID: 8300000, guid: 8ca5938c4ff4750459b82bb5a46f8181, type: 3}
+  - name: WHICH ONE IS NOT PART OF THE PATTERN_ TAP IT
+    female: {fileID: 8300000, guid: 15c705c7319d2674ca471c4b8b51b14b, type: 3}
+    male: {fileID: 8300000, guid: 8e1bf3d45dea8b246a14a8b77a94ceaa, type: 3}
+  - name: YAY YOU FOUND THE ONE THAT DOESNT BELONG IN THIS PATTERN
+    female: {fileID: 8300000, guid: 9bb51436cbbc0694dbbb424480a1de92, type: 3}
+    male: {fileID: 8300000, guid: 05e4fbfe27b320949920add91f7d75fb, type: 3}
+  - name: LOOK AGAIN WHICH ONE DOESNT BELONG_
+    female: {fileID: 8300000, guid: 35bd83a60f7a95648beadd139cd35a73, type: 3}
+    male: {fileID: 8300000, guid: 13e444cf8d192e847a35fcdefc06aa3b, type: 3}
+  - name: WOW NOW LETS TRY AN ABC PATTERN
+    female: {fileID: 8300000, guid: dd1e509a62fda6944a374fc7c7840cd6, type: 3}
+    male: {fileID: 8300000, guid: baf66157cec6bff419e868e4205ca4fd, type: 3}
+  - name: CANDY CANE CANDY LOLLIPOP
+    female: {fileID: 8300000, guid: 39032945acde67540aa6c4cd8c2949ce, type: 3}
+    male: {fileID: 8300000, guid: 176931ee98322374a95bf96e6d2dfa75, type: 3}
+  - name: THATS AN ABC ABC PATTERN
+    female: {fileID: 8300000, guid: fb0aeb7099d2cb54f823de01bfcd14a8, type: 3}
+    male: {fileID: 8300000, guid: d303366ce4fcf6d438fc2db0a656b169, type: 3}
+  - name: DRAG AND COPY THE PATTERN
+    female: {fileID: 8300000, guid: 53be0ce98bf2dbd489d1e1869310512b, type: 3}
+    male: {fileID: 8300000, guid: de33b9b078068c749b2f870592453ed6, type: 3}
+  - name: KEEP GOING WITH ABC ABC PATTERN
+    female: {fileID: 8300000, guid: 41b93240aa745de428e0a5f536bf4942, type: 3}
+    male: {fileID: 8300000, guid: fb922d55dc18a8a4ead2ab120f9bd7a6, type: 3}
+  - name: CANDY LOLLIPOP POPSICLE
+    female: {fileID: 8300000, guid: 2f0ecdc71bf134043949ec60fa827c75, type: 3}
+    male: {fileID: 8300000, guid: d7634eec925d613459c4e4f00c8f70e2, type: 3}
+  - name: MATCH THE PATTERN
+    female: {fileID: 8300000, guid: dfac2cf24f554cc4aa6acaf3bdbcd331, type: 3}
+    male: {fileID: 8300000, guid: 2cf403190d4092c4788308f16054b4ef, type: 3}
+  - name: OOPS THIS DOESNT FOLLOW THE ABC PATTERN
+    female: {fileID: 8300000, guid: 9f4505ac98b9b3745afd32dfb44bcb70, type: 3}
+    male: {fileID: 8300000, guid: dfc3070db22fe54499b423f9dea2c95d, type: 3}
+  - name: THINK ABC PATTERN WHAT COMES NEXT_
+    female: {fileID: 8300000, guid: 01c228ca6f088ee4886fc73b14a04738, type: 3}
+    male: {fileID: 8300000, guid: 20128315fa4f8284ea010906ca98aeeb, type: 3}
+  - name: YAY THE SHELVES LOOK PERFECT
+    female: {fileID: 8300000, guid: 48a9021d504166548bf3f0692a43bd55, type: 3}
+    male: {fileID: 8300000, guid: a4e9442e74510294da960502b88fb0bc, type: 3}
+  - name: PERFECT YOU FOLLOWED THE ABC PATTERN
+    female: {fileID: 8300000, guid: 7f42054f4983d05458f40b50b28ddb21, type: 3}
+    male: {fileID: 8300000, guid: 07d1223dbeaa0e7409d15d720b6954b3, type: 3}
   femaleAudio:
   - {fileID: 8300000, guid: cc3d09483758dd44f8fcb4c10c0a4a35, type: 3}
   - {fileID: 8300000, guid: ea734a29028ebe441842611df70bf314, type: 3}
@@ -22744,6 +22864,18 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 34b552f8da999974499ae260befb5c3a, type: 3}
   - {fileID: 8300000, guid: 15c705c7319d2674ca471c4b8b51b14b, type: 3}
   - {fileID: 8300000, guid: 9bb51436cbbc0694dbbb424480a1de92, type: 3}
+  - {fileID: 8300000, guid: 35bd83a60f7a95648beadd139cd35a73, type: 3}
+  - {fileID: 8300000, guid: dd1e509a62fda6944a374fc7c7840cd6, type: 3}
+  - {fileID: 8300000, guid: 39032945acde67540aa6c4cd8c2949ce, type: 3}
+  - {fileID: 8300000, guid: fb0aeb7099d2cb54f823de01bfcd14a8, type: 3}
+  - {fileID: 8300000, guid: 53be0ce98bf2dbd489d1e1869310512b, type: 3}
+  - {fileID: 8300000, guid: 41b93240aa745de428e0a5f536bf4942, type: 3}
+  - {fileID: 8300000, guid: 2f0ecdc71bf134043949ec60fa827c75, type: 3}
+  - {fileID: 8300000, guid: dfac2cf24f554cc4aa6acaf3bdbcd331, type: 3}
+  - {fileID: 8300000, guid: 9f4505ac98b9b3745afd32dfb44bcb70, type: 3}
+  - {fileID: 8300000, guid: 01c228ca6f088ee4886fc73b14a04738, type: 3}
+  - {fileID: 8300000, guid: 48a9021d504166548bf3f0692a43bd55, type: 3}
+  - {fileID: 8300000, guid: 7f42054f4983d05458f40b50b28ddb21, type: 3}
   maleAudio:
   - {fileID: 8300000, guid: 40056877985a40244981b9cc263e20f3, type: 3}
   - {fileID: 8300000, guid: bd8bfbbe2a9ac5440a448891295375d4, type: 3}
@@ -22773,6 +22905,18 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8ca5938c4ff4750459b82bb5a46f8181, type: 3}
   - {fileID: 8300000, guid: 8e1bf3d45dea8b246a14a8b77a94ceaa, type: 3}
   - {fileID: 8300000, guid: 05e4fbfe27b320949920add91f7d75fb, type: 3}
+  - {fileID: 8300000, guid: 13e444cf8d192e847a35fcdefc06aa3b, type: 3}
+  - {fileID: 8300000, guid: baf66157cec6bff419e868e4205ca4fd, type: 3}
+  - {fileID: 8300000, guid: 176931ee98322374a95bf96e6d2dfa75, type: 3}
+  - {fileID: 8300000, guid: d303366ce4fcf6d438fc2db0a656b169, type: 3}
+  - {fileID: 8300000, guid: de33b9b078068c749b2f870592453ed6, type: 3}
+  - {fileID: 8300000, guid: fb922d55dc18a8a4ead2ab120f9bd7a6, type: 3}
+  - {fileID: 8300000, guid: d7634eec925d613459c4e4f00c8f70e2, type: 3}
+  - {fileID: 8300000, guid: 2cf403190d4092c4788308f16054b4ef, type: 3}
+  - {fileID: 8300000, guid: dfc3070db22fe54499b423f9dea2c95d, type: 3}
+  - {fileID: 8300000, guid: 20128315fa4f8284ea010906ca98aeeb, type: 3}
+  - {fileID: 8300000, guid: a4e9442e74510294da960502b88fb0bc, type: 3}
+  - {fileID: 8300000, guid: 07d1223dbeaa0e7409d15d720b6954b3, type: 3}
 --- !u!4 &825588557
 Transform:
   m_ObjectHideFlags: 0
