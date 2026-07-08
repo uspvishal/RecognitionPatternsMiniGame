@@ -3,7 +3,7 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace USP.MiniGame.Addition
+namespace USP.MiniGame.recognitionPatterns
 {
     /// <summary>
     /// Script by Vishal Lakhani
@@ -23,7 +23,7 @@ namespace USP.MiniGame.Addition
         public float repositionSize = .5f;
         public UnityEvent OnReposition;
 
-        public int setLayer=10;
+        public int setLayer = 10;
         #endregion
 
         #region Unity Methods
@@ -49,8 +49,8 @@ namespace USP.MiniGame.Addition
             if (startPlace)
             {
                 itm.transform.DOMove(startPlace.position, duration);
-               
-               
+
+
                 itm.transform.DOMove(new Vector3(EndPlace.transform.position.x, EndPlace.transform.position.y + size * ItemsInHand.Count, EndPlace.transform.position.z), duration).SetDelay(duration);
                 itm.transform.DOScale(ogScale, duration).SetEase(Ease.OutBounce).SetDelay(duration * 2);
                 if (!ItemsInHand.Contains(itm))
@@ -68,17 +68,17 @@ namespace USP.MiniGame.Addition
                     ItemsInHand.Add(itm);
                 }
             }
-            var piece =itm.GetComponent<Piece>();
-             if (piece)
+            var piece = itm.GetComponent<Piece>();
+            if (piece)
             {
-                piece.isComplete=true;
+                piece.isComplete = true;
             }
-             var itmSR = itm.GetComponent<SpriteRenderer>();
-             var itmSRchild = itm.transform.GetChild(0).GetComponent<SpriteRenderer>();
-             if (itmSRchild)
-             itmSRchild.sortingOrder = setLayer+1;
-             if (itmSR)
-                    itmSR.sortingOrder = setLayer;
+            var itmSR = itm.GetComponent<SpriteRenderer>();
+            var itmSRchild = itm.transform.GetChild(0).GetComponent<SpriteRenderer>();
+            if (itmSRchild)
+                itmSRchild.sortingOrder = setLayer + 1;
+            if (itmSR)
+                itmSR.sortingOrder = setLayer;
 
             if (useCustomRepositionAtEnd)
             {

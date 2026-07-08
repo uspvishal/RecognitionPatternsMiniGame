@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-namespace USP.MiniGame.Addition
+namespace USP.MiniGame.recognitionPatterns
 {
     public class TutorialManager : MonoBehaviour
     {

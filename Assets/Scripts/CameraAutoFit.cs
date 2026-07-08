@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace USP.MiniGame.Addition
+namespace USP.MiniGame.recognitionPatterns
 {
       [RequireComponent(typeof(Camera))]
       public class CameraAutoFit : MonoBehaviour
@@ -15,7 +15,7 @@ namespace USP.MiniGame.Addition
             public float MaxOrthographicSize = 5.4F;
 
             [SerializeField] private bool autoApplyOnStart = true;
-        [SerializeField] private bool DelayedStart;
+            [SerializeField] private bool DelayedStart;
 
             public static bool IsWideAspect
             {
@@ -31,25 +31,25 @@ namespace USP.MiniGame.Addition
             {
                   Camera = GetComponent<Camera>();
             }
-        public void Start()
-        {
-            if (autoApplyOnStart)
+            public void Start()
             {
-                Apply(Mode);
-               
-            }
-        }
+                  if (autoApplyOnStart)
+                  {
+                        Apply(Mode);
 
-        void ApplyDElayed()
-        {
-            Apply(Mode);
-        }
+                  }
+            }
+
+            void ApplyDElayed()
+            {
+                  Apply(Mode);
+            }
 
             public void Apply(FitMode mode)
             {
                   float aspect = (float)Screen.width / Screen.height;
 
-                  Bounds bounds = IsWideAspect ? Background_mob.bounds: Background_ipad.bounds;
+                  Bounds bounds = IsWideAspect ? Background_mob.bounds : Background_ipad.bounds;
                   bounds.Expand(new Vector3(Padding.x * 2F, Padding.y * 2F));
 
                   float target = Mathf.Min(mode switch { FitMode.Horizontal => bounds.extents.x / aspect, FitMode.Vertical => bounds.extents.y, _ => Camera.orthographicSize }, MaxOrthographicSize);

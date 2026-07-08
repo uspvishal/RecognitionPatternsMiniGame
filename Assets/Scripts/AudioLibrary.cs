@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 
-namespace USP.MiniGame.Addition
+namespace USP.MiniGame.recognitionPatterns
 {
     /// <summary>
     /// Script by Vishal Lakhani
@@ -55,16 +55,20 @@ namespace USP.MiniGame.Addition
 
         public AudioClip GetAudioByEnum(AudioID id)
         {
+            Debug.Log("Audio Library Length " + audioLib.Count);
             if (id == 0)
             {
+                Debug.LogError("ID was " + id);
                 return null;
             }
-            if (audioLib == null || audioLib.Count > 0)
+            if (audioLib == null || audioLib.Count == 0)
             {
+                Debug.LogError("AudioLibrary is null or Empty");
                 return null;
             }
-            Debug.Log((int)id);
             var audioC = audioLib[(int)id - 1];
+            Debug.Log("Selected ID " + id + " filename female " + audioC.female.name);
+
             return isMale ? audioC.male : audioC.female;
         }
 

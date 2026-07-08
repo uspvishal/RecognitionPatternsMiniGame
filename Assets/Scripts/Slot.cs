@@ -1,7 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 
-namespace USP.MiniGame.Addition
+namespace USP.MiniGame.recognitionPatterns
 {
 	[RequireComponent(typeof(Collider2D))]
 	public class Slot : MonoBehaviour

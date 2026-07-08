@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-namespace USP.MiniGame.Addition
+namespace USP.MiniGame.recognitionPatterns
 {
     /// <summary>
     /// Script by Vishal Lakhani

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using DG.Tweening;
 using UnityEngine;
-namespace USP.MiniGame.Addition
+namespace USP.MiniGame.recognitionPatterns
 {
 
     public class LevelManager : MonoBehaviour

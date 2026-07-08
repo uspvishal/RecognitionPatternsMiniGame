@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 
-namespace USP.MiniGame.Addition
+namespace USP.MiniGame.recognitionPatterns
 {
     public class Level : MonoBehaviour
     {
@@ -17,9 +17,9 @@ namespace USP.MiniGame.Addition
 
         public GameObject[] ObjectsToHighlight;
 
-        public AudioID startAudio;
+        public AudioID[] introAudios;
 
-        public AudioID SecondAudio;
+
         public AudioID levelIdleVo;
 
         public List<AudioClip> EndingVoS;
@@ -41,15 +41,19 @@ namespace USP.MiniGame.Addition
 
         public AudioID[] CounterVOs;
 
-
-
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
+        void Awake()
         {
-            // group = GetComponentInChildren<CanvasGroup>();
             var tut = FindAnyObjectByType<TutorialManager>();
             if (tut)
                 tut.ResetManual();
+            dragController = FindObjectOfType<DragHandler>();
+        }
+
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void OnEnable()
+        {
+            // group = GetComponentInChildren<CanvasGroup>();
+
             onLevelStart?.Invoke();
             UtilityEventsManager.isControlEnabled = false;
             source = gameObject.AddComponent<AudioSource>();
@@ -69,10 +73,12 @@ namespace USP.MiniGame.Addition
                 phoneBg.SetActive(true);
                 Debug.Log("Mode Mobile");
             }
-            dragController = FindObjectOfType<DragHandler>();
+
             StartCoroutine(AudioPlay());
             InvokeRepeating(nameof(UpdateIfSoundIsPlaying), .1f, .5f);
         }
+
+
 
 
         public void PlayCounterVO()
@@ -224,26 +230,41 @@ namespace USP.MiniGame.Addition
 
         IEnumerator AudioPlay()
         {
-            if (startAudio != AudioID.none)
+
+            foreach (var x in introAudios)
             {
                 yield return new WaitForSeconds(initialAudioDelay);
-                var a = AudioLibrary.instance.GetAudioByEnum(startAudio);
-                source.PlayOneShot(a);
-                while (source.isPlaying)
+                if (x != AudioID.none)
                 {
-                    yield return null;
+                    var a = AudioLibrary.instance.GetAudioByEnum(x);
+                    source.PlayOneShot(a);
+                    yield return new WaitForSeconds(a.length + .1f);
+                    /*while (source.isPlaying)
+                    {
+                        yield return null;
+                    }*/
                 }
             }
-            if (SecondAudio != AudioID.none)
-            {
-                yield return new WaitForSeconds(SecondAudioDelay);
-                var a = AudioLibrary.instance.GetAudioByEnum(SecondAudio);
-                source.PlayOneShot(a);
-                while (source.isPlaying)
-                {
-                    yield return null;
-                }
-            }
+            /* if (startAudio != AudioID.none)
+             {
+                 yield return new WaitForSeconds(initialAudioDelay);
+                 var a = AudioLibrary.instance.GetAudioByEnum(startAudio);
+                 source.PlayOneShot(a);
+                 while (source.isPlaying)
+                 {
+                     yield return null;
+                 }
+             }
+             if (SecondAudio != AudioID.none)
+             {
+                 yield return new WaitForSeconds(SecondAudioDelay);
+                 var a = AudioLibrary.instance.GetAudioByEnum(SecondAudio);
+                 source.PlayOneShot(a);
+                 while (source.isPlaying)
+                 {
+                     yield return null;
+                 }
+             }*/
             UtilityEventsManager.isControlEnabled = true;
             AudioComplete?.Invoke();
             // group.DOFade(0,.5f);

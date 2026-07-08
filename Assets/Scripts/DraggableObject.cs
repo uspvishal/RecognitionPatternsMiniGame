@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 using DG.Tweening;
-namespace USP.MiniGame.Addition
+namespace USP.MiniGame.recognitionPatterns
 {
 
 

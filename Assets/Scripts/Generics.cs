@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-namespace USP.MiniGame.Addition
+namespace USP.MiniGame.recognitionPatterns
 {
     public static class Generics
     {

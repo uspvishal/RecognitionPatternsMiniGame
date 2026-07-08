@@ -7,7 +7,7 @@ using UnityEngine.Events;
 /// DESCRIPTION: stays in the game for events make sure you rename the namespace 
 /// 
 /// </summary>
-namespace USP.MiniGame.Addition
+namespace USP.MiniGame.recognitionPatterns
 {
     public static class UtilityEventsManager
     {

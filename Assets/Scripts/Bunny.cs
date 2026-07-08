@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-namespace USP.MiniGame.Addition.Bunny
+namespace USP.MiniGame.recognitionPatterns.Bunny
 {
     /// <summary>
     /// Script by Vishal Lakhani

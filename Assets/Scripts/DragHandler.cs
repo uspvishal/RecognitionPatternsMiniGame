@@ -1,7 +1,7 @@
 ﻿using DG.Tweening;
 using UnityEngine;
 using UnityEngine.InputSystem;
-namespace USP.MiniGame.Addition
+namespace USP.MiniGame.recognitionPatterns
 {
 
       public sealed class DragHandler : MonoBehaviour

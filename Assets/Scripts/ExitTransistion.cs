@@ -1,7 +1,7 @@
 using DG.Tweening;
 using Unity.Mathematics;
 using UnityEngine;
-namespace USP.MiniGame.Addition
+namespace USP.MiniGame.recognitionPatterns
 {
     public class ExitTransistion : MonoBehaviour
     {

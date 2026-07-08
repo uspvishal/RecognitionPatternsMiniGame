@@ -1,6 +1,5 @@
 using DG.Tweening;
 using UnityEngine;
-using USP.MiniGame.Addition;
 
 namespace USP.MiniGame.recognitionPatterns
 {
@@ -253,7 +252,7 @@ namespace USP.MiniGame.recognitionPatterns
 #if UNITY_EDITOR
         private void OnTransformChildrenChanged()
         {
-            UpdatePosition();
+            RefreshSmooth();
         }
 #endif
     }
