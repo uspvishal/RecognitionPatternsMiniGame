@@ -16,7 +16,7 @@ namespace USP.MiniGame.recognitionPatterns
         public UnityEvent onLevelStart, onLevelFinish;
 
         public GameObject[] ObjectsToHighlight;
-
+        public bool SkipIntoAudio;
         public AudioID[] introAudios;
 
 
@@ -230,7 +230,13 @@ namespace USP.MiniGame.recognitionPatterns
 
         IEnumerator AudioPlay()
         {
-
+#if UNITY_EDITOR
+            if (SkipIntoAudio)
+            {
+                UtilityEventsManager.isControlEnabled = true;
+                yield break;
+            }
+#endif
             foreach (var x in introAudios)
             {
                 yield return new WaitForSeconds(initialAudioDelay);

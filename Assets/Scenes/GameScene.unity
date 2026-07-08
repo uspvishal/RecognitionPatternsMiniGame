@@ -902,6 +902,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ObjectsToHighlight: []
+  SkipIntoAudio: 0
   introAudios: 
   levelIdleVo: 0
   EndingVoS: []
@@ -3976,10 +3977,11 @@ Transform:
   m_GameObject: {fileID: 135662869}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.04861, y: 0.0424, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1256139165}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &135662871
@@ -3994,7 +3996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe8ba90557606274bb683d5e36332b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.MiscSpawnables
-  Particle: {fileID: 5816652368623445715, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  Particle: {fileID: 1256139168}
 --- !u!1 &135784251
 GameObject:
   m_ObjectHideFlags: 0
@@ -12888,6 +12890,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ObjectsToHighlight: []
+  SkipIntoAudio: 0
   introAudios: 
   levelIdleVo: 0
   EndingVoS: []
@@ -20364,7 +20367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &741224179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20389,6 +20392,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ObjectsToHighlight: []
+  SkipIntoAudio: 0
   introAudios: 010000000200000003000000
   levelIdleVo: 0
   EndingVoS: []
@@ -25631,6 +25635,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ObjectsToHighlight: []
+  SkipIntoAudio: 0
   introAudios: 040000000500000006000000
   levelIdleVo: 0
   EndingVoS: []
@@ -28701,6 +28706,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ObjectsToHighlight: []
+  SkipIntoAudio: 0
   introAudios: 
   levelIdleVo: 0
   EndingVoS: []
@@ -31146,6 +31152,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ObjectsToHighlight: []
+  SkipIntoAudio: 0
   introAudios: 
   levelIdleVo: 0
   EndingVoS: []
@@ -36002,6 +36009,73 @@ Transform:
   - {fileID: 945264020}
   m_Father: {fileID: 1843307400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1256139164
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 135662870}
+    m_Modifications:
+    - target: {fileID: 5816652368623445715, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+      propertyPath: m_Name
+      value: SuccessPlaced
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+--- !u!4 &1256139165 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_PrefabInstance: {fileID: 1256139164}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1256139168 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_PrefabInstance: {fileID: 1256139164}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1270457930
 GameObject:
   m_ObjectHideFlags: 0
@@ -39394,6 +39468,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ObjectsToHighlight: []
+  SkipIntoAudio: 0
   introAudios: 
   levelIdleVo: 0
   EndingVoS: []
@@ -43800,7 +43875,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1539423228
 Transform:
   m_ObjectHideFlags: 0
@@ -43880,7 +43955,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ObjectsToHighlight: []
-  introAudios: 
+  SkipIntoAudio: 0
+  introAudios: 08000000090000000a000000
   levelIdleVo: 0
   EndingVoS: []
   WrongVo: []
@@ -44333,7 +44409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1557368994
 Transform:
   m_ObjectHideFlags: 0
@@ -52277,6 +52353,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ObjectsToHighlight: []
+  SkipIntoAudio: 0
   introAudios: 
   levelIdleVo: 0
   EndingVoS: []
@@ -58983,7 +59060,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2093446732
 Transform:
   m_ObjectHideFlags: 0
@@ -59063,7 +59140,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ObjectsToHighlight: []
-  introAudios: 
+  SkipIntoAudio: 0
+  introAudios: 0b0000000c0000000d000000
   levelIdleVo: 0
   EndingVoS: []
   WrongVo: []

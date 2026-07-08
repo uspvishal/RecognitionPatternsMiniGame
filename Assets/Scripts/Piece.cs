@@ -228,12 +228,14 @@ namespace USP.MiniGame.recognitionPatterns
 			IsAttached = true;
 			transform.SetParent(slot.transform, true);
 			OnAttach();
+
 			UtilityEventsManager.onDraggedObjectAttached?.Invoke(this, new UtilityEventsManager.DraggedObjectAttached(this.gameObject, slot.gameObject));
-			DOVirtual.DelayedCall(onAttachDelay, () => { onAttach.Invoke(); MiscSpawnables.GetParticleSpawnable(this.transform.position); isComplete = true; /*renderer.DOColor(new Color(0, 0, 0, 0), .3f);*/ });
+			DOVirtual.DelayedCall(onAttachDelay, () => { onAttach.Invoke(); isComplete = true; /*renderer.DOColor(new Color(0, 0, 0, 0), .3f);*/ });
 			DOTween.Sequence()
 				  .Append(transform.DOLocalMove(Vector2.zero, attachTweenMoveDuration).SetEase(attachTweenMoveEase).OnComplete(() => { slot.Fade(0F); slot.Complete(); }))
 				  .AppendCallback(() =>
 				  {
+					  MiscSpawnables.GetParticleSpawnable(this.transform.position);
 					  UtilityEventsManager.isControlEnabled = false;
 					  DOVirtual.DelayedCall(.75f, () => { UtilityEventsManager.isControlEnabled = true; });
 					  if (SuccessVO != null)

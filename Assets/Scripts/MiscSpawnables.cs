@@ -11,20 +11,20 @@ namespace USP.MiniGame.recognitionPatterns
     public class MiscSpawnables : MonoBehaviour
     {
         public static MiscSpawnables instance;
-        public GameObject Particle;
+        public ParticleSystem Particle;
         void Awake()
         {
             instance = this;
         }
-        public static GameObject GetParticleSpawnable(Vector3 pos, bool autoDestory = true)
+        public static void GetParticleSpawnable(Vector3 pos, bool autoDestory = true)
         {
-            pos.z -= 1;
-            var p = Instantiate(instance.Particle, pos, quaternion.identity);
-            if (autoDestory)
+            var particle = instance.Particle;
+            ParticleSystem.EmitParams emitParams = new()
             {
-                Destroy(p, 1);
-            }
-            return p;
+                applyShapeToPosition = true,
+                position = pos,
+            };
+            particle.Emit(emitParams, 30);
         }
     }
 }
