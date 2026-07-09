@@ -22,7 +22,7 @@ namespace USP.MiniGame.recognitionPatterns
 
         public AudioID levelIdleVo;
 
-        public List<AudioClip> EndingVoS;
+        public List<AudioID> EndingVoS;
         public AudioClip[] WrongVo;
         public AudioClip[] CorrectVO;
         public float initialAudioDelay = .5f;
@@ -199,8 +199,14 @@ namespace USP.MiniGame.recognitionPatterns
                 foreach (var x in EndingVoS) // use sequence if needed
                 {
                     yield return new WaitForSeconds(.5f);
-                    source.PlayOneShot(x);
-                    yield return new WaitForSeconds(x.length);
+
+                    if (x != AudioID.none)
+                    {
+                        var a = AudioLibrary.instance.GetAudioByEnum(x);
+                        source.PlayOneShot(a);
+                        yield return new WaitForSeconds(a.length + .1f);
+
+                    }
                 }
                 /*  int index = Random.Range(0, EndingVoS.Count - 1);
                   source.PlayOneShot(EndingVoS[index]);

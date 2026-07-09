@@ -903,9 +903,9 @@ MonoBehaviour:
       m_Calls: []
   ObjectsToHighlight: []
   SkipIntoAudio: 0
-  introAudios: 
+  introAudios: 1a0000001b0000001c000000
   levelIdleVo: 0
-  EndingVoS: []
+  EndingVoS: 
   WrongVo: []
   CorrectVO: []
   initialAudioDelay: 0.5
@@ -4718,7 +4718,7 @@ Transform:
   m_GameObject: {fileID: 158699079}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.8009996, y: 0, z: 0}
+  m_LocalPosition: {x: 6.751, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12808,7 +12808,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &460081027
 Transform:
   m_ObjectHideFlags: 0
@@ -12891,9 +12891,9 @@ MonoBehaviour:
       m_Calls: []
   ObjectsToHighlight: []
   SkipIntoAudio: 0
-  introAudios: 
+  introAudios: 0e0000000f00000010000000
   levelIdleVo: 0
-  EndingVoS: []
+  EndingVoS: 
   WrongVo: []
   CorrectVO: []
   initialAudioDelay: 0.5
@@ -18596,7 +18596,7 @@ Transform:
   m_GameObject: {fileID: 682959118}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.998999, y: 0, z: 0}
+  m_LocalPosition: {x: -6.949, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19690,7 +19690,7 @@ Transform:
   m_GameObject: {fileID: 719944105}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.0369997, y: 0, z: 0}
+  m_LocalPosition: {x: -4.4069996, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20395,7 +20395,7 @@ MonoBehaviour:
   SkipIntoAudio: 0
   introAudios: 010000000200000003000000
   levelIdleVo: 0
-  EndingVoS: []
+  EndingVoS: 
   WrongVo: []
   CorrectVO: []
   initialAudioDelay: 0.5
@@ -25638,7 +25638,7 @@ MonoBehaviour:
   SkipIntoAudio: 0
   introAudios: 040000000500000006000000
   levelIdleVo: 0
-  EndingVoS: []
+  EndingVoS: 00000000
   WrongVo: []
   CorrectVO: []
   initialAudioDelay: 0.5
@@ -28707,9 +28707,9 @@ MonoBehaviour:
       m_Calls: []
   ObjectsToHighlight: []
   SkipIntoAudio: 0
-  introAudios: 
+  introAudios: 230000002400000025000000
   levelIdleVo: 0
-  EndingVoS: []
+  EndingVoS: 
   WrongVo: []
   CorrectVO: []
   initialAudioDelay: 0.5
@@ -31153,9 +31153,9 @@ MonoBehaviour:
       m_Calls: []
   ObjectsToHighlight: []
   SkipIntoAudio: 0
-  introAudios: 
+  introAudios: 170000001800000019000000
   levelIdleVo: 0
-  EndingVoS: []
+  EndingVoS: 
   WrongVo: []
   CorrectVO: []
   initialAudioDelay: 0.5
@@ -32147,6 +32147,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1148821036}
+  - component: {fileID: 1148821037}
   m_Layer: 0
   m_Name: LevelSet3
   m_TagString: Untagged
@@ -32171,6 +32172,25 @@ Transform:
   - {fileID: 1393297071}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1148821037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148821035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1352d52b58c8db4481879df38bed432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.LevelSetManager
+  levels:
+  - {fileID: 460081026}
+  - {fileID: 1393297070}
+  EndingAudios: 
+  onLevelSetComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1155507289
 GameObject:
   m_ObjectHideFlags: 0
@@ -34558,7 +34578,7 @@ Transform:
   m_GameObject: {fileID: 1212103446}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.085, y: 0, z: 0}
+  m_LocalPosition: {x: 0.87500006, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -35273,7 +35293,7 @@ Transform:
   m_GameObject: {fileID: 1243074168}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.443, y: 0, z: 0}
+  m_LocalPosition: {x: 3.8130002, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -37529,6 +37549,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1308724824}
+  - component: {fileID: 1308724825}
   m_Layer: 0
   m_Name: LevelSet5
   m_TagString: Untagged
@@ -37553,6 +37574,25 @@ Transform:
   - {fileID: 1008800797}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1308724825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308724823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1352d52b58c8db4481879df38bed432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.LevelSetManager
+  levels:
+  - {fileID: 1843307399}
+  - {fileID: 1008800796}
+  EndingAudios: 
+  onLevelSetComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1310490581
 GameObject:
   m_ObjectHideFlags: 0
@@ -39469,9 +39509,9 @@ MonoBehaviour:
       m_Calls: []
   ObjectsToHighlight: []
   SkipIntoAudio: 0
-  introAudios: 
+  introAudios: 110000001200000013000000
   levelIdleVo: 0
-  EndingVoS: []
+  EndingVoS: 
   WrongVo: []
   CorrectVO: []
   initialAudioDelay: 0.5
@@ -41656,6 +41696,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1429790867}
+  - component: {fileID: 1429790868}
   m_Layer: 0
   m_Name: LevelSet4
   m_TagString: Untagged
@@ -41680,6 +41721,25 @@ Transform:
   - {fileID: 59896877}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1429790868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429790866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1352d52b58c8db4481879df38bed432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.LevelSetManager
+  levels:
+  - {fileID: 1100263036}
+  - {fileID: 59896876}
+  EndingAudios: 
+  onLevelSetComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1430115907
 GameObject:
   m_ObjectHideFlags: 0
@@ -43875,7 +43935,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1539423228
 Transform:
   m_ObjectHideFlags: 0
@@ -43958,7 +44018,7 @@ MonoBehaviour:
   SkipIntoAudio: 0
   introAudios: 08000000090000000a000000
   levelIdleVo: 0
-  EndingVoS: []
+  EndingVoS: 
   WrongVo: []
   CorrectVO: []
   initialAudioDelay: 0.5
@@ -44029,7 +44089,31 @@ MonoBehaviour:
   EndingAudios: 
   onLevelSetComplete:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1557368993}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1547652354}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1548403179
 GameObject:
   m_ObjectHideFlags: 0
@@ -44403,13 +44487,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1557368994}
+  - component: {fileID: 1557368995}
   m_Layer: 0
   m_Name: LevelSet2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1557368994
 Transform:
   m_ObjectHideFlags: 0
@@ -44427,6 +44512,25 @@ Transform:
   - {fileID: 2093446732}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1557368995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557368993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1352d52b58c8db4481879df38bed432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.LevelSetManager
+  levels:
+  - {fileID: 1539423227}
+  - {fileID: 2093446731}
+  EndingAudios: 
+  onLevelSetComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1557403102
 GameObject:
   m_ObjectHideFlags: 0
@@ -44787,7 +44891,7 @@ Transform:
   m_GameObject: {fileID: 1573182969}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0749998, y: 0, z: 0}
+  m_LocalPosition: {x: -1.8649997, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52354,9 +52458,9 @@ MonoBehaviour:
       m_Calls: []
   ObjectsToHighlight: []
   SkipIntoAudio: 0
-  introAudios: 
+  introAudios: 1f000000200000002100000022000000
   levelIdleVo: 0
-  EndingVoS: []
+  EndingVoS: 
   WrongVo: []
   CorrectVO: []
   initialAudioDelay: 0.5
@@ -59143,7 +59247,7 @@ MonoBehaviour:
   SkipIntoAudio: 0
   introAudios: 0b0000000c0000000d000000
   levelIdleVo: 0
-  EndingVoS: []
+  EndingVoS: 
   WrongVo: []
   CorrectVO: []
   initialAudioDelay: 0.5
