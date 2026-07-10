@@ -48,10 +48,13 @@ namespace USP.MiniGame.recognitionPatterns
 
         void OnMouseDown()
         {
+            Debug.Log("Clciked here ", this);
             if (!UtilityEventsManager.isControlEnabled)
             {
                 return;
             }
+
+
 
             if (willBlockControls)
             {

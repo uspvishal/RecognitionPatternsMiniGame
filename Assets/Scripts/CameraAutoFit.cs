@@ -16,6 +16,7 @@ namespace USP.MiniGame.recognitionPatterns
 
             [SerializeField] private bool autoApplyOnStart = true;
             [SerializeField] private bool DelayedStart;
+            public static CameraAutoFit instance;
 
             public static bool IsWideAspect
             {
@@ -24,6 +25,11 @@ namespace USP.MiniGame.recognitionPatterns
                         float aspect = (float)Screen.width / Screen.height;
                         return aspect <= 1.29F || aspect >= 1.36F;
                   }
+            }
+
+            void Awake()
+            {
+                  instance = this;
             }
 
 

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace USP.MiniGame.recognitionPatterns
@@ -16,6 +17,9 @@ namespace USP.MiniGame.recognitionPatterns
         private LevelData currentLevel;
         private GameObject SpawnedLevel;
 
+        public AudioID[] audios;
+        AudioSource source;
+
 
         #endregion
 
@@ -28,6 +32,7 @@ namespace USP.MiniGame.recognitionPatterns
 
         private void Start()
         {
+            source = gameObject.AddComponent<AudioSource>();
             mainMenu.SetActive(true);
             int index = 0;
             foreach (var x in Levels)
@@ -35,6 +40,8 @@ namespace USP.MiniGame.recognitionPatterns
                 x.index = index;
                 index++;
             }
+            StartCoroutine(PlayStartingVO());
+
         }
         #endregion
 
@@ -47,7 +54,7 @@ namespace USP.MiniGame.recognitionPatterns
         {
             Transition.Play(() =>
             {
-                mainMenu.SetActive(true);
+                mainMenu.SetActive(false);
                 if (SpawnedLevel != null)
                 {
                     Destroy(SpawnedLevel);
@@ -116,7 +123,25 @@ namespace USP.MiniGame.recognitionPatterns
         #endregion
 
         #region Private Methods
+        IEnumerator PlayStartingVO()
+        {
 
+            UtilityEventsManager.isControlEnabled = false;
+            yield return new WaitForSeconds(.5f);
+            foreach (var x in audios) // use sequence if needed
+            {
+                yield return new WaitForSeconds(.5f);
+
+                if (x != AudioID.none)
+                {
+                    var a = AudioLibrary.instance.GetAudioByEnum(x);
+                    source.PlayOneShot(a);
+                    yield return new WaitForSeconds(a.length + .1f);
+
+                }
+            }
+            UtilityEventsManager.isControlEnabled = true;
+        }
 
 
         #endregion

@@ -81,7 +81,7 @@ namespace USP.MiniGame.recognitionPatterns
 
             void ConsiderNewBasePos()
             {
-                  DOVirtual.DelayedCall(DelayedOriginTime, () =>
+                  DOVirtual.DelayedCall(.5f, () =>
                                          Origin = transform.localPosition
                                          );
             }
