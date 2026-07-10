@@ -11,7 +11,6 @@ namespace USP.MiniGame.recognitionPatterns
         public AudioID[] EndingAudios;
         public UnityEvent onLevelSetComplete;
 
-
         void OnEnable()
         {
             UtilityEventsManager.onLevelFinish += OnLevelComplete;
@@ -26,19 +25,26 @@ namespace USP.MiniGame.recognitionPatterns
         public void OnLevelComplete()
         {
             currentCount++;
-            foreach (var x in levels)
-            {
-                x.SetActive(false);
 
-            }
             if (currentCount < levels.Length)
             {
+                foreach (var x in levels)
+                {
+                    x.SetActive(false);
+
+                }
                 levels[currentCount].SetActive(true);
             }
             else
             {
+
+                MainLevelScript.instance.MarkedLevelComplete();
+                MainLevelScript.instance.PlayNextLevel();
                 onLevelSetComplete?.Invoke();
+
+
             }
+
         }
     }
 }

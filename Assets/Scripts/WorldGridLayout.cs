@@ -1,5 +1,6 @@
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace USP.MiniGame.recognitionPatterns
 {
@@ -25,6 +26,7 @@ namespace USP.MiniGame.recognitionPatterns
 
         [Header("Axis")]
         public bool horizontal = true;
+        public UnityAction onShuffle;
 
         [ContextMenu("Update Position")]
         public void UpdatePosition()
@@ -225,6 +227,7 @@ namespace USP.MiniGame.recognitionPatterns
                 // move to next slot
                 current += size * 0.5f + finalSpacing;
             }
+            onShuffle?.Invoke();
         }
 
         public bool IsWideAspect

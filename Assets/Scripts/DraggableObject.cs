@@ -38,6 +38,20 @@ namespace USP.MiniGame.recognitionPatterns
             public bool IsReturning => returnTween != null && returnTween.IsActive();
             float currentcolliderRadi;
             CircleCollider2D circleCollider2D;
+            [SerializeField] bool DelayedOrigin;
+            [SerializeField] float DelayedOriginTime;
+
+            WorldGridLayout gridLayout;
+
+            void OnEnable()
+            {
+                  gridLayout = GetComponentInParent<WorldGridLayout>();
+                  if (gridLayout)
+                  {
+                        gridLayout.onShuffle += ConsiderNewBasePos;
+                  }
+            }
+
 
             private void Awake()
             {
@@ -49,12 +63,36 @@ namespace USP.MiniGame.recognitionPatterns
                   }
 
                   transform = base.transform;
-                  Origin = transform.localPosition;
+                  if (DelayedOrigin)
+                  {
+                        DOVirtual.DelayedCall(DelayedOriginTime, () =>
+                        Origin = transform.localPosition
+                        );
+                  }
+                  else
+                  {
+                        Origin = transform.localPosition;
+                  }
+
+
+
+            }
+
+
+            void ConsiderNewBasePos()
+            {
+                  DOVirtual.DelayedCall(DelayedOriginTime, () =>
+                                         Origin = transform.localPosition
+                                         );
             }
             private void OnDisable()
             {
                   IsDragging = false;
                   CancelReleaseCoroutine();
+                  if (gridLayout)
+                  {
+                        gridLayout.onShuffle -= ConsiderNewBasePos;
+                  }
             }
 
             public void Pick()
