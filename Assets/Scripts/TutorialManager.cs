@@ -27,7 +27,7 @@ namespace USP.MiniGame.recognitionPatterns
         //DragAlongLineRenderer2D currentDraggable;
         float dragfollowProgress = 0;
         public static TutorialManager instance;
-        SpriteRenderer renderer;
+        SpriteRenderer SR;
 
         void Awake()
         {
@@ -37,7 +37,7 @@ namespace USP.MiniGame.recognitionPatterns
         void OnEnable()
         {
             isTargetGraphicShowing = false;
-            renderer = targetGraphic.GetComponent<SpriteRenderer>();
+            SR = targetGraphic.GetComponent<SpriteRenderer>();
             currentTimer = TimeToShow;
             UtilityEventsManager.onLevelFinish += OnTimerStop;
             UtilityEventsManager.onLevelFinish += ResetTimer;
@@ -115,14 +115,14 @@ namespace USP.MiniGame.recognitionPatterns
         {
             if (!UtilityEventsManager.isControlEnabled)
             {
-                isTargetGraphicShowing = renderer.enabled = false;
+                isTargetGraphicShowing = SR.enabled = false;
                 return;
             }
             if (startTimer /*&& UtilityEventsManager.isControlEnabled*/)
             {
                 if (currentTimer > 0)
                 {
-                    isTargetGraphicShowing = renderer.enabled;
+                    isTargetGraphicShowing = SR.enabled;
                     currentTimer -= Time.deltaTime;
                 }
                 else
@@ -143,7 +143,7 @@ namespace USP.MiniGame.recognitionPatterns
         {
             targetGraphic.GetComponent<SpriteRenderer>().enabled = true;
             bool isTargetFound = false;
-            var lvl = FindObjectOfType<Level>();
+            var lvl = FindAnyObjectByType<Level>();
             if (lvl != null)
             {
                 var highlightingPiece = lvl.GetCurrentObjectToHighlight()?.GetComponent<Piece>();

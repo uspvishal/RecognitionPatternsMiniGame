@@ -46,7 +46,7 @@ namespace USP.MiniGame.recognitionPatterns
             var tut = FindAnyObjectByType<TutorialManager>();
             if (tut)
                 tut.ResetManual();
-            dragController = FindObjectOfType<DragHandler>();
+            dragController = FindAnyObjectByType<DragHandler>();
         }
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
