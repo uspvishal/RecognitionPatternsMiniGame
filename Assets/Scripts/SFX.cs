@@ -24,7 +24,7 @@ namespace USP.MiniGame.recognitionPatterns
 
         void playPick(object Sender, UtilityEventsManager.UserInteracted itm)
         {
-            if (!source.isPlaying)
+            // if (!source.isPlaying)
             {
                 source.PlayOneShot(pick);
             }
@@ -40,7 +40,7 @@ namespace USP.MiniGame.recognitionPatterns
 
         void playSuccess(object Sender, UtilityEventsManager.DraggedObjectAttached itm)
         {
-            if (!source.isPlaying)
+            // if (!source.isPlaying)
             {
                 source.PlayOneShot(correct);
             }

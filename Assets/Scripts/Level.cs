@@ -59,6 +59,7 @@ namespace USP.MiniGame.recognitionPatterns
             source = gameObject.AddComponent<AudioSource>();
             UtilityEventsManager.OnLevelStart?.Invoke();
             UtilityEventsManager.onDraggedObjectAttached += onDraggedObjectSuccess;
+            UtilityEventsManager.OnUserInteracted += UserInteracted;
             float aspect = GetAspect();
             phoneBg.SetActive(false);
             ipadBg.SetActive(false);
@@ -76,6 +77,7 @@ namespace USP.MiniGame.recognitionPatterns
 
             StartCoroutine(AudioPlay());
             InvokeRepeating(nameof(UpdateIfSoundIsPlaying), .1f, .5f);
+            TutorialManager.instance.ResetEverything();
         }
 
 
@@ -282,6 +284,32 @@ namespace USP.MiniGame.recognitionPatterns
             // group.DOFade(0,.5f);
             // StartCoroutine(PlaySuccessAndNextAudio(clips.voiceOvers[currentSuccessfullyDragged].complete,clips.voiceOvers[currentSuccessfullyDragged+1].start,clips.voiceOvers[currentSuccessfullyDragged].startDelay));
         }
+        /// <summary>
+        /// used for button clicks
+        /// </summary>
+        void UserInteracted(object sender, UtilityEventsManager.UserInteracted data)
+        {
+            currentSuccessfullyDragged++;
+            if (currentSuccessfullyDragged >= DragitemsLimit)
+            {
+                // StartCoroutine(PlaySuccessAndNextAudio(clips.voiceOvers[currentSuccessfullyDragged-1].complete,null,0));
+                Debug.Log("Level Finish");
+                //FOR CURRENT SUCCESSFULLY DRAGGED
+                // var clip = AudioLibrary.instance.GetAudioByEnum(CounterVOs[currentSuccessfullyDragged - 1]);
+                // StartCoroutine(PlaySuccessAndNextAudio(clip, null, .5f));
+                //-------------------------------------------------------------------------
+                DOVirtual.DelayedCall(.5f, () =>
+                {
+                    DOVirtual.DelayedCall(OnSuccessEventDelay, () => onLevelFinish?.Invoke());
+                    StartCoroutine(PlayEndingVos(() =>
+                    {
+                        DOVirtual.DelayedCall(ChangeLevelAfterEndingVODelay,
+                         () => UtilityEventsManager.onLevelFinish?.Invoke());
+                    }));
+                });
+            }
+
+        }
 
         void onDraggedObjectSuccess(object sender, UtilityEventsManager.DraggedObjectAttached data)
         {
@@ -357,10 +385,12 @@ namespace USP.MiniGame.recognitionPatterns
 
         void OnDisable()
         {
+            UtilityEventsManager.OnUserInteracted -= UserInteracted;
             UtilityEventsManager.onDraggedObjectAttached -= onDraggedObjectSuccess;
         }
         void OnDestroy()
         {
+            UtilityEventsManager.OnUserInteracted -= UserInteracted;
             UtilityEventsManager.onDraggedObjectAttached -= onDraggedObjectSuccess;
         }
 

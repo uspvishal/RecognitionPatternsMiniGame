@@ -34,6 +34,8 @@ namespace USP.MiniGame.recognitionPatterns
         public static UnityAction<string> OnAnswerProvided;
 
         public static UnityAction<bool> CorrectAnswer;
+
+
         public static UnityAction onLevelExit;
 
         public static UnityAction<float> onTransistion;

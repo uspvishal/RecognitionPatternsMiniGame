@@ -26,9 +26,18 @@ namespace USP.MiniGame.recognitionPatterns
         public LineRenderer Line;
         //DragAlongLineRenderer2D currentDraggable;
         float dragfollowProgress = 0;
+        public static TutorialManager instance;
+        SpriteRenderer renderer;
+
+        void Awake()
+        {
+            instance = this;
+        }
 
         void OnEnable()
         {
+            isTargetGraphicShowing = false;
+            renderer = targetGraphic.GetComponent<SpriteRenderer>();
             currentTimer = TimeToShow;
             UtilityEventsManager.onLevelFinish += OnTimerStop;
             UtilityEventsManager.onLevelFinish += ResetTimer;
@@ -39,6 +48,16 @@ namespace USP.MiniGame.recognitionPatterns
             UtilityEventsManager.OnAnswerProvided += OnButtonClicked;
             ogScale = targetGraphic.transform.localScale;
             startTimer = true;
+        }
+
+        public void ResetEverything()
+        {
+            targetGraphic.GetComponent<SpriteRenderer>().enabled = false;
+            ResetTimer();
+            if (seq == null) return;
+            seq.Pause();
+            seq.Rewind();
+            isTargetGraphicShowing = false;
         }
 
         void OnButtonClicked(string answer)
@@ -94,10 +113,16 @@ namespace USP.MiniGame.recognitionPatterns
         // Update is called once per frame
         void Update()
         {
+            if (!UtilityEventsManager.isControlEnabled)
+            {
+                isTargetGraphicShowing = renderer.enabled = false;
+                return;
+            }
             if (startTimer /*&& UtilityEventsManager.isControlEnabled*/)
             {
                 if (currentTimer > 0)
                 {
+                    isTargetGraphicShowing = renderer.enabled;
                     currentTimer -= Time.deltaTime;
                 }
                 else

@@ -3772,7 +3772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 7206445438590693773}
   mask: {fileID: 3530217495578703450}
-  hint: {fileID: 0}
+  hint: {fileID: 3530217495578703450}
   fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
@@ -7413,7 +7413,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5165177144076991745
 Transform:
   m_ObjectHideFlags: 0
@@ -9739,31 +9739,7 @@ MonoBehaviour:
   EndingAudios: 
   onLevelSetComplete:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7043284004220072127}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &7301012436614032339
 GameObject:
   m_ObjectHideFlags: 0

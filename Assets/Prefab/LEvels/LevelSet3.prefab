@@ -517,26 +517,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SequenceTween
   ObjectList:
-  - {fileID: 0}
-  - {fileID: 9168975615340433461}
-  - {fileID: 1556038469240887380}
-  - {fileID: 0}
-  - {fileID: 8120872508915445160}
   - {fileID: 178079621450321198}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 2203816928997678024}
-  - {fileID: 3981390540964029280}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 5184123504144239144}
-  - {fileID: 3677071391781488920}
-  - {fileID: 3178958017396670198}
-  - {fileID: 4318392610513633820}
   - {fileID: 6318549191842473338}
   - {fileID: 2144949401484386788}
-  - {fileID: 0}
+  - {fileID: 9168975615340433461}
+  - {fileID: 2203816928997678024}
+  - {fileID: 3178958017396670198}
+  - {fileID: 4318392610513633820}
+  - {fileID: 6716925441594954798}
+  - {fileID: 8120872508915445160}
+  - {fileID: 6480639852367685834}
+  - {fileID: 3677071391781488920}
+  - {fileID: 6600865116005454215}
+  - {fileID: 3315269046978608472}
+  - {fileID: 9050203458602085679}
+  - {fileID: 1556038469240887380}
+  - {fileID: 5184123504144239144}
+  - {fileID: 3981390540964029280}
+  - {fileID: 5865986450505796078}
+  - {fileID: 7019810492362948710}
+  - {fileID: 4621212552131599820}
   duration: 0.2
   interval: 0.1
   initialDelay: 0.1
@@ -2353,31 +2353,7 @@ MonoBehaviour:
   EndingAudios: 
   onLevelSetComplete:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2399932600468033784}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &2437366816882050812
 GameObject:
   m_ObjectHideFlags: 0
@@ -8093,25 +8069,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SequenceTween
   ObjectList:
   - {fileID: 7248727040941907541}
+  - {fileID: 3564744903541762329}
+  - {fileID: 5791205882094521976}
+  - {fileID: 3005521799868911896}
+  - {fileID: 7595883451220751696}
+  - {fileID: 5108084511323251804}
+  - {fileID: 5601785650837184158}
+  - {fileID: 2219937997190341425}
   - {fileID: 7954562936960346470}
   - {fileID: 4044205413433088855}
   - {fileID: 7241315436339862474}
   - {fileID: 6745223324731512832}
-  - {fileID: 5791205882094521976}
   - {fileID: 1682821477899970187}
-  - {fileID: 7595883451220751696}
   - {fileID: 8126285809727184840}
   - {fileID: 7472409675894368578}
   - {fileID: 2564202931571175075}
-  - {fileID: 3564744903541762329}
   - {fileID: 2437366816882050812}
-  - {fileID: 3005521799868911896}
   - {fileID: 1279080601026239936}
   - {fileID: 5904437879949049180}
-  - {fileID: 5601785650837184158}
-  - {fileID: 5108084511323251804}
   - {fileID: 992318201880548428}
-  - {fileID: 2219937997190341425}
   duration: 0.2
   interval: 0.1
   initialDelay: 0.1

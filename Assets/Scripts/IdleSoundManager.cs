@@ -91,32 +91,42 @@ namespace USP.MiniGame.recognitionPatterns
 
         void Update()
         {
+            if (!UtilityEventsManager.isControlEnabled)
+            {
+                return;
+            }
             if (currentTimer > 0)
             {
+
                 currentTimer -= Time.deltaTime;
             }
             else
             {
                 ResetTimer();
                 var lvl = FindAnyObjectByType<Level>();
-                var individualAudios = FindObjectsByType<IndependentAudioPlay>(sortMode: FindObjectsSortMode.None);
-                if (lvl.GetComponent<AudioSource>().isPlaying)
+
+                if (lvl)
                 {
-                    return;
-                }
-                var objectScales = FindObjectsByType<ObjectScaleHighLighting>(sortMode: FindObjectsSortMode.None);
-                foreach (var x in objectScales)
-                {
-                    if (x.GetComponent<AudioSource>().isPlaying)
+                    var individualAudios = FindObjectsByType<IndependentAudioPlay>(sortMode: FindObjectsSortMode.None);
+                    if (lvl.GetComponent<AudioSource>().isPlaying)
                     {
+
                         return;
                     }
-                }
-                foreach (var x in individualAudios)
-                {
-                    if (x.GetComponent<AudioSource>().isPlaying)
+                    var objectScales = FindObjectsByType<ObjectScaleHighLighting>(sortMode: FindObjectsSortMode.None);
+                    foreach (var x in objectScales)
                     {
-                        return;
+                        if (x.GetComponent<AudioSource>().isPlaying)
+                        {
+                            return;
+                        }
+                    }
+                    foreach (var x in individualAudios)
+                    {
+                        if (x.GetComponent<AudioSource>().isPlaying)
+                        {
+                            return;
+                        }
                     }
                 }
                 source.PlayOneShot(clip);

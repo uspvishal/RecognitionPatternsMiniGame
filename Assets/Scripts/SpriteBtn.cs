@@ -40,6 +40,8 @@ namespace USP.MiniGame.recognitionPatterns
         public GameObject particle;
         public bool WillScaleItems;
 
+        public bool ConsiderSuccessfulClick;
+
 
         void Start()
         {
@@ -79,7 +81,7 @@ namespace USP.MiniGame.recognitionPatterns
                 currentScale = transform.localScale;
                 tookDefaultScale = true;
             }
-            if (!source.isPlaying)
+            if (clip && !source.isPlaying)
             {
                 source.PlayOneShot(clip);
             }
@@ -115,6 +117,10 @@ namespace USP.MiniGame.recognitionPatterns
 
         void ExecuteDelayedEvents()
         {
+            if (ConsiderSuccessfulClick)
+            {
+                UtilityEventsManager.OnUserInteracted?.Invoke(this, new UtilityEventsManager.UserInteracted(this.gameObject));
+            }
             foreach (var x in delayedEvents)
             {
                 DOVirtual.DelayedCall(x.delay, () => { x.m_event?.Invoke(); });

@@ -1,3 +1,5 @@
+using System;
+using System.Linq.Expressions;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
@@ -144,6 +146,7 @@ namespace USP.MiniGame.recognitionPatterns
 
         public void RefreshSmooth()
         {
+            Debug.Log("refresh smooth start");
             int childCount = transform.childCount;
 
             if (childCount == 0)
@@ -170,7 +173,7 @@ namespace USP.MiniGame.recognitionPatterns
                 }
 
             }
-
+            Debug.Log("calculate final spacing ");
             // Determine starting offset
             float startOffset = 0f;
 
@@ -191,43 +194,55 @@ namespace USP.MiniGame.recognitionPatterns
 
             float current = startOffset;
 
-            for (int i = 0; i < childCount; i++)
+            Debug.Log("refresh smooth before moving");
+            try
             {
-                Transform child = transform.GetChild(i);
-
-                SpriteRenderer sr = child.GetComponent<SpriteRenderer>();
-                Vector3 offset = Vector3.zero;
-                WorldGridItemProperties properties = child.GetComponent<WorldGridItemProperties>();
-                if (properties != null || !child.gameObject.activeInHierarchy)
+                for (int i = 0; i < childCount; i++)
                 {
-                    offset = properties.offset;
+                    Transform child = transform.GetChild(i);
+
+                    SpriteRenderer sr = child.GetComponent<SpriteRenderer>();
+                    Vector3 offset = Vector3.zero;
+                    WorldGridItemProperties properties = child.GetComponent<WorldGridItemProperties>();
+                    if (properties != null)
+                    {
+
+                        offset = properties.offset;
+                    }
+
+                    if (sr == null || !child.gameObject.activeInHierarchy)
+                        continue;
+
+                    float size = GetSize(sr);
+
+                    // move to center of sprite
+                    current += size * 0.5f;
+
+                    Vector3 pos;
+
+                    if (horizontal)
+                    {
+                        pos = transform.position + new Vector3(current, 0, 0) + offset;
+                    }
+                    else
+                    {
+                        pos = transform.position + new Vector3(0, current, 0) + offset;
+                    }
+
+                    child.DOMove(pos, .2f);
+
+                    // move to next slot
+                    current += size * 0.5f + finalSpacing;
                 }
-
-                if (sr == null || !child.gameObject.activeInHierarchy)
-                    continue;
-
-                float size = GetSize(sr);
-
-                // move to center of sprite
-                current += size * 0.5f;
-
-                Vector3 pos;
-
-                if (horizontal)
-                {
-                    pos = transform.position + new Vector3(current, 0, 0) + offset;
-                }
-                else
-                {
-                    pos = transform.position + new Vector3(0, current, 0) + offset;
-                }
-
-                child.DOMove(pos, .2f);
-
-                // move to next slot
-                current += size * 0.5f + finalSpacing;
             }
+            catch (Exception e)
+            {
+
+                Debug.LogError(e);
+            }
+
             onShuffle?.Invoke();
+            Debug.Log("refresh smooth complete");
         }
 
         public bool IsWideAspect
