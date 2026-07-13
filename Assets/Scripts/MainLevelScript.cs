@@ -67,6 +67,7 @@ namespace USP.MiniGame.recognitionPatterns
 
         public void StartNextLevel()
         {
+
             foreach (var x in Levels)
             {
                 if (!x.isComplete)
@@ -151,6 +152,10 @@ namespace USP.MiniGame.recognitionPatterns
     {
         public int index;
         public GameObject level;
-        public bool isComplete;
+        bool iscomplete;
+        public bool isComplete { get { filledItem.SetActive(isComplete); return iscomplete; } set { iscomplete = value; } }
+        public GameObject filledItem;
+
+
     }
 }
