@@ -2604,7 +2604,8 @@ MonoBehaviour:
   introAudios: 010000000200000003000000
   levelIdleVo: 0
   EndingVoS: 
-  WrongVo: []
+  WrongVo:
+  - {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
   CorrectVO: []
   initialAudioDelay: 0.5
   SecondAudioDelay: 0.5
@@ -3338,8 +3339,9 @@ MonoBehaviour:
   SkipIntoAudio: 0
   introAudios: 040000000500000006000000
   levelIdleVo: 0
-  EndingVoS: 00000000
-  WrongVo: []
+  EndingVoS: 
+  WrongVo:
+  - {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
   CorrectVO: []
   initialAudioDelay: 0.5
   SecondAudioDelay: 0.5

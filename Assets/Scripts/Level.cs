@@ -56,10 +56,11 @@ namespace USP.MiniGame.recognitionPatterns
         void OnEnable()
         {
             // group = GetComponentInChildren<CanvasGroup>();
-
+            source = gameObject.AddComponent<AudioSource>();
+            IdleSoundManager.instance.AddAudioSourceToCheckList(source);
             onLevelStart?.Invoke();
             SetControls();
-            source = gameObject.AddComponent<AudioSource>();
+
             UtilityEventsManager.OnLevelStart?.Invoke();
             UtilityEventsManager.onDraggedObjectAttached += onDraggedObjectSuccess;
             UtilityEventsManager.OnUserInteracted += UserInteracted;
@@ -78,14 +79,14 @@ namespace USP.MiniGame.recognitionPatterns
             }
 
             startingAudio = StartCoroutine(AudioPlay());
-            InvokeRepeating(nameof(UpdateIfSoundIsPlaying), .1f, .5f);
+            //InvokeRepeating(nameof(UpdateIfSoundIsPlaying), .1f, .5f);
             TutorialManager.instance.ResetEverything();
         }
 
         void SetControls()
         {
             UtilityEventsManager.isControlEnabled = false;
-            DOVirtual.DelayedCall(1, () => { UtilityEventsManager.isControlEnabled = false; });
+            DOVirtual.DelayedCall(1, () => { UtilityEventsManager.isControlEnabled = true; });
         }
 
 

@@ -597,7 +597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc8b7ef04bc1f1241b7cc07ce8b50d55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
-  spacing: 1.09
+  spacing: 1
   spacingIPAD: 0.67
   alignment: 1
   horizontal: 1
@@ -615,8 +615,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 5
-  Offset: {x: 0, y: 1.5}
-  OffsetIpad: {x: 0, y: 0}
+  Offset: {x: 0, y: 1.8}
+  OffsetIpad: {x: 0, y: 1.5}
 --- !u!1 &768771556990350348
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,7 +810,7 @@ Transform:
   m_GameObject: {fileID: 805795634644961142}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.9269996, y: 0, z: 0}
+  m_LocalPosition: {x: -7.8019996, y: 0, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1034,7 +1034,7 @@ Transform:
   m_GameObject: {fileID: 916630465188803246}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4450004, y: -0.5, z: 0}
+  m_LocalPosition: {x: 1.42, y: -0.5999999, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1239,7 +1239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridItemProperties
-  offset: {x: 0, y: -0.5, z: 0}
+  offset: {x: 0, y: -0.6, z: 0}
 --- !u!1 &917272975845822075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,7 +1271,7 @@ Transform:
   m_GameObject: {fileID: 917272975845822075}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.77299917, y: -0.3000002, z: 0}
+  m_LocalPosition: {x: 0.72799945, y: -0.19999981, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1476,7 +1476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridItemProperties
-  offset: {x: 0, y: -0.3, z: 0}
+  offset: {x: 0, y: -0.2, z: 0}
 --- !u!1 &991426377466916561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,7 +1621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc8b7ef04bc1f1241b7cc07ce8b50d55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
-  spacing: 1.09
+  spacing: 1.04
   spacingIPAD: 0.67
   alignment: 1
   horizontal: 1
@@ -1639,8 +1639,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 5
-  Offset: {x: 0, y: 1.5}
-  OffsetIpad: {x: 0, y: 0}
+  Offset: {x: 0, y: 2.2}
+  OffsetIpad: {x: 0, y: 2}
 --- !u!1 &1121373948920299105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1763,7 +1763,7 @@ Transform:
   m_GameObject: {fileID: 1158576714294762913}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.488999, y: -0.3000002, z: 0}
+  m_LocalPosition: {x: 7.263999, y: -0.19999981, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1968,7 +1968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridItemProperties
-  offset: {x: 0, y: -0.3, z: 0}
+  offset: {x: 0, y: -0.2, z: 0}
 --- !u!1 &1317291127383582064
 GameObject:
   m_ObjectHideFlags: 0
@@ -3038,7 +3038,7 @@ Transform:
   m_GameObject: {fileID: 2074783838910743923}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7149996, y: 0, z: 0}
+  m_LocalPosition: {x: -1.6899999, y: 0, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3924,7 +3924,7 @@ Transform:
   m_GameObject: {fileID: 3243023988426127862}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.0370007, y: 0, z: 0}
+  m_LocalPosition: {x: -4.9020004, y: 0, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.88888896}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -4311,7 +4311,7 @@ Transform:
   m_GameObject: {fileID: 3417705601566660234}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.873, y: -0.5, z: 0}
+  m_LocalPosition: {x: 7.747999, y: -0.5999999, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4516,7 +4516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridItemProperties
-  offset: {x: 0, y: -0.5, z: 0}
+  offset: {x: 0, y: -0.6, z: 0}
 --- !u!1 &3670535332262439300
 GameObject:
   m_ObjectHideFlags: 0
@@ -5266,7 +5266,8 @@ MonoBehaviour:
   introAudios: 0b0000000c0000000d000000
   levelIdleVo: 0
   EndingVoS: 
-  WrongVo: []
+  WrongVo:
+  - {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
   CorrectVO: []
   initialAudioDelay: 0.5
   SecondAudioDelay: 0.5
@@ -5281,7 +5282,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnSuccessEventDelay: 1
-  ChangeLevelAfterEndingVODelay: 1
+  ChangeLevelAfterEndingVODelay: 2
   dragController: {fileID: 0}
   CounterVOs: 
   OnlyButtonInteractionNeeded: 0
@@ -5533,7 +5534,7 @@ Transform:
   m_GameObject: {fileID: 4668181369233295761}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.6590004, y: -0.5, z: 0}
+  m_LocalPosition: {x: 4.5839996, y: -0.5999999, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5738,7 +5739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridItemProperties
-  offset: {x: 0, y: -0.5, z: 0}
+  offset: {x: 0, y: -0.6, z: 0}
 --- !u!1 &4750437929459231653
 GameObject:
   m_ObjectHideFlags: 0
@@ -6336,7 +6337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5258043365525644814
 Transform:
   m_ObjectHideFlags: 0
@@ -6385,7 +6386,8 @@ MonoBehaviour:
   introAudios: 08000000090000000a000000
   levelIdleVo: 0
   EndingVoS: 
-  WrongVo: []
+  WrongVo:
+  - {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
   CorrectVO: []
   initialAudioDelay: 0.5
   SecondAudioDelay: 0.5
@@ -6797,7 +6799,7 @@ Transform:
   m_GameObject: {fileID: 6008577293037205046}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.283001, y: 0, z: 0}
+  m_LocalPosition: {x: -2.2380004, y: 0, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.88888896}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -7865,7 +7867,7 @@ Transform:
   m_GameObject: {fileID: 7009928594362426727}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.791001, y: 0, z: 0}
+  m_LocalPosition: {x: -7.5660005, y: 0, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.88888896}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -8272,7 +8274,7 @@ Transform:
   m_GameObject: {fileID: 7624902351346149762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.8209996, y: 0, z: 0}
+  m_LocalPosition: {x: -4.746, y: 0, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8984,7 +8986,7 @@ Transform:
   m_GameObject: {fileID: 8645897613498631912}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.130999, y: -0.3000002, z: 0}
+  m_LocalPosition: {x: 3.9959993, y: -0.19999981, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9189,7 +9191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridItemProperties
-  offset: {x: 0, y: -0.3, z: 0}
+  offset: {x: 0, y: -0.2, z: 0}
 --- !u!1 &8783977354326577066
 GameObject:
   m_ObjectHideFlags: 0

@@ -33,11 +33,12 @@ namespace USP.MiniGame.recognitionPatterns
 
         IEnumerator Start()
         {
-            yield return null;
             if (targetCamera == null)
             {
                 targetCamera = CameraAutoFit.instance.Camera;
             }
+            yield return null;
+
             offset_f = CameraAutoFit.IsWideAspect ? Offset : OffsetIpad;
             worldDistanceFromCamera = Vector3.Dot(
                 transform.position - targetCamera.transform.position,

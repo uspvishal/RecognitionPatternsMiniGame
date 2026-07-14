@@ -101,6 +101,7 @@ namespace USP.MiniGame.recognitionPatterns
                   Debug.Log("Pick");
                   CancelReleaseCoroutine();
                   CancelReturn();
+                  GetComponent<SpriteRenderer>().DOFade(0, .2f);
                   UtilityEventsManager.CurrentPieceDragged = this;
                   if (circleCollider2D)
                   {
@@ -131,6 +132,7 @@ namespace USP.MiniGame.recognitionPatterns
             public void Release()
             {
                   IsDragging = false;
+                  GetComponent<SpriteRenderer>().DOFade(1, .2f);
                   UtilityEventsManager.CurrentPieceDragged = null;
                   if (autoReturnOnRelease)
                   {
@@ -147,7 +149,7 @@ namespace USP.MiniGame.recognitionPatterns
             public void ReleaseBackNoCallback()
             {
                   IsDragging = false;
-
+                  GetComponent<SpriteRenderer>().DOFade(1, .2f);
                   if (autoReturnOnRelease)
                   {
                         CancelReleaseCoroutine();
@@ -157,6 +159,7 @@ namespace USP.MiniGame.recognitionPatterns
             }
             public void Return()
             {
+                  GetComponent<SpriteRenderer>().DOFade(1, .2f);
                   returnTween?.Kill(false);
                   returnTween = transform.DOLocalMove(Origin, returnDuration)
                         .SetEase(returnEase)

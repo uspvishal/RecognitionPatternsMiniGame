@@ -35,12 +35,19 @@ namespace USP.MiniGame.recognitionPatterns
             instance = this;
         }
 
+        void OnEnable()
+        {
+            SetControls();
+        }
+
         private void Start()
         {
+            Application.targetFrameRate = 60;
             UtilityEventsManager.OnUserInteracted += UserInteracted;
             IpadBg.SetActive(!CameraAutoFit.IsWideAspect);
             MobileBG.SetActive(CameraAutoFit.IsWideAspect);
             source = gameObject.AddComponent<AudioSource>();
+            IdleSoundManager.instance.AddAudioSourceToCheckList(source);
             mainMenu.SetActive(true);
             int index = 0;
             foreach (var x in Levels)
@@ -49,10 +56,15 @@ namespace USP.MiniGame.recognitionPatterns
                 index++;
             }
             startingAudio = StartCoroutine(PlayStartingVO());
+
         }
 
 
-
+        void SetControls()
+        {
+            UtilityEventsManager.isControlEnabled = false;
+            DOVirtual.DelayedCall(1, () => { UtilityEventsManager.isControlEnabled = true; });
+        }
 
         void UserInteracted(object sender, UtilityEventsManager.UserInteracted data)
         {
@@ -169,7 +181,7 @@ namespace USP.MiniGame.recognitionPatterns
         IEnumerator PlayStartingVO()
         {
 
-            UtilityEventsManager.isControlEnabled = false;
+
             yield return new WaitForSeconds(.5f);
             foreach (var x in audios) // use sequence if needed
             {

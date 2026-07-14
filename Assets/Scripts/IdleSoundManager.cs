@@ -1,4 +1,5 @@
 
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace USP.MiniGame.recognitionPatterns
@@ -17,11 +18,27 @@ namespace USP.MiniGame.recognitionPatterns
         float currentTimer;
         public float firstTime;
         public float SecondTime;
+        public List<AudioSource> AudiosToCheck;
+
+        public static IdleSoundManager instance;
+
+        void Awake()
+        {
+            instance = this;
+        }
         void Start()
         {
             currentTimer = firstTime;
             source = gameObject.AddComponent<AudioSource>();
+            InvokeRepeating(nameof(KeepCheckingIfAnyAudiosPlaying), 1, 1);
+        }
 
+        public void AddAudioSourceToCheckList(AudioSource source)
+        {
+            if (!AudiosToCheck.Contains(source))
+            {
+                AudiosToCheck.Add(source);
+            }
         }
 
         void OnEnable()
@@ -30,6 +47,24 @@ namespace USP.MiniGame.recognitionPatterns
             UtilityEventsManager.OnAnswerProvided += OnAnswerProvided;
             UtilityEventsManager.onDraggedObjectAttached += UserItemAttached;
             OnInteractManual();
+        }
+
+        void KeepCheckingIfAnyAudiosPlaying()
+        {
+            if (AudiosToCheck.Count == 0)
+            {
+                return;
+            }
+            AudiosToCheck.RemoveAll(x => x == null);
+            foreach (var x in AudiosToCheck)
+            {
+                if (x.isPlaying)
+                {
+                    source.Stop();
+                    ResetTimer();
+                    break;
+                }
+            }
         }
 
         void UserInteracted(object sender, UtilityEventsManager.UserInteracted e)
@@ -64,6 +99,7 @@ namespace USP.MiniGame.recognitionPatterns
             UtilityEventsManager.OnUserInteracted -= UserInteracted;
             UtilityEventsManager.OnAnswerProvided -= OnAnswerProvided;
             UtilityEventsManager.onDraggedObjectAttached -= UserItemAttached;
+            CancelInvoke(nameof(KeepCheckingIfAnyAudiosPlaying));
         }
 
         void OnDestroy()
@@ -71,6 +107,7 @@ namespace USP.MiniGame.recognitionPatterns
             UtilityEventsManager.OnUserInteracted -= UserInteracted;
             UtilityEventsManager.OnAnswerProvided -= OnAnswerProvided;
             UtilityEventsManager.onDraggedObjectAttached -= UserItemAttached;
+            CancelInvoke(nameof(KeepCheckingIfAnyAudiosPlaying));
         }
 
         public void OnInteractManual()

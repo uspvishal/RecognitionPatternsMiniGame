@@ -480,13 +480,38 @@ MonoBehaviour:
       m_Calls: []
   onLevelFinish:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7544119986365042334}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5423837417554382441}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   ObjectsToHighlight: []
   SkipIntoAudio: 0
   introAudios: 110000001200000013000000
   levelIdleVo: 0
   EndingVoS: 
-  WrongVo: []
+  WrongVo:
+  - {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
   CorrectVO: []
   initialAudioDelay: 0.5
   SecondAudioDelay: 0.5
@@ -501,9 +526,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnSuccessEventDelay: 1
-  ChangeLevelAfterEndingVODelay: 1
+  ChangeLevelAfterEndingVODelay: 2
   dragController: {fileID: 0}
   CounterVOs: 
+  OnlyButtonInteractionNeeded: 0
 --- !u!114 &3797281382420984428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1115,6 +1141,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &6743995460334969080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1460,6 +1489,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &7114344922962111672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1623,6 +1655,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &50995366422361957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1958,6 +1993,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &91254417995238546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2333,6 +2371,8 @@ Transform:
   m_Children:
   - {fileID: 1893673980946765889}
   - {fileID: 5284761878329588396}
+  - {fileID: 9029781986814662940}
+  - {fileID: 6820548447887989227}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5464284382635573539
@@ -2503,6 +2543,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &2504993245473324324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2828,6 +2871,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &2536237099544876093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3770,6 +3816,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1017134473030829839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4353,6 +4402,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1180887322765195426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4585,6 +4637,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &7693593140485380518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4748,6 +4803,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &4597320881335529606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5582,6 +5640,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1166288868856181861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6766,6 +6827,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &3414553611183832488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7851,6 +7915,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &8907530022996926189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8037,7 +8104,8 @@ MonoBehaviour:
   introAudios: 0e0000000f00000010000000
   levelIdleVo: 0
   EndingVoS: 
-  WrongVo: []
+  WrongVo:
+  - {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
   CorrectVO: []
   initialAudioDelay: 0.5
   SecondAudioDelay: 0.5
@@ -8055,6 +8123,7 @@ MonoBehaviour:
   ChangeLevelAfterEndingVODelay: 1
   dragController: {fileID: 0}
   CounterVOs: 
+  OnlyButtonInteractionNeeded: 0
 --- !u!114 &7827368345184326284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8570,6 +8639,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1805923739711400500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8971,6 +9043,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &7167836348145077929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9961,6 +10036,9 @@ MonoBehaviour:
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &297842756837575557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10501,3 +10579,137 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
   tabSize: 0.9
   mobileSize: 0.8
+--- !u!1001 &219732647219183023
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2131631856127823588}
+    m_Modifications:
+    - target: {fileID: 6296094655994176818, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_Name
+      value: Particle System (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7019111
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7019111
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.08556206
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.08556206
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -103.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+--- !u!198 &5423837417554382441 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5208961387786875846, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_PrefabInstance: {fileID: 219732647219183023}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6820548447887989227 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_PrefabInstance: {fileID: 219732647219183023}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2376752578189180248
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2131631856127823588}
+    m_Modifications:
+    - target: {fileID: 6296094655994176818, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_Name
+      value: Particle System
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70031446
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7003144
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.09777383
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.09777379
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -74.104
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+--- !u!198 &7544119986365042334 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5208961387786875846, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_PrefabInstance: {fileID: 2376752578189180248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9029781986814662940 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_PrefabInstance: {fileID: 2376752578189180248}
+  m_PrefabAsset: {fileID: 0}

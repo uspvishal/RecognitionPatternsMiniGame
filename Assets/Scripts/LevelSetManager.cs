@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -38,8 +39,14 @@ namespace USP.MiniGame.recognitionPatterns
             }
             else
             {
+                DOVirtual.DelayedCall(.5f, () =>
+                {
+                    foreach (var x in levels)
+                    {
+                        x.SetActive(false);
 
-
+                    }
+                });
                 MainLevelScript.instance.MarkedLevelComplete();
                 MainLevelScript.instance.StartNextLevel();
                 onLevelSetComplete?.Invoke();
