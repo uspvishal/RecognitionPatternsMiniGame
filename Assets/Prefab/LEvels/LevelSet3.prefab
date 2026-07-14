@@ -543,29 +543,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SequenceTween
   ObjectList:
+  - {fileID: 4318392610513633820}
   - {fileID: 178079621450321198}
   - {fileID: 6318549191842473338}
+  - {fileID: 6600865116005454215}
+  - {fileID: 6480639852367685834}
+  - {fileID: 5184123504144239144}
+  - {fileID: 7019810492362948710}
+  - {fileID: 9050203458602085679}
   - {fileID: 2144949401484386788}
   - {fileID: 9168975615340433461}
   - {fileID: 2203816928997678024}
   - {fileID: 3178958017396670198}
-  - {fileID: 4318392610513633820}
   - {fileID: 6716925441594954798}
   - {fileID: 8120872508915445160}
-  - {fileID: 6480639852367685834}
   - {fileID: 3677071391781488920}
-  - {fileID: 6600865116005454215}
   - {fileID: 3315269046978608472}
-  - {fileID: 9050203458602085679}
   - {fileID: 1556038469240887380}
-  - {fileID: 5184123504144239144}
   - {fileID: 3981390540964029280}
   - {fileID: 5865986450505796078}
-  - {fileID: 7019810492362948710}
   - {fileID: 4621212552131599820}
-  duration: 0.2
-  interval: 0.1
-  initialDelay: 0.1
+  duration: 0.1
+  interval: 0.05
+  initialDelay: 0
   ease: 27
 --- !u!1 &700225222930305553
 GameObject:
@@ -842,7 +842,7 @@ Transform:
   m_GameObject: {fileID: 992318201880548428}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.262999, y: 0.00000022351742, z: 0}
+  m_LocalPosition: {x: -9.212999, y: 0.00000022351742, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -991,7 +991,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
   AnchorPoints: 3
   Offset: {x: 0, y: -6}
-  OffsetIpad: {x: 0, y: -5.5}
+  OffsetIpad: {x: 0, y: -8}
 --- !u!1 &1279080601026239936
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,7 +1021,7 @@ Transform:
   m_GameObject: {fileID: 1279080601026239936}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.2670014, y: 0.00000022351742, z: 0}
+  m_LocalPosition: {x: 1.8570005, y: 0.00000022351742, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1535,7 +1535,7 @@ Transform:
   m_GameObject: {fileID: 1682821477899970187}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.2670014, y: 0, z: 0}
+  m_LocalPosition: {x: 1.8570005, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2041,7 +2041,7 @@ Transform:
   m_GameObject: {fileID: 2219937997190341425}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.6850004, y: 0, z: 0}
+  m_LocalPosition: {x: -1.5749995, y: 0, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2423,7 +2423,7 @@ Transform:
   m_GameObject: {fileID: 2437366816882050812}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.3029985, y: 0, z: 0}
+  m_LocalPosition: {x: -1.8929996, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2630,7 +2630,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
   AnchorPoints: 3
   Offset: {x: 0, y: -1.4}
-  OffsetIpad: {x: 0, y: -0.5}
+  OffsetIpad: {x: 0, y: -2.9}
 --- !u!1 &2547874597003523995
 GameObject:
   m_ObjectHideFlags: 0
@@ -2751,7 +2751,7 @@ Transform:
   m_GameObject: {fileID: 2564202931571175075}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.8370013, y: 0, z: 0}
+  m_LocalPosition: {x: 5.6070004, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3049,7 +3049,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
   AnchorPoints: 3
   Offset: {x: 0, y: -1.4}
-  OffsetIpad: {x: 0, y: -0.5}
+  OffsetIpad: {x: 0, y: -2.4}
 --- !u!1 &2760731146978657687
 GameObject:
   m_ObjectHideFlags: 0
@@ -3354,7 +3354,7 @@ Transform:
   m_GameObject: {fileID: 3005521799868911896}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.5350003, y: 0.00000022351742, z: 0}
+  m_LocalPosition: {x: -5.2049994, y: 0.00000022351742, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4046,7 +4046,7 @@ Transform:
   m_GameObject: {fileID: 3564744903541762329}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0449996, y: 0, z: 0}
+  m_LocalPosition: {x: 1.9350007, y: 0, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4469,7 +4469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 0.88
-  spacingIPAD: 0.22
+  spacingIPAD: 0.66
   alignment: 1
   horizontal: 1
 --- !u!114 &8534035256862418733
@@ -4486,8 +4486,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 5
-  Offset: {x: -1, y: 1}
-  OffsetIpad: {x: -1, y: 0.3}
+  Offset: {x: -1, y: 1.3}
+  OffsetIpad: {x: -1, y: 1.8}
 --- !u!1 &3981390540964029280
 GameObject:
   m_ObjectHideFlags: 0
@@ -4683,7 +4683,7 @@ Transform:
   m_GameObject: {fileID: 4044205413433088855}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.8370013, y: 0.00000022351742, z: 0}
+  m_LocalPosition: {x: 5.6070004, y: 0.00000022351742, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5307,8 +5307,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 5
-  Offset: {x: 1, y: 1}
-  OffsetIpad: {x: 1, y: 0.3}
+  Offset: {x: -1, y: 1.3}
+  OffsetIpad: {x: -1, y: 1.8}
 --- !u!1 &4494107907500258201
 GameObject:
   m_ObjectHideFlags: 0
@@ -5707,7 +5707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 0.88
-  spacingIPAD: 0.22
+  spacingIPAD: 0.66
   alignment: 1
   horizontal: 1
 --- !u!114 &1877901078808960785
@@ -5724,8 +5724,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 5
-  Offset: {x: 1, y: 3.5}
-  OffsetIpad: {x: 1, y: 3.5}
+  Offset: {x: 1, y: 3.9}
+  OffsetIpad: {x: 1, y: 4.8}
 --- !u!1 &5108084511323251804
 GameObject:
   m_ObjectHideFlags: 0
@@ -5757,7 +5757,7 @@ Transform:
   m_GameObject: {fileID: 5108084511323251804}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.6549997, y: 0.00000022351742, z: 0}
+  m_LocalPosition: {x: 5.325001, y: 0.00000022351742, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6233,7 +6233,7 @@ Transform:
   m_GameObject: {fileID: 5601785650837184158}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0449996, y: 0.00000022351742, z: 0}
+  m_LocalPosition: {x: 1.9350007, y: 0.00000022351742, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6471,7 +6471,7 @@ Transform:
   m_GameObject: {fileID: 5791205882094521976}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.6850004, y: 0.00000022351742, z: 0}
+  m_LocalPosition: {x: -1.5749993, y: 0.00000022351742, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6871,7 +6871,7 @@ Transform:
   m_GameObject: {fileID: 5904437879949049180}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.262999, y: 0, z: 0}
+  m_LocalPosition: {x: -9.212999, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7017,8 +7017,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 5
-  Offset: {x: -1, y: 3.5}
-  OffsetIpad: {x: -1, y: 3.5}
+  Offset: {x: 1, y: 3.9}
+  OffsetIpad: {x: 1, y: 4.8}
 --- !u!1 &6318549191842473338
 GameObject:
   m_ObjectHideFlags: 0
@@ -7959,7 +7959,7 @@ Transform:
   m_GameObject: {fileID: 6745223324731512832}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.7829986, y: 0, z: 0}
+  m_LocalPosition: {x: -5.5529995, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8157,9 +8157,9 @@ MonoBehaviour:
   - {fileID: 1279080601026239936}
   - {fileID: 5904437879949049180}
   - {fileID: 992318201880548428}
-  duration: 0.2
-  interval: 0.1
-  initialDelay: 0.1
+  duration: 0.1
+  interval: 0.05
+  initialDelay: 0
   ease: 27
 --- !u!1 &7019810492362948710
 GameObject:
@@ -8519,7 +8519,7 @@ Transform:
   m_GameObject: {fileID: 7241315436339862474}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.4070015, y: 0, z: 0}
+  m_LocalPosition: {x: 9.357, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8687,7 +8687,7 @@ Transform:
   m_GameObject: {fileID: 7248727040941907541}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.5350003, y: 0, z: 0}
+  m_LocalPosition: {x: -5.2049994, y: 0, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8923,7 +8923,7 @@ Transform:
   m_GameObject: {fileID: 7472409675894368578}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.3029985, y: 0.00000022351742, z: 0}
+  m_LocalPosition: {x: -1.8929996, y: 0.00000022351742, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9182,7 +9182,7 @@ Transform:
   m_GameObject: {fileID: 7595883451220751696}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.6549997, y: 0, z: 0}
+  m_LocalPosition: {x: 5.325001, y: 0, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9631,7 +9631,7 @@ Transform:
   m_GameObject: {fileID: 7954562936960346470}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.7829986, y: 0.00000022351742, z: 0}
+  m_LocalPosition: {x: -5.5529995, y: 0.00000022351742, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9780,7 +9780,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
   AnchorPoints: 3
   Offset: {x: 0, y: -6}
-  OffsetIpad: {x: 0, y: -5.5}
+  OffsetIpad: {x: 0, y: -7.5}
 --- !u!1 &8120872508915445160
 GameObject:
   m_ObjectHideFlags: 0
@@ -9916,7 +9916,7 @@ Transform:
   m_GameObject: {fileID: 8126285809727184840}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.4070015, y: 0.00000022351742, z: 0}
+  m_LocalPosition: {x: 9.357, y: 0.00000022351742, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

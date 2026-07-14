@@ -188,7 +188,7 @@ namespace USP.MiniGame.recognitionPatterns
 			if (incorrectSlot)
 			{
 				GetComponentInParent<Level>().PlayRandomVOFromWrontPlacement();
-				blockControls(1.7f);
+				blockControls(1f);
 			}
 			else
 			{
@@ -237,7 +237,7 @@ namespace USP.MiniGame.recognitionPatterns
 				  {
 					  MiscSpawnables.GetParticleSpawnable(this.transform.position);
 					  UtilityEventsManager.isControlEnabled = false;
-					  DOVirtual.DelayedCall(.75f, () => { UtilityEventsManager.isControlEnabled = true; });
+					  DOVirtual.DelayedCall(.25f, () => { UtilityEventsManager.isControlEnabled = true; });
 					  if (SuccessVO != null)
 					  {
 						  GetComponentInParent<Level>().PlayVOFromPlacement(SuccessVO);
