@@ -26,6 +26,7 @@ namespace USP.MiniGame.recognitionPatterns
         {
             currentCount++;
 
+
             if (currentCount < levels.Length)
             {
                 foreach (var x in levels)
@@ -38,8 +39,9 @@ namespace USP.MiniGame.recognitionPatterns
             else
             {
 
+
                 MainLevelScript.instance.MarkedLevelComplete();
-                MainLevelScript.instance.PlayNextLevel();
+                MainLevelScript.instance.StartNextLevel();
                 onLevelSetComplete?.Invoke();
 
 

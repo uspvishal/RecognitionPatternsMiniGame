@@ -1,5 +1,7 @@
 using System.Collections;
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace USP.MiniGame.recognitionPatterns
 {
@@ -13,14 +15,17 @@ namespace USP.MiniGame.recognitionPatterns
         #region Variables
         public static MainLevelScript instance;
         public GameObject mainMenu;
+        public GameObject IpadBg, MobileBG;
         public LevelData[] Levels;
         private LevelData currentLevel;
         private GameObject SpawnedLevel;
 
-        public AudioID[] audios;
+        public AudioID[] audios, endingVOs;
         AudioSource source;
 
+        public UnityEvent allComplete;
 
+        Coroutine startingAudio;
         #endregion
 
         #region Unity Methods
@@ -32,6 +37,9 @@ namespace USP.MiniGame.recognitionPatterns
 
         private void Start()
         {
+            UtilityEventsManager.OnUserInteracted += UserInteracted;
+            IpadBg.SetActive(!CameraAutoFit.IsWideAspect);
+            MobileBG.SetActive(CameraAutoFit.IsWideAspect);
             source = gameObject.AddComponent<AudioSource>();
             mainMenu.SetActive(true);
             int index = 0;
@@ -40,8 +48,19 @@ namespace USP.MiniGame.recognitionPatterns
                 x.index = index;
                 index++;
             }
-            StartCoroutine(PlayStartingVO());
+            startingAudio = StartCoroutine(PlayStartingVO());
+        }
 
+
+
+
+        void UserInteracted(object sender, UtilityEventsManager.UserInteracted data)
+        {
+            if (startingAudio != null)
+            {
+                source.Stop();
+                StopCoroutine(startingAudio);
+            }
         }
         #endregion
 
@@ -76,12 +95,27 @@ namespace USP.MiniGame.recognitionPatterns
                     return;
                 }
             }
-            mainMenu.SetActive(true);
+            Transition.Play(() =>
+            {
+                mainMenu.SetActive(true);
+
+            }, () =>
+            {
+                allComplete.Invoke();
+                StartCoroutine(PlayEndingVOs());
+            });
+
+        }
+
+        void OnDestroy()
+        {
+            UtilityEventsManager.OnUserInteracted -= UserInteracted;
         }
 
 
         public void PlayNextLevel()
         {
+            Debug.Log("Play Next LEvel");
             if (currentLevel != null)
             {
                 int index = currentLevel.index;
@@ -90,6 +124,14 @@ namespace USP.MiniGame.recognitionPatterns
                     index++;
                     GenerateLevel(index);
                 }
+                else
+                {
+                    ShowMainMenu();
+                }
+            }
+            else
+            {
+                Debug.LogError("ELSE CONDITION FIRED!");
             }
         }
 
@@ -144,6 +186,26 @@ namespace USP.MiniGame.recognitionPatterns
             UtilityEventsManager.isControlEnabled = true;
         }
 
+        IEnumerator PlayEndingVOs()
+        {
+
+            UtilityEventsManager.isControlEnabled = false;
+            yield return new WaitForSeconds(.5f);
+            foreach (var x in endingVOs) // use sequence if needed
+            {
+                yield return new WaitForSeconds(.5f);
+
+                if (x != AudioID.none)
+                {
+                    var a = AudioLibrary.instance.GetAudioByEnum(x);
+                    source.PlayOneShot(a);
+                    yield return new WaitForSeconds(a.length + .1f);
+
+                }
+            }
+            UtilityEventsManager.isControlEnabled = true;
+        }
+
 
         #endregion
     }
@@ -153,7 +215,7 @@ namespace USP.MiniGame.recognitionPatterns
         public int index;
         public GameObject level;
         bool iscomplete;
-        public bool isComplete { get { filledItem.SetActive(isComplete); return iscomplete; } set { iscomplete = value; } }
+        public bool isComplete { get { return iscomplete; } set { iscomplete = value; filledItem.SetActive(iscomplete); } }
         public GameObject filledItem;
 
 

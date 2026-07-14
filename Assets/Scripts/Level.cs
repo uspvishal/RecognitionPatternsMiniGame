@@ -40,6 +40,9 @@ namespace USP.MiniGame.recognitionPatterns
         DragHandler dragController;
 
         public AudioID[] CounterVOs;
+        [SerializeField] bool OnlyButtonInteractionNeeded;
+
+        Coroutine startingAudio;
 
         void Awake()
         {
@@ -55,7 +58,7 @@ namespace USP.MiniGame.recognitionPatterns
             // group = GetComponentInChildren<CanvasGroup>();
 
             onLevelStart?.Invoke();
-            UtilityEventsManager.isControlEnabled = false;
+            SetControls();
             source = gameObject.AddComponent<AudioSource>();
             UtilityEventsManager.OnLevelStart?.Invoke();
             UtilityEventsManager.onDraggedObjectAttached += onDraggedObjectSuccess;
@@ -67,7 +70,6 @@ namespace USP.MiniGame.recognitionPatterns
             {
                 ipadBg.SetActive(true);
                 Debug.Log("Mode Tablet");
-
             }
             else if (aspect > 1.4)
             {
@@ -75,46 +77,16 @@ namespace USP.MiniGame.recognitionPatterns
                 Debug.Log("Mode Mobile");
             }
 
-            StartCoroutine(AudioPlay());
+            startingAudio = StartCoroutine(AudioPlay());
             InvokeRepeating(nameof(UpdateIfSoundIsPlaying), .1f, .5f);
             TutorialManager.instance.ResetEverything();
         }
 
-
-
-
-        public void PlayCounterVO()
+        void SetControls()
         {
-            if (!source.isPlaying && currentSuccessfullyDragged > 0)
-            {
-                StartCoroutine(playCounterVo());
-            }
+            UtilityEventsManager.isControlEnabled = false;
+            DOVirtual.DelayedCall(1, () => { UtilityEventsManager.isControlEnabled = false; });
         }
-        IEnumerator playCounterVo()
-        {
-
-            yield return null;
-
-            if (!source.isPlaying)
-            {
-                if (currentSuccessfullyDragged == 5)
-                {
-                    yield break;
-                }
-                var clip = AudioLibrary.instance.GetAudioByEnum(CounterVOs[currentSuccessfullyDragged - 1]);
-                source.PlayOneShot(clip);
-                yield return new WaitForSeconds(clip.length);
-            }
-            /*for (int i = 0; i < currentSuccessfullyDragged; i++)
-            {
-                var clip = AudioLibrary.instance.GetAudioByEnum(CounterVOs[i]);
-                source.PlayOneShot(clip);
-                yield return new WaitForSeconds(clip.length + .1f);
-            }*/
-
-        }
-
-
 
 
         public void PlayVOFromPlacement(AudioClip clip)
@@ -279,7 +251,7 @@ namespace USP.MiniGame.recognitionPatterns
                      yield return null;
                  }
              }*/
-            UtilityEventsManager.isControlEnabled = true;
+            //UtilityEventsManager.isControlEnabled = true;
             AudioComplete?.Invoke();
             // group.DOFade(0,.5f);
             // StartCoroutine(PlaySuccessAndNextAudio(clips.voiceOvers[currentSuccessfullyDragged].complete,clips.voiceOvers[currentSuccessfullyDragged+1].start,clips.voiceOvers[currentSuccessfullyDragged].startDelay));
@@ -289,6 +261,15 @@ namespace USP.MiniGame.recognitionPatterns
         /// </summary>
         void UserInteracted(object sender, UtilityEventsManager.UserInteracted data)
         {
+            if (startingAudio != null)
+            {
+                source.Stop();
+                StopCoroutine(startingAudio);
+            }
+            if (!OnlyButtonInteractionNeeded)
+            {
+                return;
+            }
             currentSuccessfullyDragged++;
             if (currentSuccessfullyDragged >= DragitemsLimit)
             {

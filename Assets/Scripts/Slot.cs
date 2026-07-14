@@ -1,5 +1,6 @@
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.Events;
 
 namespace USP.MiniGame.recognitionPatterns
 {
@@ -22,7 +23,7 @@ namespace USP.MiniGame.recognitionPatterns
 		public int Order => mask != null ? mask.sortingOrder : 0;
 
 		public bool isComplete;
-
+		public UnityEvent OnComplete;
 
 
 
@@ -48,12 +49,20 @@ namespace USP.MiniGame.recognitionPatterns
 			fadeTween?.Kill();
 		}
 
-
+		public void ChangeLayer(int index)
+		{
+			GetComponent<SpriteRenderer>().sortingOrder = index;
+			if (transform.childCount > 0)
+			{
+				transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = index + 1;
+			}
+		}
 
 		public void Complete()
 		{
 			collider.enabled = false;
 			isComplete = true;
+			OnComplete?.Invoke();
 		}
 
 		public void Fade(float alpha)

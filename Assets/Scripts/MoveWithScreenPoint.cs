@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace USP.MiniGame.recognitionPatterns
@@ -30,8 +31,9 @@ namespace USP.MiniGame.recognitionPatterns
         #region Unity Methods
 
 
-        private void Start()
+        IEnumerator Start()
         {
+            yield return null;
             if (targetCamera == null)
             {
                 targetCamera = CameraAutoFit.instance.Camera;

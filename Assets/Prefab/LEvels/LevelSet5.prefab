@@ -178,8 +178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 3
-  Offset: {x: 0, y: -1.62}
-  OffsetIpad: {x: 0, y: -5.5}
+  Offset: {x: 0, y: -1.5}
+  OffsetIpad: {x: 0, y: -1.5}
 --- !u!1 &299099907501185127
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,7 +1023,7 @@ Transform:
   m_GameObject: {fileID: 905875964044579567}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.405891, y: 0, z: 0}
+  m_LocalPosition: {x: 11.405964, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1152,7 +1152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 3291745502831583635}
   mask: {fileID: 6902706217456681415}
-  hint: {fileID: 0}
+  hint: {fileID: 6902706217456681415}
   fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
@@ -1606,7 +1606,7 @@ Transform:
   m_GameObject: {fileID: 1258425201288556553}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.222891, y: 0, z: 0}
+  m_LocalPosition: {x: 13.222965, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1735,7 +1735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 5496950584343974629}
   mask: {fileID: 771427673220740166}
-  hint: {fileID: 0}
+  hint: {fileID: 771427673220740166}
   fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
@@ -1769,7 +1769,7 @@ Transform:
   m_GameObject: {fileID: 1301424356677134319}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.9498906, y: 0, z: 0}
+  m_LocalPosition: {x: -7.949967, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1898,7 +1898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 1200309380900280078}
   mask: {fileID: 4712518074990959268}
-  hint: {fileID: 0}
+  hint: {fileID: 4712518074990959268}
   fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
@@ -3037,7 +3037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 967523130936967938}
   mask: {fileID: 5734671608332491978}
-  hint: {fileID: 0}
+  hint: {fileID: 5734671608332491978}
   fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
@@ -5659,7 +5659,7 @@ Transform:
   m_GameObject: {fileID: 4256224975088496974}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.7, y: 0, z: 0}
+  m_LocalPosition: {x: 3.5024703, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7413,7 +7413,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5165177144076991745
 Transform:
   m_ObjectHideFlags: 0
@@ -7448,7 +7448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Level
   ipadBg: {fileID: 7968733917301290742}
   phoneBg: {fileID: 772345350595972877}
-  DragitemsLimit: 8
+  DragitemsLimit: 9
   currentSuccessfullyDragged: 0
   particle: {fileID: 0}
   onLevelStart:
@@ -7458,7 +7458,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ObjectsToHighlight: []
-  SkipIntoAudio: 0
+  SkipIntoAudio: 1
   introAudios: 1f000000200000002100000022000000
   levelIdleVo: 0
   EndingVoS: 
@@ -7480,6 +7480,7 @@ MonoBehaviour:
   ChangeLevelAfterEndingVODelay: 1
   dragController: {fileID: 0}
   CounterVOs: 
+  OnlyButtonInteractionNeeded: 0
 --- !u!1 &5076387118264563782
 GameObject:
   m_ObjectHideFlags: 0
@@ -7734,8 +7735,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 3
-  Offset: {x: 0, y: -6}
-  OffsetIpad: {x: 0, y: -5.5}
+  Offset: {x: 0, y: -3}
+  OffsetIpad: {x: 0, y: -2.5}
 --- !u!1 &5206463558550795300
 GameObject:
   m_ObjectHideFlags: 0
@@ -7765,7 +7766,7 @@ Transform:
   m_GameObject: {fileID: 5206463558550795300}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.1328897, y: 0, z: 0}
+  m_LocalPosition: {x: -6.132967, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7894,7 +7895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 1605005568359868789}
   mask: {fileID: 3232130785579797240}
-  hint: {fileID: 0}
+  hint: {fileID: 3232130785579797240}
   fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
@@ -9767,7 +9768,7 @@ Transform:
   m_GameObject: {fileID: 7301012436614032339}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6865594, y: 0, z: 0}
+  m_LocalPosition: {x: 1.6854701, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10113,7 +10114,7 @@ Transform:
   m_GameObject: {fileID: 7493393438189009661}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.49489, y: 0, z: 0}
+  m_LocalPosition: {x: -11.4949665, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10242,7 +10243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 1893391820685045623}
   mask: {fileID: 371155810030351925}
-  hint: {fileID: 0}
+  hint: {fileID: 371155810030351925}
   fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
@@ -12062,7 +12063,7 @@ Transform:
   m_GameObject: {fileID: 8559893709862830295}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.1399152, y: 0, z: 0}
+  m_LocalPosition: {x: -2.1404986, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 1.0012499, y: 1.0012499, z: 1.1125}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12170,7 +12171,7 @@ Transform:
   m_GameObject: {fileID: 8707786278405798465}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.537975, y: 0, z: 0}
+  m_LocalPosition: {x: 7.5374675, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 1.0163659, y: 1.0163659, z: 1.1292955}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12299,7 +12300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 4542537722316708580}
   mask: {fileID: 2098493873185038111}
-  hint: {fileID: 0}
+  hint: {fileID: 2098493873185038111}
   fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
@@ -12593,7 +12594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Level
   ipadBg: {fileID: 5262758800595997952}
   phoneBg: {fileID: 8358865101586490240}
-  DragitemsLimit: 8
+  DragitemsLimit: 9
   currentSuccessfullyDragged: 0
   particle: {fileID: 0}
   onLevelStart:
@@ -12603,7 +12604,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ObjectsToHighlight: []
-  SkipIntoAudio: 0
+  SkipIntoAudio: 1
   introAudios: 230000002400000025000000
   levelIdleVo: 0
   EndingVoS: 
@@ -12625,6 +12626,7 @@ MonoBehaviour:
   ChangeLevelAfterEndingVODelay: 1
   dragController: {fileID: 0}
   CounterVOs: 
+  OnlyButtonInteractionNeeded: 0
 --- !u!1 &9141004611844240201
 GameObject:
   m_ObjectHideFlags: 0

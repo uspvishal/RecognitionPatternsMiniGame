@@ -3262,6 +3262,7 @@ MonoBehaviour:
   ChangeLevelAfterEndingVODelay: 2
   dragController: {fileID: 0}
   CounterVOs: 
+  OnlyButtonInteractionNeeded: 1
 --- !u!1 &1984043581336384868
 GameObject:
   m_ObjectHideFlags: 0
@@ -8049,6 +8050,7 @@ MonoBehaviour:
   ChangeLevelAfterEndingVODelay: 2
   dragController: {fileID: 0}
   CounterVOs: 
+  OnlyButtonInteractionNeeded: 1
 --- !u!1 &4043654986611463779
 GameObject:
   m_ObjectHideFlags: 0
