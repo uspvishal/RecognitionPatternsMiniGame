@@ -505,6 +505,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8304790390655764135}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   ObjectsToHighlight: []
   SkipIntoAudio: 0
   introAudios: 110000001200000013000000
@@ -976,6 +988,9 @@ MonoBehaviour:
   spacingIPAD: 0.33
   alignment: 1
   horizontal: 1
+  delayedStart: 0
+  keepUpdateingEveryInterval: 0
+  sfxOnRefresh: {fileID: 0}
 --- !u!114 &979472775676315158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1005,6 +1020,7 @@ GameObject:
   - component: {fileID: 6904682648433157484}
   - component: {fileID: 935643080083262051}
   - component: {fileID: 6743995460334969080}
+  - component: {fileID: 2448972365137920603}
   m_Layer: 0
   m_Name: DropItem (2)
   m_TagString: Untagged
@@ -1021,7 +1037,7 @@ Transform:
   m_GameObject: {fileID: 1279080601026239936}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.2670014, y: 0.00000022351742, z: 0}
+  m_LocalPosition: {x: 2.2670014, y: 0.14000009, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1158,6 +1174,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
   tabSize: 0.9
   mobileSize: 0.8
+--- !u!114 &2448972365137920603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279080601026239936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.WorldGridItemProperties
+  offset: {x: 0, y: 0.14, z: 0}
 --- !u!1 &1282146305388754974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1519,6 +1548,7 @@ GameObject:
   - component: {fileID: 4872375149091701241}
   - component: {fileID: 489547994658678802}
   - component: {fileID: 50995366422361957}
+  - component: {fileID: 3949595697776201028}
   m_Layer: 0
   m_Name: DropItem (2)
   m_TagString: Untagged
@@ -1535,7 +1565,7 @@ Transform:
   m_GameObject: {fileID: 1682821477899970187}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.2670014, y: 0, z: 0}
+  m_LocalPosition: {x: 2.2670014, y: 0.13999939, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1672,6 +1702,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
   tabSize: 0.9
   mobileSize: 0.8
+--- !u!114 &3949595697776201028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682821477899970187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.WorldGridItemProperties
+  offset: {x: 0, y: 0.14, z: 0}
 --- !u!1 &1808749093966911467
 GameObject:
   m_ObjectHideFlags: 0
@@ -2371,6 +2414,7 @@ Transform:
   m_Children:
   - {fileID: 1893673980946765889}
   - {fileID: 5284761878329588396}
+  - {fileID: 2339049391544342859}
   - {fileID: 9029781986814662940}
   - {fileID: 6820548447887989227}
   m_Father: {fileID: 0}
@@ -2615,6 +2659,9 @@ MonoBehaviour:
   spacingIPAD: 0.33
   alignment: 1
   horizontal: 1
+  delayedStart: 0
+  keepUpdateingEveryInterval: 0
+  sfxOnRefresh: {fileID: 0}
 --- !u!114 &4059322891937948556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3034,6 +3081,9 @@ MonoBehaviour:
   spacingIPAD: 0.33
   alignment: 1
   horizontal: 1
+  delayedStart: 0
+  keepUpdateingEveryInterval: 0
+  sfxOnRefresh: {fileID: 0}
 --- !u!114 &4795294883028505865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4472,6 +4522,9 @@ MonoBehaviour:
   spacingIPAD: 0.66
   alignment: 1
   horizontal: 1
+  delayedStart: 0
+  keepUpdateingEveryInterval: 0
+  sfxOnRefresh: {fileID: 0}
 --- !u!114 &8534035256862418733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4486,7 +4539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 5
-  Offset: {x: -1, y: 1.3}
+  Offset: {x: -1, y: 1.4}
   OffsetIpad: {x: -1, y: 1.8}
 --- !u!1 &3981390540964029280
 GameObject:
@@ -5293,6 +5346,9 @@ MonoBehaviour:
   spacingIPAD: 0.22
   alignment: 1
   horizontal: 1
+  delayedStart: 0
+  keepUpdateingEveryInterval: 0
+  sfxOnRefresh: {fileID: 0}
 --- !u!114 &8502640592306438525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5710,6 +5766,9 @@ MonoBehaviour:
   spacingIPAD: 0.66
   alignment: 1
   horizontal: 1
+  delayedStart: 0
+  keepUpdateingEveryInterval: 0
+  sfxOnRefresh: {fileID: 0}
 --- !u!114 &1877901078808960785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5724,7 +5783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 5
-  Offset: {x: 1, y: 3.9}
+  Offset: {x: 1, y: 4}
   OffsetIpad: {x: 1, y: 4.8}
 --- !u!1 &5108084511323251804
 GameObject:
@@ -7003,6 +7062,9 @@ MonoBehaviour:
   spacingIPAD: 0.22
   alignment: 1
   horizontal: 1
+  delayedStart: 0
+  keepUpdateingEveryInterval: 0
+  sfxOnRefresh: {fileID: 0}
 --- !u!114 &1927890859071363908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7943,6 +8005,7 @@ GameObject:
   - component: {fileID: 923371209125814786}
   - component: {fileID: 8078323320341619545}
   - component: {fileID: 6818953337248244810}
+  - component: {fileID: 1096551722284495602}
   m_Layer: 0
   m_Name: DropItem
   m_TagString: Untagged
@@ -8038,6 +8101,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
   tabSize: 0.9
   mobileSize: 0.8
+--- !u!114 &1096551722284495602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6745223324731512832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.WorldGridItemProperties
+  offset: {x: 0, y: 0.14, z: 0}
 --- !u!1 &6884400261154777204
 GameObject:
   m_ObjectHideFlags: 0
@@ -8503,6 +8579,7 @@ GameObject:
   - component: {fileID: 5657433086799203539}
   - component: {fileID: 2036828279401409242}
   - component: {fileID: 1805923739711400500}
+  - component: {fileID: 3348361864318456694}
   m_Layer: 0
   m_Name: DropItem (4)
   m_TagString: Untagged
@@ -8519,7 +8596,7 @@ Transform:
   m_GameObject: {fileID: 7241315436339862474}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.4070015, y: 0, z: 0}
+  m_LocalPosition: {x: 11.4070015, y: 0.13999939, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8656,6 +8733,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
   tabSize: 0.9
   mobileSize: 0.8
+--- !u!114 &3348361864318456694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7241315436339862474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.WorldGridItemProperties
+  offset: {x: 0, y: 0.14, z: 0}
 --- !u!1 &7248727040941907541
 GameObject:
   m_ObjectHideFlags: 0
@@ -9615,6 +9705,7 @@ GameObject:
   - component: {fileID: 238482783060284667}
   - component: {fileID: 3257336733061572377}
   - component: {fileID: 6798149479265274579}
+  - component: {fileID: 7053900153096171058}
   m_Layer: 0
   m_Name: DropItem
   m_TagString: Untagged
@@ -9710,6 +9801,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
   tabSize: 0.9
   mobileSize: 0.8
+--- !u!114 &7053900153096171058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7954562936960346470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.WorldGridItemProperties
+  offset: {x: 0, y: 0.14, z: 0}
 --- !u!1 &8058997746238328317
 GameObject:
   m_ObjectHideFlags: 0
@@ -9765,6 +9869,9 @@ MonoBehaviour:
   spacingIPAD: 0.33
   alignment: 1
   horizontal: 1
+  delayedStart: 0
+  keepUpdateingEveryInterval: 0
+  sfxOnRefresh: {fileID: 0}
 --- !u!114 &4578236888228968106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9900,6 +10007,7 @@ GameObject:
   - component: {fileID: 5294512910064445696}
   - component: {fileID: 5775793024512964403}
   - component: {fileID: 297842756837575557}
+  - component: {fileID: 4597531530456899318}
   m_Layer: 0
   m_Name: DropItem (4)
   m_TagString: Untagged
@@ -9916,7 +10024,7 @@ Transform:
   m_GameObject: {fileID: 8126285809727184840}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.4070015, y: 0.00000022351742, z: 0}
+  m_LocalPosition: {x: 11.4070015, y: 0.14000009, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10053,6 +10161,148 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
   tabSize: 0.9
   mobileSize: 0.8
+--- !u!114 &4597531530456899318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8126285809727184840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.WorldGridItemProperties
+  offset: {x: 0, y: 0.14, z: 0}
+--- !u!1 &8304790390655764135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2339049391544342859}
+  - component: {fileID: 2916483312378330568}
+  m_Layer: 0
+  m_Name: CongettiSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2339049391544342859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8304790390655764135}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2131631856127823588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2916483312378330568
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8304790390655764135}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: b632902b1788cdb4e93509d2354158bf, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &8394655893104687134
 GameObject:
   m_ObjectHideFlags: 0

@@ -110,10 +110,11 @@ namespace USP.MiniGame.recognitionPatterns
             Transition.Play(() =>
             {
                 mainMenu.SetActive(true);
+                allComplete.Invoke();
 
             }, () =>
             {
-                allComplete.Invoke();
+
                 StartCoroutine(PlayEndingVOs());
             });
 
