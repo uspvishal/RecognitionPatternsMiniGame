@@ -162,7 +162,7 @@ namespace USP.MiniGame.recognitionPatterns
 				childRenderer.sortingOrder = 201;
 			embiggenTween.Restart();
 			Debug.Log("Color change here");
-			renderer.DOColor(new Color(1, 1, 1, 1), .2f);
+			renderer.DOFade(0, .2f);
 			OnSelect();
 
 		}
@@ -230,7 +230,7 @@ namespace USP.MiniGame.recognitionPatterns
 			OnAttach();
 
 			UtilityEventsManager.onDraggedObjectAttached?.Invoke(this, new UtilityEventsManager.DraggedObjectAttached(this.gameObject, slot.gameObject));
-			DOVirtual.DelayedCall(onAttachDelay, () => { onAttach.Invoke(); isComplete = true; /*renderer.DOColor(new Color(0, 0, 0, 0), .3f);*/ });
+			DOVirtual.DelayedCall(onAttachDelay, () => { onAttach.Invoke(); isComplete = true; renderer.DOColor(new Color(1, 1, 1, 1), .3f); });
 			DOTween.Sequence()
 				  .Append(transform.DOLocalMove(Vector2.zero, attachTweenMoveDuration).SetEase(attachTweenMoveEase).OnComplete(() => { slot.Fade(0F); slot.Complete(); }))
 				  .AppendCallback(() =>

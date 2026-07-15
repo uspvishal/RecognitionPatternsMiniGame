@@ -41,6 +41,8 @@ namespace USP.MiniGame.recognitionPatterns
         public bool WillScaleItems;
 
         public bool ConsiderSuccessfulClick;
+        public bool PlayParticle;
+        public float playParticleDelay;
 
 
         void Start()
@@ -55,7 +57,13 @@ namespace USP.MiniGame.recognitionPatterns
             {
                 return;
             }
-
+            if (PlayParticle)
+            {
+                DOVirtual.DelayedCall(playParticleDelay, () =>
+                {
+                    MiscSpawnables.GetParticleSpawnable(this.transform.position);
+                });
+            }
 
 
             if (willBlockControls)

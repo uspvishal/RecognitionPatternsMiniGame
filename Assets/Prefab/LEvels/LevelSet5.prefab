@@ -164,6 +164,8 @@ MonoBehaviour:
   spacingIPAD: 0.33
   alignment: 1
   horizontal: 1
+  delayedStart: 0
+  keepUpdateingEveryInterval: 0
 --- !u!114 &7046518405476051160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -915,7 +917,7 @@ Transform:
   m_GameObject: {fileID: 830089807129711394}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.405891, y: 0, z: 0}
+  m_LocalPosition: {x: 10.745892, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -992,7 +994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!1 &905875964044579567
 GameObject:
@@ -1023,7 +1025,7 @@ Transform:
   m_GameObject: {fileID: 905875964044579567}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.405964, y: -0.000000044703484, z: 0}
+  m_LocalPosition: {x: 10.745966, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1100,7 +1102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!58 &3291745502831583635
 CircleCollider2D:
@@ -1609,7 +1611,7 @@ Transform:
   m_GameObject: {fileID: 1258425201288556553}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.222965, y: -0.000000044703484, z: 0}
+  m_LocalPosition: {x: 12.342966, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1686,7 +1688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!58 &5496950584343974629
 CircleCollider2D:
@@ -1775,7 +1777,7 @@ Transform:
   m_GameObject: {fileID: 1301424356677134319}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.949967, y: -0.000000044703484, z: 0}
+  m_LocalPosition: {x: -7.289965, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1852,7 +1854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!58 &1200309380900280078
 CircleCollider2D:
@@ -2691,7 +2693,7 @@ Transform:
   m_GameObject: {fileID: 1833392031853127663}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.537975, y: 0, z: 0}
+  m_LocalPosition: {x: 7.0979757, y: 0, z: 0}
   m_LocalScale: {x: 1.0163659, y: 1.0163659, z: 1.1292955}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2768,7 +2770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!1 &1846018086565376630
 GameObject:
@@ -2923,7 +2925,7 @@ Transform:
   m_GameObject: {fileID: 2313026421889184184}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.1399152, y: 0, z: 0}
+  m_LocalPosition: {x: -1.9199145, y: 0, z: 0}
   m_LocalScale: {x: 1.0012499, y: 1.0012499, z: 1.1125}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3000,7 +3002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!58 &967523130936967938
 CircleCollider2D:
@@ -3178,7 +3180,7 @@ Transform:
   m_GameObject: {fileID: 2324047833269207561}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.49489, y: 0, z: 0}
+  m_LocalPosition: {x: -10.614889, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3255,7 +3257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!1 &2347122005688841099
 GameObject:
@@ -4432,7 +4434,7 @@ MonoBehaviour:
   collider: {fileID: 8029224124212451193}
   draggable: {fileID: 1481334123218425872}
   keySprite: {fileID: 0}
-  embiggenTarget: 1.2
+  embiggenTarget: 1.6
   embiggenTweenDuration: 0.3
   embiggenTweenEase: 28
   attachTweenScaleTarget: 1
@@ -4517,9 +4519,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 0.44
-  spacingIPAD: 0.33
+  spacingIPAD: 0.22
   alignment: 1
   horizontal: 1
+  delayedStart: 1
+  keepUpdateingEveryInterval: 0
 --- !u!114 &7185740856813949889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4534,8 +4538,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 3
-  Offset: {x: 0, y: -6}
-  OffsetIpad: {x: 0, y: -5.5}
+  Offset: {x: 0, y: -1.7}
+  OffsetIpad: {x: 0, y: -1.9}
 --- !u!1 &3780083114054500520
 GameObject:
   m_ObjectHideFlags: 0
@@ -4925,7 +4929,7 @@ Transform:
   m_GameObject: {fileID: 4051003751962874217}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.9498906, y: 0, z: 0}
+  m_LocalPosition: {x: -7.289889, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5002,7 +5006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!1 &4075186526585425147
 GameObject:
@@ -5632,7 +5636,7 @@ MonoBehaviour:
   collider: {fileID: 7373381542867189714}
   draggable: {fileID: 903018848641892073}
   keySprite: {fileID: 0}
-  embiggenTarget: 1.2
+  embiggenTarget: 1.6
   embiggenTweenDuration: 0.3
   embiggenTweenEase: 28
   attachTweenScaleTarget: 1
@@ -5689,7 +5693,7 @@ Transform:
   m_GameObject: {fileID: 4256224975088496974}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5024703, y: -0.000000044703484, z: 0}
+  m_LocalPosition: {x: 3.282472, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5766,7 +5770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!1 &4306317394784845431
 GameObject:
@@ -6067,7 +6071,7 @@ MonoBehaviour:
   collider: {fileID: 3376577027481489067}
   draggable: {fileID: 2494328443564182393}
   keySprite: {fileID: 0}
-  embiggenTarget: 1.2
+  embiggenTarget: 1.6
   embiggenTweenDuration: 0.3
   embiggenTweenEase: 28
   attachTweenScaleTarget: 1
@@ -6435,6 +6439,8 @@ MonoBehaviour:
   spacingIPAD: 0.33
   alignment: 1
   horizontal: 1
+  delayedStart: 0
+  keepUpdateingEveryInterval: 0
 --- !u!114 &8618434702933033881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6807,7 +6813,7 @@ Transform:
   m_GameObject: {fileID: 4859630283912713069}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.222891, y: 0, z: 0}
+  m_LocalPosition: {x: 12.342892, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6884,7 +6890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!1 &4865887116968753031
 GameObject:
@@ -7794,9 +7800,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 0.44
-  spacingIPAD: 0.33
+  spacingIPAD: 0.22
   alignment: 1
   horizontal: 1
+  delayedStart: 1
+  keepUpdateingEveryInterval: 0
 --- !u!114 &6844926029322693962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7811,8 +7819,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 3
-  Offset: {x: 0, y: -3}
-  OffsetIpad: {x: 0, y: -2.5}
+  Offset: {x: 0, y: -6}
+  OffsetIpad: {x: 0, y: -7}
 --- !u!1 &5206463558550795300
 GameObject:
   m_ObjectHideFlags: 0
@@ -7842,7 +7850,7 @@ Transform:
   m_GameObject: {fileID: 5206463558550795300}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.132967, y: -0.000000044703484, z: 0}
+  m_LocalPosition: {x: -5.6929655, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7919,7 +7927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!58 &1605005568359868789
 CircleCollider2D:
@@ -8854,7 +8862,7 @@ Transform:
   m_GameObject: {fileID: 5940324130503654499}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5035594, y: 0, z: 0}
+  m_LocalPosition: {x: 3.28356, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8989,7 +8997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!1 &6048541608053337562
 GameObject:
@@ -9743,7 +9751,7 @@ MonoBehaviour:
   collider: {fileID: 7395830447168080038}
   draggable: {fileID: 3653693003757267190}
   keySprite: {fileID: 0}
-  embiggenTarget: 1.2
+  embiggenTarget: 1.6
   embiggenTweenDuration: 0.3
   embiggenTweenEase: 28
   attachTweenScaleTarget: 1
@@ -9855,7 +9863,7 @@ Transform:
   m_GameObject: {fileID: 7301012436614032339}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6854701, y: -0.000000044703484, z: 0}
+  m_LocalPosition: {x: 1.6854718, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9932,7 +9940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!1 &7446797774481845425
 GameObject:
@@ -10142,7 +10150,7 @@ MonoBehaviour:
   collider: {fileID: 6256248386158095930}
   draggable: {fileID: 6479220191297845870}
   keySprite: {fileID: 0}
-  embiggenTarget: 1.2
+  embiggenTarget: 1.6
   embiggenTweenDuration: 0.3
   embiggenTweenEase: 28
   attachTweenScaleTarget: 1
@@ -10201,7 +10209,7 @@ Transform:
   m_GameObject: {fileID: 7493393438189009661}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.4949665, y: -0.000000044703484, z: 0}
+  m_LocalPosition: {x: -10.614965, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10278,7 +10286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!58 &1893391820685045623
 CircleCollider2D:
@@ -10638,7 +10646,7 @@ Transform:
   m_GameObject: {fileID: 7971093855570069943}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.1328897, y: 0, z: 0}
+  m_LocalPosition: {x: -5.692889, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10715,7 +10723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!1 &8131453563390421320
 GameObject:
@@ -11163,7 +11171,7 @@ MonoBehaviour:
   collider: {fileID: 4450747932702357198}
   draggable: {fileID: 1565755152470922712}
   keySprite: {fileID: 0}
-  embiggenTarget: 1.2
+  embiggenTarget: 1.6
   embiggenTweenDuration: 0.3
   embiggenTweenEase: 28
   attachTweenScaleTarget: 1
@@ -11698,7 +11706,7 @@ MonoBehaviour:
   collider: {fileID: 3102873714073263913}
   draggable: {fileID: 4852456102945263446}
   keySprite: {fileID: 0}
-  embiggenTarget: 1.2
+  embiggenTarget: 1.6
   embiggenTweenDuration: 0.3
   embiggenTweenEase: 28
   attachTweenScaleTarget: 1
@@ -12159,7 +12167,7 @@ Transform:
   m_GameObject: {fileID: 8559893709862830295}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.1404986, y: -0.000000044703484, z: 0}
+  m_LocalPosition: {x: -1.920497, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 1.0012499, y: 1.0012499, z: 1.1125}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12236,7 +12244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!1 &8707786278405798465
 GameObject:
@@ -12267,7 +12275,7 @@ Transform:
   m_GameObject: {fileID: 8707786278405798465}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.5374675, y: -0.000000044703484, z: 0}
+  m_LocalPosition: {x: 7.097469, y: -0.000000044703484, z: 0}
   m_LocalScale: {x: 1.0163659, y: 1.0163659, z: 1.1292955}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12344,7 +12352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!58 &4542537722316708580
 CircleCollider2D:
@@ -12612,7 +12620,7 @@ MonoBehaviour:
   collider: {fileID: 4310108956765756967}
   draggable: {fileID: 1798630041546076903}
   keySprite: {fileID: 0}
-  embiggenTarget: 1.2
+  embiggenTarget: 1.6
   embiggenTweenDuration: 0.3
   embiggenTweenEase: 28
   attachTweenScaleTarget: 1
@@ -12704,24 +12712,6 @@ MonoBehaviour:
   - {fileID: 8713227132308187019}
   - {fileID: 8415504807247972708}
   - {fileID: 6899836721175866215}
-  - {fileID: 2324047833269207561}
-  - {fileID: 4051003751962874217}
-  - {fileID: 7971093855570069943}
-  - {fileID: 2313026421889184184}
-  - {fileID: 9141004611844240201}
-  - {fileID: 5940324130503654499}
-  - {fileID: 1833392031853127663}
-  - {fileID: 830089807129711394}
-  - {fileID: 4859630283912713069}
-  - {fileID: 7493393438189009661}
-  - {fileID: 1301424356677134319}
-  - {fileID: 5206463558550795300}
-  - {fileID: 8559893709862830295}
-  - {fileID: 7301012436614032339}
-  - {fileID: 4256224975088496974}
-  - {fileID: 8707786278405798465}
-  - {fileID: 905875964044579567}
-  - {fileID: 1258425201288556553}
   duration: 0.1
   interval: 0.03
   initialDelay: 0
@@ -12827,7 +12817,7 @@ Transform:
   m_GameObject: {fileID: 9141004611844240201}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6865594, y: 0, z: 0}
+  m_LocalPosition: {x: 1.6865602, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12962,7 +12952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d0086ca3f712bf418ee675d14b78bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
-  tabSize: 0.9
+  tabSize: 0.7
   mobileSize: 0.8
 --- !u!1 &9205241075343147689
 GameObject:

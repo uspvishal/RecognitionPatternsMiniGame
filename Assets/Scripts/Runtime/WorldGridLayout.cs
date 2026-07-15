@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Linq.Expressions;
 using DG.Tweening;
 using UnityEngine;
@@ -29,6 +30,13 @@ namespace USP.MiniGame.recognitionPatterns
         [Header("Axis")]
         public bool horizontal = true;
         public UnityAction onShuffle;
+        [SerializeField]
+        bool delayedStart;
+
+        [SerializeField]
+        bool keepUpdateingEveryInterval;
+        public AudioClip sfxOnRefresh;
+        AudioSource source;
 
         [ContextMenu("Update Position")]
         public void UpdatePosition()
@@ -115,6 +123,11 @@ namespace USP.MiniGame.recognitionPatterns
             }
         }
 
+        void playSound()
+        {
+
+        }
+
         public void moveTowardsX(float directionValue)
         {
             var final = this.transform.position.x + directionValue;
@@ -123,7 +136,29 @@ namespace USP.MiniGame.recognitionPatterns
 
         private void Awake()
         {
-            UpdatePosition();
+            if (sfxOnRefresh)
+            {
+                source = gameObject.AddComponent<AudioSource>();
+            }
+            if (!delayedStart)
+                UpdatePosition();
+        }
+
+        IEnumerator Start()
+        {
+
+            if (delayedStart)
+            {
+                yield return new WaitForSeconds(.3f);
+                UpdatePosition();
+                Debug.Log("STARTPOS");
+                if (keepUpdateingEveryInterval)
+                {
+                    Debug.Log("KEEP UPDATING");
+                    InvokeRepeating(nameof(Refresh), .1f, .1f);
+                }
+
+            }
         }
 
         float GetSize(SpriteRenderer sr)
@@ -141,6 +176,7 @@ namespace USP.MiniGame.recognitionPatterns
 
         public void Refresh()
         {
+            Debug.Log("REFESH");
             UpdatePosition();
         }
 
@@ -234,6 +270,14 @@ namespace USP.MiniGame.recognitionPatterns
                     // move to next slot
                     current += size * 0.5f + finalSpacing;
                 }
+                DOVirtual.DelayedCall(.1f, () =>
+                {
+                    if (sfxOnRefresh)
+                    {
+                        if (!source.isPlaying)
+                            source.PlayOneShot(sfxOnRefresh);
+                    }
+                });
             }
             catch (Exception e)
             {
