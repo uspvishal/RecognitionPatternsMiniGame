@@ -1639,6 +1639,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   clip: 0
+  willStopOnUserInteraction: 1
 --- !u!1 &1071807643747705326
 GameObject:
   m_ObjectHideFlags: 0
@@ -5362,7 +5363,7 @@ MonoBehaviour:
   SkipIntoAudio: 0
   introAudios: 0b0000000c0000000d000000
   levelIdleVo: 0
-  EndingVoS: 
+  EndingVoS: 14000000
   WrongVo:
   - {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
   CorrectVO: []
@@ -9625,6 +9626,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   clip: 0
+  willStopOnUserInteraction: 1
 --- !u!1001 &162857114993725125
 PrefabInstance:
   m_ObjectHideFlags: 0

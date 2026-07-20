@@ -2144,6 +2144,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   clip: 0
+  willStopOnUserInteraction: 1
 --- !u!1 &1445482622793778622
 GameObject:
   m_ObjectHideFlags: 0
@@ -7516,7 +7517,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5165177144076991745
 Transform:
   m_ObjectHideFlags: 0
@@ -9809,7 +9810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5146573799633396506
 Transform:
   m_ObjectHideFlags: 0
@@ -10209,7 +10210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6565075897329671153
 Transform:
   m_ObjectHideFlags: 0
@@ -10837,6 +10838,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   clip: 0
+  willStopOnUserInteraction: 1
 --- !u!1 &7968733917301290742
 GameObject:
   m_ObjectHideFlags: 0
