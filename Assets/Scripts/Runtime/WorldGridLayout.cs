@@ -138,6 +138,8 @@ namespace USP.MiniGame.recognitionPatterns
         {
             if (sfxOnRefresh)
             {
+                source = GetComponent<AudioSource>();
+                if(source == null)
                 source = gameObject.AddComponent<AudioSource>();
             }
             if (!delayedStart)

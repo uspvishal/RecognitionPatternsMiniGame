@@ -13,6 +13,7 @@ namespace USP.MiniGame.recognitionPatterns
     {
         public static EventHandler<DraggedObjectAttached> onDraggedObjectAttached;
         public static EventHandler<UserInteracted> OnUserInteracted;
+        public static EventHandler<UserInteracted> OnUserInteractedWrong;
 
         public static EventHandler<DraggedObjectCancelled> onDraggedObjectCancelled;
 
@@ -39,6 +40,8 @@ namespace USP.MiniGame.recognitionPatterns
         public static UnityAction onLevelExit;
 
         public static UnityAction<float> onTransistion;
+
+        public static UnityAction resetTimers;
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         public class DraggedObjectAttached : EventArgs
         {

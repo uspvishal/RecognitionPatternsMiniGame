@@ -64,6 +64,7 @@ namespace USP.MiniGame.recognitionPatterns
             UtilityEventsManager.OnLevelStart?.Invoke();
             UtilityEventsManager.onDraggedObjectAttached += onDraggedObjectSuccess;
             UtilityEventsManager.OnUserInteracted += UserInteracted;
+            UtilityEventsManager.OnUserInteractedWrong += OnUserInteractedWrong;
             float aspect = GetAspect();
             phoneBg.SetActive(false);
             ipadBg.SetActive(false);
@@ -260,6 +261,9 @@ namespace USP.MiniGame.recognitionPatterns
         /// <summary>
         /// used for button clicks
         /// </summary>
+        ///
+        
+        
         void UserInteracted(object sender, UtilityEventsManager.UserInteracted data)
         {
             if (startingAudio != null)
@@ -291,6 +295,17 @@ namespace USP.MiniGame.recognitionPatterns
                 });
             }
 
+        }
+
+        void OnUserInteractedWrong(object sender, UtilityEventsManager.UserInteracted data)
+        {
+           
+            if (startingAudio != null)
+            {
+                source.Stop();
+                StopCoroutine(startingAudio);
+            }
+            UtilityEventsManager.resetTimers?.Invoke();
         }
 
         void onDraggedObjectSuccess(object sender, UtilityEventsManager.DraggedObjectAttached data)
@@ -369,11 +384,13 @@ namespace USP.MiniGame.recognitionPatterns
         {
             UtilityEventsManager.OnUserInteracted -= UserInteracted;
             UtilityEventsManager.onDraggedObjectAttached -= onDraggedObjectSuccess;
+            UtilityEventsManager.OnUserInteractedWrong -= OnUserInteractedWrong;
         }
         void OnDestroy()
         {
             UtilityEventsManager.OnUserInteracted -= UserInteracted;
             UtilityEventsManager.onDraggedObjectAttached -= onDraggedObjectSuccess;
+            UtilityEventsManager.OnUserInteractedWrong -= OnUserInteractedWrong;
         }
 
         float GetAspect()

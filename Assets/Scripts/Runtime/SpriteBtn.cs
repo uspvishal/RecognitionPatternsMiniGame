@@ -129,6 +129,10 @@ namespace USP.MiniGame.recognitionPatterns
             {
                 UtilityEventsManager.OnUserInteracted?.Invoke(this, new UtilityEventsManager.UserInteracted(this.gameObject));
             }
+            else
+            {
+                UtilityEventsManager.OnUserInteractedWrong?.Invoke(this, new UtilityEventsManager.UserInteracted(this.gameObject));
+            }
             foreach (var x in delayedEvents)
             {
                 DOVirtual.DelayedCall(x.delay, () => { x.m_event?.Invoke(); });

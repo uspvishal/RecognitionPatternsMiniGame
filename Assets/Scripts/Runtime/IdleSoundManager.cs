@@ -30,6 +30,7 @@ namespace USP.MiniGame.recognitionPatterns
         {
             currentTimer = firstTime;
             source = gameObject.AddComponent<AudioSource>();
+            UtilityEventsManager.resetTimers += ResetTimer;
             InvokeRepeating(nameof(KeepCheckingIfAnyAudiosPlaying), 1, 1);
         }
 
@@ -99,6 +100,7 @@ namespace USP.MiniGame.recognitionPatterns
             UtilityEventsManager.OnUserInteracted -= UserInteracted;
             UtilityEventsManager.OnAnswerProvided -= OnAnswerProvided;
             UtilityEventsManager.onDraggedObjectAttached -= UserItemAttached;
+            UtilityEventsManager.resetTimers -= ResetTimer;
             CancelInvoke(nameof(KeepCheckingIfAnyAudiosPlaying));
         }
 
@@ -107,6 +109,7 @@ namespace USP.MiniGame.recognitionPatterns
             UtilityEventsManager.OnUserInteracted -= UserInteracted;
             UtilityEventsManager.OnAnswerProvided -= OnAnswerProvided;
             UtilityEventsManager.onDraggedObjectAttached -= UserItemAttached;
+            UtilityEventsManager.resetTimers -= ResetTimer;
             CancelInvoke(nameof(KeepCheckingIfAnyAudiosPlaying));
         }
 

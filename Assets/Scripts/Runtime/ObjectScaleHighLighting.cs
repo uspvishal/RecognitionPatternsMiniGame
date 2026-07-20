@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using DG.Tweening;
 using UnityEngine;
@@ -28,12 +29,23 @@ namespace USP.MiniGame.recognitionPatterns
         public UnityEvent OnComplete;
 
         public AudioID clip;
-
+        Coroutine coroutine;
         #endregion
 
         #region Unity Methods
 
-        IEnumerator Start()
+        public bool willStopOnUserInteraction=true;
+
+        private void Start()
+        {
+            UtilityEventsManager.OnUserInteracted += OnUserInteracted;
+            UtilityEventsManager.OnUserInteractedWrong += OnUserInteractedWrong;
+           coroutine =  StartCoroutine(StartExecute());
+        }
+        
+        
+
+        IEnumerator StartExecute()
         {
             CheckAudioAndPlay();
             yield return new WaitForSeconds(firstDelay);
@@ -54,6 +66,27 @@ namespace USP.MiniGame.recognitionPatterns
             }
             OnComplete?.Invoke();
         }
+        
+        void OnUserInteractedWrong(object sender, UtilityEventsManager.UserInteracted data)
+        {
+            if(willStopOnUserInteraction)
+                if (coroutine != null)
+                {
+                    StopCoroutine(coroutine);
+                }
+            
+        }
+        
+        void OnUserInteracted(object sender, UtilityEventsManager.UserInteracted data)
+        {
+            if(willStopOnUserInteraction)
+                if (coroutine != null)
+                {
+                    StopCoroutine(coroutine);
+                }
+            
+        }
+
 
         void CheckAudioAndPlay()
         {
@@ -70,8 +103,11 @@ namespace USP.MiniGame.recognitionPatterns
             }
         }
 
-
-
+        private void OnDestroy()
+        {
+            UtilityEventsManager.OnUserInteracted -= OnUserInteracted;
+            UtilityEventsManager.OnUserInteractedWrong -= OnUserInteractedWrong;
+        }
 
         #endregion
 

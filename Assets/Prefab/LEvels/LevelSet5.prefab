@@ -2081,6 +2081,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AspectRatioItemScaler
   tabSize: 0.9
   mobileSize: 0.8
+--- !u!1 &1439604947217143245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 250286046316827727}
+  - component: {fileID: 416159734571514330}
+  m_Layer: 0
+  m_Name: ItemScaler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &250286046316827727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439604947217143245}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5165177144076991745}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &416159734571514330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439604947217143245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b367d4131143f94f85df7b659bdf259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.ObjectScaleHighLighting
+  highLightItems:
+  - delay: 0.8
+    Obj:
+    - {fileID: 2356597826821410742}
+  - delay: 0.5
+    Obj:
+    - {fileID: 5303212223198537623}
+  - delay: 0.5
+    Obj:
+    - {fileID: 649052804391601346}
+  firstDelay: 4
+  scaleUpSpeed: 0.2
+  OnStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  clip: 0
 --- !u!1 &1445482622793778622
 GameObject:
   m_ObjectHideFlags: 0
@@ -7472,6 +7535,7 @@ Transform:
   - {fileID: 5293546118383963965}
   - {fileID: 7622730227600039330}
   - {fileID: 8638804909292979499}
+  - {fileID: 250286046316827727}
   m_Father: {fileID: 7388901147512830602}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1153412197693429487
@@ -7537,17 +7601,65 @@ MonoBehaviour:
   particle: {fileID: 0}
   onLevelStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5105495923745231149}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onLevelFinish:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7193658090706572067}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4197429182740415732}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5105495923745231149}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   ObjectsToHighlight: []
   SkipIntoAudio: 0
   introAudios: 1f000000200000002100000022000000
   levelIdleVo: 0
-  EndingVoS: 
+  EndingVoS: 29000000
   WrongVo:
-  - {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
+  - {fileID: 8300000, guid: 9f4505ac98b9b3745afd32dfb44bcb70, type: 3}
   CorrectVO: []
   initialAudioDelay: 0.5
   SecondAudioDelay: 0.5
@@ -10662,6 +10774,69 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &7664236948070329788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7519014115172133781}
+  - component: {fileID: 2277903255291160755}
+  m_Layer: 0
+  m_Name: ItemScaler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7519014115172133781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7664236948070329788}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5108523619694468282}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2277903255291160755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7664236948070329788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b367d4131143f94f85df7b659bdf259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.ObjectScaleHighLighting
+  highLightItems:
+  - delay: 0.8
+    Obj:
+    - {fileID: 2324047833269207561}
+  - delay: 0.5
+    Obj:
+    - {fileID: 4051003751962874217}
+  - delay: 0.5
+    Obj:
+    - {fileID: 7971093855570069943}
+  firstDelay: 4
+  scaleUpSpeed: 0.2
+  OnStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  clip: 0
 --- !u!1 &7968733917301290742
 GameObject:
   m_ObjectHideFlags: 0
@@ -12820,6 +12995,7 @@ Transform:
   - {fileID: 2041055179513599874}
   - {fileID: 9126684512962791956}
   - {fileID: 5925170101515922707}
+  - {fileID: 7519014115172133781}
   m_Father: {fileID: 7388901147512830602}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3130696691064578373
@@ -12869,7 +13045,19 @@ MonoBehaviour:
   particle: {fileID: 0}
   onLevelStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5105495923745231149}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onLevelFinish:
     m_PersistentCalls:
       m_Calls:
@@ -12913,9 +13101,9 @@ MonoBehaviour:
   SkipIntoAudio: 0
   introAudios: 230000002400000025000000
   levelIdleVo: 0
-  EndingVoS: 
+  EndingVoS: 29000000
   WrongVo:
-  - {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
+  - {fileID: 8300000, guid: 9f4505ac98b9b3745afd32dfb44bcb70, type: 3}
   CorrectVO: []
   initialAudioDelay: 0.5
   SecondAudioDelay: 0.5

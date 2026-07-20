@@ -46,6 +46,7 @@ namespace USP.MiniGame.recognitionPatterns
             UtilityEventsManager.onDraggedObjectCancelled += UserInteractedCancel;
             UtilityEventsManager.onDraggedObjectAttached += UserInteractedAttached;
             UtilityEventsManager.OnAnswerProvided += OnButtonClicked;
+            UtilityEventsManager.resetTimers += ResetTimer;
             ogScale = targetGraphic.transform.localScale;
             startTimer = true;
         }
@@ -293,6 +294,7 @@ namespace USP.MiniGame.recognitionPatterns
             UtilityEventsManager.onDraggedObjectCancelled -= UserInteractedCancel;
             UtilityEventsManager.onDraggedObjectAttached -= UserInteractedAttached;
             UtilityEventsManager.OnAnswerProvided -= OnButtonClicked;
+            UtilityEventsManager.resetTimers -= ResetTimer;
         }
 
         void OnDisable()
@@ -304,6 +306,7 @@ namespace USP.MiniGame.recognitionPatterns
             UtilityEventsManager.onDraggedObjectCancelled -= UserInteractedCancel;
             UtilityEventsManager.onDraggedObjectAttached -= UserInteractedAttached;
             UtilityEventsManager.OnAnswerProvided -= OnButtonClicked;
+            UtilityEventsManager.resetTimers -= ResetTimer;
         }
     }
 }
