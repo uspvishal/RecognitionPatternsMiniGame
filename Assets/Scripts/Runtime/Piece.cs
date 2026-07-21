@@ -248,9 +248,9 @@ namespace USP.MiniGame.recognitionPatterns
 						  childRenderer.sortingOrder = renderer.sortingOrder + 1;
 				  })
 				   .Append(transform.DOScale(attachTweenScaleTarget * .7f, .27f))
-				  .Append(transform.DOScale(Vector3.one * attachTweenScaleTarget * 1.3f, .22f))
+				  .Append(transform.DOScale(Vector3.one * attachTweenScaleTarget * 1.2f, .22f))
 				  .Append(transform.DOScale(Vector3.one * attachTweenScaleTarget, .17f))
-				  .Append(transform.DOScale(Vector3.one * attachTweenScaleTarget * 1.1f, .15f))
+				  .Append(transform.DOScale(Vector3.one * attachTweenScaleTarget * 1.0f, .15f))
 				  .Append(transform.DOScale(Vector3.one * attachTweenScaleTarget, .12f))
 				  //.Append(transform.DOScale(  Vector2.one * attachTweenScaleTarget*1.2f , attachTweenScaleDuration).SetEase(attachTweenScaleEase))
 				  .SetLink(gameObject)

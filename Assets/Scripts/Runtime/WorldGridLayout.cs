@@ -140,10 +140,16 @@ namespace USP.MiniGame.recognitionPatterns
             {
                 source = GetComponent<AudioSource>();
                 if(source == null)
-                source = gameObject.AddComponent<AudioSource>();
+                    source = gameObject.AddComponent<AudioSource>();
             }
             if (!delayedStart)
                 UpdatePosition();
+            
+            if (keepUpdateingEveryInterval)
+            {
+                Debug.Log("KEEP UPDATING");
+                InvokeRepeating(nameof(RefreshSmooth), .1f, .1f);
+            }
         }
 
         IEnumerator Start()
@@ -157,7 +163,7 @@ namespace USP.MiniGame.recognitionPatterns
                 if (keepUpdateingEveryInterval)
                 {
                     Debug.Log("KEEP UPDATING");
-                    InvokeRepeating(nameof(Refresh), .1f, .1f);
+                    InvokeRepeating(nameof(RefreshSmooth), .1f, .1f);
                 }
 
             }

@@ -73,6 +73,7 @@ namespace USP.MiniGame.recognitionPatterns
             {
                 foreach (var x in ObjectList)
                 {
+                    
                     x.transform.DOScale(ogSize[count] * 1.1f, duration*.5f);
                     x.transform.DOScale(Vector3.zero, duration*.5f).SetDelay(duration);
                     count++;
@@ -84,7 +85,8 @@ namespace USP.MiniGame.recognitionPatterns
             {
                 foreach (var x in ObjectList)
                 {
-                    x.transform.DOScale(ogSize[count] * 1.1f, duration*.5f);
+                    Vector3 size = ObjectList[count].transform.localScale;
+                    x.transform.DOScale(size * 1.1f, duration*.5f);
                     x.transform.DOScale(Vector3.zero, duration*.5f).SetDelay(duration);
                     count++;
                 }
