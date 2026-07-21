@@ -4536,7 +4536,59 @@ MonoBehaviour:
       m_Calls: []
   onEndingVOFinished:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8853520938367798910}
+        m_TargetAssemblyTypeName: USP.MiniGame.recognitionPatterns.SequenceTween,
+          usp.minigame.recognitionandpatterns
+        m_MethodName: ExitTransition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2061438229851768391}
+        m_TargetAssemblyTypeName: USP.MiniGame.recognitionPatterns.SequenceTween,
+          usp.minigame.recognitionandpatterns
+        m_MethodName: ExitTransition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5397330439902400261}
+        m_TargetAssemblyTypeName: USP.MiniGame.recognitionPatterns.SequenceTween,
+          usp.minigame.recognitionandpatterns
+        m_MethodName: ExitTransition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5606746568104950102}
+        m_TargetAssemblyTypeName: USP.MiniGame.recognitionPatterns.SequenceTween,
+          usp.minigame.recognitionandpatterns
+        m_MethodName: ExitTransition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnSuccessEventDelay: 1
   ChangeLevelAfterEndingVODelay: 1
   dragController: {fileID: 0}
@@ -9374,7 +9426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 3
-  Offset: {x: 0, y: -5.3}
+  Offset: {x: 0, y: -5.2}
   OffsetIpad: {x: 0, y: -6.1}
 --- !u!114 &6100281176812697478
 MonoBehaviour:
@@ -9398,10 +9450,11 @@ MonoBehaviour:
   - {fileID: 3582131511904358138}
   - {fileID: 2721485098305962224}
   - {fileID: 3839598721816993710}
-  duration: 0.1
+  duration: 0.4
   interval: 0.05
-  initialDelay: 0.1
+  initialDelay: 0
   ease: 27
+  allAtOnce: 1
 --- !u!1 &3706072524102161188
 GameObject:
   m_ObjectHideFlags: 0
@@ -12425,7 +12478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 5
-  Offset: {x: 0, y: 2}
+  Offset: {x: 0, y: 1.8}
   OffsetIpad: {x: 0, y: 2.5}
 --- !u!114 &5606746568104950102
 MonoBehaviour:
@@ -12450,10 +12503,11 @@ MonoBehaviour:
   - {fileID: 1064418358783194150}
   - {fileID: 3585500365409990454}
   - {fileID: 6530381940696234117}
-  duration: 0.1
+  duration: 0.4
   interval: 0.05
-  initialDelay: 0.1
+  initialDelay: 0
   ease: 27
+  allAtOnce: 1
 --- !u!82 &3965074985920402855
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13359,7 +13413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 3
-  Offset: {x: 0, y: -5.3}
+  Offset: {x: 0, y: -5.2}
   OffsetIpad: {x: 0, y: -6.1}
 --- !u!114 &2061438229851768391
 MonoBehaviour:
@@ -13384,10 +13438,11 @@ MonoBehaviour:
   - {fileID: 3475825122208073563}
   - {fileID: 2429567905454537758}
   - {fileID: 8638924670442478385}
-  duration: 0.1
+  duration: 0.4
   interval: 0.05
-  initialDelay: 0.1
+  initialDelay: 0
   ease: 27
+  allAtOnce: 1
 --- !u!82 &720817268905227547
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15007,7 +15062,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 5
-  Offset: {x: 0, y: 2}
+  Offset: {x: 0, y: 1.8}
   OffsetIpad: {x: 0, y: 2.5}
 --- !u!114 &3544681910492603704
 MonoBehaviour:
@@ -15031,10 +15086,11 @@ MonoBehaviour:
   - {fileID: 8486998319401082427}
   - {fileID: 500618831984930341}
   - {fileID: 9186212093872600235}
-  duration: 0.1
+  duration: 0.4
   interval: 0.05
-  initialDelay: 0.1
+  initialDelay: 0
   ease: 27
+  allAtOnce: 1
 --- !u!1 &6094199185427069595
 GameObject:
   m_ObjectHideFlags: 0
@@ -15455,7 +15511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 3
-  Offset: {x: 0, y: -1.5}
+  Offset: {x: 0, y: -1.4}
   OffsetIpad: {x: 0, y: -2}
 --- !u!114 &8853520938367798910
 MonoBehaviour:
@@ -15480,10 +15536,11 @@ MonoBehaviour:
   - {fileID: 1558921908136268223}
   - {fileID: 3711166882540969791}
   - {fileID: 4412760859590115044}
-  duration: 0.1
+  duration: 0.4
   interval: 0.05
-  initialDelay: 0.1
+  initialDelay: 0
   ease: 27
+  allAtOnce: 1
 --- !u!82 &920907561828310392
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16550,10 +16607,11 @@ MonoBehaviour:
   - {fileID: 8558111244277679003}
   - {fileID: 4500351820813924130}
   - {fileID: 1448522543028582339}
-  duration: 0.1
+  duration: 0.4
   interval: 0.05
-  initialDelay: 0.1
+  initialDelay: 0
   ease: 27
+  allAtOnce: 1
 --- !u!82 &2063488577757589916
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17265,7 +17323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
   AnchorPoints: 3
-  Offset: {x: 0, y: -1.5}
+  Offset: {x: 0, y: -1.4}
   OffsetIpad: {x: 0, y: -2}
 --- !u!114 &7518005404114620498
 MonoBehaviour:
@@ -17289,10 +17347,11 @@ MonoBehaviour:
   - {fileID: 2397378254590790304}
   - {fileID: 3538818967680403074}
   - {fileID: 8848888391729690161}
-  duration: 0.1
+  duration: 0.4
   interval: 0.05
-  initialDelay: 0.1
+  initialDelay: 0
   ease: 27
+  allAtOnce: 1
 --- !u!1 &6762589391706847975
 GameObject:
   m_ObjectHideFlags: 0
@@ -20140,10 +20199,11 @@ MonoBehaviour:
   - {fileID: 4664065636572435997}
   - {fileID: 8689602769797597437}
   - {fileID: 2827356809110077598}
-  duration: 0.1
+  duration: 0.4
   interval: 0.05
-  initialDelay: 0.1
+  initialDelay: 0
   ease: 27
+  allAtOnce: 1
 --- !u!1 &8306996543810927889
 GameObject:
   m_ObjectHideFlags: 0

@@ -21,6 +21,7 @@ namespace USP.MiniGame.recognitionPatterns
         public List<AudioSource> AudiosToCheck;
 
         public static IdleSoundManager instance;
+        bool isPlayedFirstTime = false;
 
         void Awake()
         {
@@ -125,7 +126,14 @@ namespace USP.MiniGame.recognitionPatterns
 
         public void ResetTimer()
         {
-            currentTimer = SecondTime;
+            if (isPlayedFirstTime)
+            {
+                currentTimer = SecondTime;
+            }
+            else
+            {
+                currentTimer = firstTime;
+            }
 
         }
 
@@ -143,6 +151,7 @@ namespace USP.MiniGame.recognitionPatterns
             else
             {
                 ResetTimer();
+                
                 var lvl = FindAnyObjectByType<Level>();
 
                 if (lvl)
@@ -170,6 +179,7 @@ namespace USP.MiniGame.recognitionPatterns
                     }
                 }
                 source.PlayOneShot(clip);
+                isPlayedFirstTime = true;
 
             }
         }

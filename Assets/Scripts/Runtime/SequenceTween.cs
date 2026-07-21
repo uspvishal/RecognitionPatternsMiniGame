@@ -14,6 +14,7 @@ namespace USP.MiniGame.recognitionPatterns
         public float duration, interval, initialDelay;
         Vector3[] ogSize;
         public Ease ease;
+        public bool allAtOnce = true;
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
@@ -42,12 +43,22 @@ namespace USP.MiniGame.recognitionPatterns
                 yield return null;
             }
             int count = 0;
-
-            foreach (var x in ObjectList)
+            if (!allAtOnce)
             {
-                x.transform.DOScale(ogSize[count], duration).SetEase(ease);
-                count++;
-                yield return new WaitForSeconds(interval);
+                foreach (var x in ObjectList)
+                {
+                    x.transform.DOScale(ogSize[count], duration).SetEase(ease);
+                    count++;
+                    yield return new WaitForSeconds(interval);
+                }
+            }
+            else
+            {
+                foreach (var x in ObjectList)
+                {
+                    x.transform.DOScale(ogSize[count], duration).SetEase(ease);
+                    count++;
+                }
             }
         }
 
@@ -58,14 +69,25 @@ namespace USP.MiniGame.recognitionPatterns
             yield return null;
 
             int count = 0;
-
-            foreach (var x in ObjectList)
+            if (!allAtOnce)
             {
-                x.transform.DOScale(ogSize[count] * 1.1f, .5f);
-                x.transform.DOScale(Vector3.zero, .4f).SetDelay(.5f);
-                count++;
-                yield return null;
-                //yield return new WaitForSeconds(interval);
+                foreach (var x in ObjectList)
+                {
+                    x.transform.DOScale(ogSize[count] * 1.1f, duration*.5f);
+                    x.transform.DOScale(Vector3.zero, duration*.5f).SetDelay(duration);
+                    count++;
+                    yield return null;
+                    //yield return new WaitForSeconds(interval);
+                }
+            }
+            else
+            {
+                foreach (var x in ObjectList)
+                {
+                    x.transform.DOScale(ogSize[count] * 1.1f, duration*.5f);
+                    x.transform.DOScale(Vector3.zero, duration*.5f).SetDelay(duration);
+                    count++;
+                }
             }
         }
 
