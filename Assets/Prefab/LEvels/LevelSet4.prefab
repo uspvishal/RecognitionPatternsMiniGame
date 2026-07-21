@@ -174,7 +174,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 88476827846207525}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -356,7 +356,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 1
-  m_Sprite: {fileID: 21300000, guid: 00fdfe40767bb984582594d3abd711e3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fdf77379ec7904561ac46ce917100ef0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -376,7 +376,7 @@ Animator:
   m_GameObject: {fileID: 130437684476857254}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 23bca97467cc4b646ac3e484767ee104, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1e65fd05d5907490cb3bf1d944a74f82, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -433,7 +433,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 130437684476857254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SpriteBtn
   OnClicked:
@@ -512,7 +512,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     delay: 1.1
-  clip: {fileID: 8300000, guid: 260efe0e0fc918641a86b34515421fdc, type: 3}
+  clip: {fileID: 8300000, guid: 227f1efb09fef4ed58177b385c1b413a, type: 3}
   useChildEffect: 0
   childScaleModifier: 0.8
   willBlockControls: 0
@@ -789,7 +789,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -844,7 +844,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 250714404368878262}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -960,7 +960,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1015,7 +1015,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 387905637886339388}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -1313,7 +1313,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1368,7 +1368,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 500618831984930341}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -1517,7 +1517,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1572,7 +1572,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 544383109661255272}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -1777,7 +1777,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: b959951ebf9d43f46b1ea1f792188bf0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af36f8ccc700b41c585925a94bd5b016, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1870,7 +1870,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1925,7 +1925,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 691833234170693494}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -2041,7 +2041,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2096,7 +2096,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 739087602176378548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -2212,7 +2212,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2267,7 +2267,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 749664290226602251}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -2383,7 +2383,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2438,7 +2438,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 777552341353687011}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -2645,7 +2645,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2700,7 +2700,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 902301340544353059}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -2816,7 +2816,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2871,7 +2871,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1064418358783194150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -3078,7 +3078,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3133,7 +3133,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1414594199358642338}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -3340,7 +3340,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3395,7 +3395,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1448522543028582339}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -3511,7 +3511,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3566,7 +3566,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1558921908136268223}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -3967,7 +3967,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 1
-  m_Sprite: {fileID: 21300000, guid: 4f2b1e7ee5a99d84cb62807c19921503, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3c20261d9aeba4d34b32b0dd799015d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3986,7 +3986,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1816743701010994136}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b7dc110e46fa4b6d9a178e57bb359ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldGridItemProperties
   offset: {x: 0, y: -0.3, z: 0}
@@ -4000,7 +4000,7 @@ Animator:
   m_GameObject: {fileID: 1816743701010994136}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 23bca97467cc4b646ac3e484767ee104, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1e65fd05d5907490cb3bf1d944a74f82, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4057,7 +4057,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1816743701010994136}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SpriteBtn
   OnClicked:
@@ -4136,7 +4136,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     delay: 1.1
-  clip: {fileID: 8300000, guid: 260efe0e0fc918641a86b34515421fdc, type: 3}
+  clip: {fileID: 8300000, guid: 227f1efb09fef4ed58177b385c1b413a, type: 3}
   useChildEffect: 0
   childScaleModifier: 0.8
   willBlockControls: 0
@@ -4231,7 +4231,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4286,7 +4286,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1840127181798190200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -4455,7 +4455,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1919403032006102086}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6e264e85d88ffc4b8c36feef47e26d8, type: 3}
+  m_Script: {fileID: 11500000, guid: d58d11b8df588489ead16b221df6b72c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Level
   ipadBg: {fileID: 2291995461359496464}
@@ -4523,7 +4523,7 @@ MonoBehaviour:
   levelIdleVo: 0
   EndingVoS: 1d000000
   WrongVo:
-  - {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
+  - {fileID: 8300000, guid: f0c76b3df36284e36aeeea1ba96f3d55, type: 3}
   CorrectVO: []
   initialAudioDelay: 0.5
   SecondAudioDelay: 0.5
@@ -4859,7 +4859,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4914,7 +4914,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2213888813668445579}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -5028,7 +5028,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: b41927bf6b2deb7458f9223f6204d98f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 46f02b2639d4e428788ab616180373e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5085,7 +5085,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2397320312763497085}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1352d52b58c8db4481879df38bed432, type: 3}
+  m_Script: {fileID: 11500000, guid: e0465e41d29304b79a1bef4342e9991a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.LevelSetManager
   levels:
@@ -5178,7 +5178,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5233,7 +5233,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2397378254590790304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -5361,7 +5361,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 1
-  m_Sprite: {fileID: 21300000, guid: 4f2b1e7ee5a99d84cb62807c19921503, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3c20261d9aeba4d34b32b0dd799015d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5380,7 +5380,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2429567905454537758}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b7dc110e46fa4b6d9a178e57bb359ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldGridItemProperties
   offset: {x: 0, y: -0.3, z: 0}
@@ -5394,7 +5394,7 @@ Animator:
   m_GameObject: {fileID: 2429567905454537758}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 23bca97467cc4b646ac3e484767ee104, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1e65fd05d5907490cb3bf1d944a74f82, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5451,7 +5451,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2429567905454537758}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SpriteBtn
   OnClicked:
@@ -5530,7 +5530,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     delay: 1.1
-  clip: {fileID: 8300000, guid: 260efe0e0fc918641a86b34515421fdc, type: 3}
+  clip: {fileID: 8300000, guid: 227f1efb09fef4ed58177b385c1b413a, type: 3}
   useChildEffect: 0
   childScaleModifier: 0.8
   willBlockControls: 0
@@ -5716,7 +5716,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5771,7 +5771,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2474236235531744308}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -5885,7 +5885,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: b959951ebf9d43f46b1ea1f792188bf0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af36f8ccc700b41c585925a94bd5b016, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6080,7 +6080,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 1
-  m_Sprite: {fileID: 21300000, guid: 00fdfe40767bb984582594d3abd711e3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fdf77379ec7904561ac46ce917100ef0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6100,7 +6100,7 @@ Animator:
   m_GameObject: {fileID: 2589947692032247267}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 23bca97467cc4b646ac3e484767ee104, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1e65fd05d5907490cb3bf1d944a74f82, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6157,7 +6157,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2589947692032247267}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SpriteBtn
   OnClicked:
@@ -6236,7 +6236,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     delay: 1
-  clip: {fileID: 8300000, guid: 260efe0e0fc918641a86b34515421fdc, type: 3}
+  clip: {fileID: 8300000, guid: 227f1efb09fef4ed58177b385c1b413a, type: 3}
   useChildEffect: 0
   childScaleModifier: 0.8
   willBlockControls: 0
@@ -6422,7 +6422,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6477,7 +6477,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2721485098305962224}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -6684,7 +6684,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6739,7 +6739,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2752456336585737345}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -6853,7 +6853,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 50
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 109469293771872292, guid: 5f299992383343a48a53d69c948387e8, type: 3}
+  m_Sprite: {fileID: 109469293771872292, guid: 63d9dd1764ea44ce783a4d136f6bd9bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7882353}
   m_FlipX: 0
   m_FlipY: 0
@@ -6946,7 +6946,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7001,7 +7001,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2827356809110077598}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -7117,7 +7117,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7172,7 +7172,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2874292260560329781}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -7248,7 +7248,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: b632902b1788cdb4e93509d2354158bf, type: 3}
+  m_Resource: {fileID: 8300000, guid: 93cc9b0e352764351971f691616ba9e4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -7610,7 +7610,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 1
-  m_Sprite: {fileID: 21300000, guid: 00fdfe40767bb984582594d3abd711e3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fdf77379ec7904561ac46ce917100ef0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7630,7 +7630,7 @@ Animator:
   m_GameObject: {fileID: 3071938071707135168}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 23bca97467cc4b646ac3e484767ee104, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1e65fd05d5907490cb3bf1d944a74f82, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7687,7 +7687,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3071938071707135168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SpriteBtn
   OnClicked:
@@ -7766,7 +7766,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     delay: 1.1
-  clip: {fileID: 8300000, guid: 260efe0e0fc918641a86b34515421fdc, type: 3}
+  clip: {fileID: 8300000, guid: 227f1efb09fef4ed58177b385c1b413a, type: 3}
   useChildEffect: 0
   childScaleModifier: 0.8
   willBlockControls: 0
@@ -7950,7 +7950,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 50
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1232868508302631120, guid: 941e6efc39f8445469b2baf737f6a449, type: 3}
+  m_Sprite: {fileID: -1232868508302631120, guid: dbd3f25ed8fa34e85a31b0bb5004e7e0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.6509804}
   m_FlipX: 0
   m_FlipY: 0
@@ -8043,7 +8043,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8098,7 +8098,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3475825122208073563}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -8407,7 +8407,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 1
-  m_Sprite: {fileID: 21300000, guid: 00fdfe40767bb984582594d3abd711e3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fdf77379ec7904561ac46ce917100ef0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8427,7 +8427,7 @@ Animator:
   m_GameObject: {fileID: 3533158832669636150}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 23bca97467cc4b646ac3e484767ee104, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1e65fd05d5907490cb3bf1d944a74f82, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -8484,7 +8484,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3533158832669636150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SpriteBtn
   OnClicked:
@@ -8563,7 +8563,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     delay: 1.1
-  clip: {fileID: 8300000, guid: 260efe0e0fc918641a86b34515421fdc, type: 3}
+  clip: {fileID: 8300000, guid: 227f1efb09fef4ed58177b385c1b413a, type: 3}
   useChildEffect: 0
   childScaleModifier: 0.8
   willBlockControls: 0
@@ -8658,7 +8658,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8713,7 +8713,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3538818967680403074}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -8829,7 +8829,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8884,7 +8884,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3567556850889420870}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -9091,7 +9091,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9146,7 +9146,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3582131511904358138}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -9262,7 +9262,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9317,7 +9317,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3585500365409990454}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -9402,7 +9402,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3684852058738195019}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc8b7ef04bc1f1241b7cc07ce8b50d55, type: 3}
+  m_Script: {fileID: 11500000, guid: facc5b0aa019a45e78b94e20bc1701cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 0.73
@@ -9411,7 +9411,7 @@ MonoBehaviour:
   horizontal: 1
   delayedStart: 0
   keepUpdateingEveryInterval: 0
-  sfxOnRefresh: {fileID: 8300000, guid: c16bc15a63242634b8539492cf95eeee, type: 3}
+  sfxOnRefresh: {fileID: 8300000, guid: a5fe9fc9548cf4d8e87bc4460bb083fb, type: 3}
 --- !u!114 &7775622868304396255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9421,7 +9421,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3684852058738195019}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f1eb99bce562734284a2e8e57b26a15, type: 3}
+  m_Script: {fileID: 11500000, guid: 395db1d026c2d40b082cd11f021ffbb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
@@ -9437,7 +9437,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3684852058738195019}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 650608adbfa5d1343836780ba150d05d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1578b75239d344bd19125281916aa36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SequenceTween
   ObjectList:
@@ -9538,7 +9538,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9593,7 +9593,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3706072524102161188}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -9709,7 +9709,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9764,7 +9764,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3711166882540969791}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -10062,7 +10062,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10117,7 +10117,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3814711285391561561}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -10324,7 +10324,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10379,7 +10379,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3832400496833600305}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -10495,7 +10495,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10550,7 +10550,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3839598721816993710}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -10848,7 +10848,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10903,7 +10903,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3932445516168916990}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -10981,7 +10981,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4035826843049467818}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6e264e85d88ffc4b8c36feef47e26d8, type: 3}
+  m_Script: {fileID: 11500000, guid: d58d11b8df588489ead16b221df6b72c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Level
   ipadBg: {fileID: 4472560621768755488}
@@ -11049,7 +11049,7 @@ MonoBehaviour:
   levelIdleVo: 0
   EndingVoS: 1d000000
   WrongVo:
-  - {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
+  - {fileID: 8300000, guid: f0c76b3df36284e36aeeea1ba96f3d55, type: 3}
   CorrectVO: []
   initialAudioDelay: 0.5
   SecondAudioDelay: 0.5
@@ -11333,7 +11333,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11388,7 +11388,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4176102093563664135}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -11868,7 +11868,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11923,7 +11923,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4412760859590115044}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -12128,7 +12128,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: b41927bf6b2deb7458f9223f6204d98f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 46f02b2639d4e428788ab616180373e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12221,7 +12221,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12276,7 +12276,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4500351820813924130}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -12454,7 +12454,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4536305602931132254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc8b7ef04bc1f1241b7cc07ce8b50d55, type: 3}
+  m_Script: {fileID: 11500000, guid: facc5b0aa019a45e78b94e20bc1701cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 1
@@ -12463,7 +12463,7 @@ MonoBehaviour:
   horizontal: 1
   delayedStart: 0
   keepUpdateingEveryInterval: 0
-  sfxOnRefresh: {fileID: 8300000, guid: c16bc15a63242634b8539492cf95eeee, type: 3}
+  sfxOnRefresh: {fileID: 8300000, guid: a5fe9fc9548cf4d8e87bc4460bb083fb, type: 3}
 --- !u!114 &8228830572563968713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12473,7 +12473,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4536305602931132254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f1eb99bce562734284a2e8e57b26a15, type: 3}
+  m_Script: {fileID: 11500000, guid: 395db1d026c2d40b082cd11f021ffbb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
@@ -12489,7 +12489,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4536305602931132254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 650608adbfa5d1343836780ba150d05d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1578b75239d344bd19125281916aa36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SequenceTween
   ObjectList:
@@ -12723,7 +12723,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12778,7 +12778,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4664065636572435997}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -12894,7 +12894,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12949,7 +12949,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4688109852308669914}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -13156,7 +13156,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13211,7 +13211,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4815036061730164979}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -13389,7 +13389,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4890734310566984796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc8b7ef04bc1f1241b7cc07ce8b50d55, type: 3}
+  m_Script: {fileID: 11500000, guid: facc5b0aa019a45e78b94e20bc1701cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 1.03
@@ -13398,7 +13398,7 @@ MonoBehaviour:
   horizontal: 1
   delayedStart: 0
   keepUpdateingEveryInterval: 0
-  sfxOnRefresh: {fileID: 8300000, guid: c16bc15a63242634b8539492cf95eeee, type: 3}
+  sfxOnRefresh: {fileID: 8300000, guid: a5fe9fc9548cf4d8e87bc4460bb083fb, type: 3}
 --- !u!114 &2702978699868179459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13408,7 +13408,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4890734310566984796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f1eb99bce562734284a2e8e57b26a15, type: 3}
+  m_Script: {fileID: 11500000, guid: 395db1d026c2d40b082cd11f021ffbb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
@@ -13424,7 +13424,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4890734310566984796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 650608adbfa5d1343836780ba150d05d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1578b75239d344bd19125281916aa36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SequenceTween
   ObjectList:
@@ -13672,10 +13672,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4985129281932803851}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd78f49f5fd14ae28da3947b793660d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5a76e4c6f0ef469d9bd83dce7b8b96c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.AudioEvent
-  audioClip: {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
+  audioClip: {fileID: 8300000, guid: f0c76b3df36284e36aeeea1ba96f3d55, type: 3}
 --- !u!1 &5054869688072061381
 GameObject:
   m_ObjectHideFlags: 0
@@ -14032,7 +14032,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14087,7 +14087,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5370053240216485692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -14203,7 +14203,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14258,7 +14258,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5380552080674270642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -14374,7 +14374,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14429,7 +14429,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5431147516116680161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -14636,7 +14636,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14691,7 +14691,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5549230338822173100}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -14898,7 +14898,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14953,7 +14953,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5927298873490860303}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -15038,7 +15038,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6032772217620536415}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc8b7ef04bc1f1241b7cc07ce8b50d55, type: 3}
+  m_Script: {fileID: 11500000, guid: facc5b0aa019a45e78b94e20bc1701cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 0.73
@@ -15047,7 +15047,7 @@ MonoBehaviour:
   horizontal: 1
   delayedStart: 0
   keepUpdateingEveryInterval: 0
-  sfxOnRefresh: {fileID: 8300000, guid: c16bc15a63242634b8539492cf95eeee, type: 3}
+  sfxOnRefresh: {fileID: 8300000, guid: a5fe9fc9548cf4d8e87bc4460bb083fb, type: 3}
 --- !u!114 &5010957142086549387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15057,7 +15057,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6032772217620536415}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f1eb99bce562734284a2e8e57b26a15, type: 3}
+  m_Script: {fileID: 11500000, guid: 395db1d026c2d40b082cd11f021ffbb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
@@ -15073,7 +15073,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6032772217620536415}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 650608adbfa5d1343836780ba150d05d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1578b75239d344bd19125281916aa36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SequenceTween
   ObjectList:
@@ -15174,7 +15174,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15229,7 +15229,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6094199185427069595}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -15345,7 +15345,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15400,7 +15400,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6130185451750729651}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -15487,7 +15487,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6163470361193648346}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc8b7ef04bc1f1241b7cc07ce8b50d55, type: 3}
+  m_Script: {fileID: 11500000, guid: facc5b0aa019a45e78b94e20bc1701cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 1
@@ -15496,7 +15496,7 @@ MonoBehaviour:
   horizontal: 1
   delayedStart: 0
   keepUpdateingEveryInterval: 0
-  sfxOnRefresh: {fileID: 8300000, guid: c16bc15a63242634b8539492cf95eeee, type: 3}
+  sfxOnRefresh: {fileID: 8300000, guid: a5fe9fc9548cf4d8e87bc4460bb083fb, type: 3}
 --- !u!114 &3018552400746994688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15506,7 +15506,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6163470361193648346}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f1eb99bce562734284a2e8e57b26a15, type: 3}
+  m_Script: {fileID: 11500000, guid: 395db1d026c2d40b082cd11f021ffbb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
@@ -15522,7 +15522,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6163470361193648346}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 650608adbfa5d1343836780ba150d05d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1578b75239d344bd19125281916aa36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SequenceTween
   ObjectList:
@@ -15721,7 +15721,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15776,7 +15776,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6202473417686540342}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -15890,7 +15890,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 50
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7089643408888276309, guid: 2cf973c4eabd6bc47ac20358f3772cc2, type: 3}
+  m_Sprite: {fileID: 7089643408888276309, guid: 5bf8e5639722c48c2acabc41ee83bce8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.34901962}
   m_FlipX: 0
   m_FlipY: 0
@@ -15983,7 +15983,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -16038,7 +16038,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6507638815626739544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -16245,7 +16245,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -16300,7 +16300,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6530381940696234117}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -16416,7 +16416,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -16471,7 +16471,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6569389706010163317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -16558,7 +16558,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6582739073131283637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc8b7ef04bc1f1241b7cc07ce8b50d55, type: 3}
+  m_Script: {fileID: 11500000, guid: facc5b0aa019a45e78b94e20bc1701cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 1
@@ -16567,7 +16567,7 @@ MonoBehaviour:
   horizontal: 1
   delayedStart: 0
   keepUpdateingEveryInterval: 0
-  sfxOnRefresh: {fileID: 8300000, guid: c16bc15a63242634b8539492cf95eeee, type: 3}
+  sfxOnRefresh: {fileID: 8300000, guid: a5fe9fc9548cf4d8e87bc4460bb083fb, type: 3}
 --- !u!114 &9036537870961500205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16577,7 +16577,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6582739073131283637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f1eb99bce562734284a2e8e57b26a15, type: 3}
+  m_Script: {fileID: 11500000, guid: 395db1d026c2d40b082cd11f021ffbb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
@@ -16593,7 +16593,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6582739073131283637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 650608adbfa5d1343836780ba150d05d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1578b75239d344bd19125281916aa36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SequenceTween
   ObjectList:
@@ -16883,7 +16883,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -16938,7 +16938,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6611939472865200129}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -17066,7 +17066,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 1
-  m_Sprite: {fileID: 21300000, guid: 4f2b1e7ee5a99d84cb62807c19921503, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3c20261d9aeba4d34b32b0dd799015d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -17085,7 +17085,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6716579521682263641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b7dc110e46fa4b6d9a178e57bb359ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldGridItemProperties
   offset: {x: 0, y: -0.3, z: 0}
@@ -17099,7 +17099,7 @@ Animator:
   m_GameObject: {fileID: 6716579521682263641}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 23bca97467cc4b646ac3e484767ee104, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1e65fd05d5907490cb3bf1d944a74f82, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -17156,7 +17156,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6716579521682263641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SpriteBtn
   OnClicked:
@@ -17235,7 +17235,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     delay: 1
-  clip: {fileID: 8300000, guid: 260efe0e0fc918641a86b34515421fdc, type: 3}
+  clip: {fileID: 8300000, guid: 227f1efb09fef4ed58177b385c1b413a, type: 3}
   useChildEffect: 0
   childScaleModifier: 0.8
   willBlockControls: 0
@@ -17299,7 +17299,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6752106914426908886}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc8b7ef04bc1f1241b7cc07ce8b50d55, type: 3}
+  m_Script: {fileID: 11500000, guid: facc5b0aa019a45e78b94e20bc1701cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 0.73
@@ -17308,7 +17308,7 @@ MonoBehaviour:
   horizontal: 1
   delayedStart: 0
   keepUpdateingEveryInterval: 0
-  sfxOnRefresh: {fileID: 8300000, guid: c16bc15a63242634b8539492cf95eeee, type: 3}
+  sfxOnRefresh: {fileID: 8300000, guid: a5fe9fc9548cf4d8e87bc4460bb083fb, type: 3}
 --- !u!114 &1635777066088957213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17318,7 +17318,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6752106914426908886}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f1eb99bce562734284a2e8e57b26a15, type: 3}
+  m_Script: {fileID: 11500000, guid: 395db1d026c2d40b082cd11f021ffbb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
@@ -17334,7 +17334,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6752106914426908886}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 650608adbfa5d1343836780ba150d05d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1578b75239d344bd19125281916aa36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SequenceTween
   ObjectList:
@@ -17526,7 +17526,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -17581,7 +17581,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6881560196905115411}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -17697,7 +17697,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -17752,7 +17752,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7079604042728634511}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -18232,7 +18232,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18287,7 +18287,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7253197643494169318}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -18494,7 +18494,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18549,7 +18549,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7519419091270351434}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -18700,7 +18700,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18755,7 +18755,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7586045668294463066}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -18871,7 +18871,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18926,7 +18926,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7616742778550261509}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -19053,7 +19053,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 1
-  m_Sprite: {fileID: 21300000, guid: 4f2b1e7ee5a99d84cb62807c19921503, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3c20261d9aeba4d34b32b0dd799015d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -19072,7 +19072,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7852116573132648207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21202ce62669081429842983bb4f5cfc, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b7dc110e46fa4b6d9a178e57bb359ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldGridItemProperties
   offset: {x: 0, y: -0.3, z: 0}
@@ -19086,7 +19086,7 @@ Animator:
   m_GameObject: {fileID: 7852116573132648207}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 23bca97467cc4b646ac3e484767ee104, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1e65fd05d5907490cb3bf1d944a74f82, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -19143,7 +19143,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7852116573132648207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SpriteBtn
   OnClicked:
@@ -19210,7 +19210,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     delay: 1.1
-  clip: {fileID: 8300000, guid: 260efe0e0fc918641a86b34515421fdc, type: 3}
+  clip: {fileID: 8300000, guid: 227f1efb09fef4ed58177b385c1b413a, type: 3}
   useChildEffect: 0
   childScaleModifier: 0.8
   willBlockControls: 0
@@ -19303,7 +19303,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 50
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1861818126124909773, guid: 40797852f21bd924bafe4d0319eb60be, type: 3}
+  m_Sprite: {fileID: -1861818126124909773, guid: 8993856653350454b9e0350dd0330f57, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.34901962}
   m_FlipX: 0
   m_FlipY: 0
@@ -19396,7 +19396,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -19451,7 +19451,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7937214616173476949}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -19840,7 +19840,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -19895,7 +19895,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8247109938320739352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -20011,7 +20011,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -20066,7 +20066,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8274622218794108307}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -20151,7 +20151,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8302396376989639313}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc8b7ef04bc1f1241b7cc07ce8b50d55, type: 3}
+  m_Script: {fileID: 11500000, guid: facc5b0aa019a45e78b94e20bc1701cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 0.73
@@ -20160,7 +20160,7 @@ MonoBehaviour:
   horizontal: 1
   delayedStart: 0
   keepUpdateingEveryInterval: 0
-  sfxOnRefresh: {fileID: 8300000, guid: c16bc15a63242634b8539492cf95eeee, type: 3}
+  sfxOnRefresh: {fileID: 8300000, guid: a5fe9fc9548cf4d8e87bc4460bb083fb, type: 3}
 --- !u!114 &441856105563848751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20170,7 +20170,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8302396376989639313}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f1eb99bce562734284a2e8e57b26a15, type: 3}
+  m_Script: {fileID: 11500000, guid: 395db1d026c2d40b082cd11f021ffbb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.MoveWithScreenPoint
   targetCamera: {fileID: 0}
@@ -20186,7 +20186,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8302396376989639313}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 650608adbfa5d1343836780ba150d05d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1578b75239d344bd19125281916aa36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SequenceTween
   ObjectList:
@@ -20742,7 +20742,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -20797,7 +20797,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8486998319401082427}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -20913,7 +20913,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -20968,7 +20968,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8558111244277679003}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -21175,7 +21175,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 860e4014526f5d946b39f4ab8e6aa443, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04446d55923944e62b16b383768959c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -21230,7 +21230,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8599393365558810324}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -21437,7 +21437,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -21492,7 +21492,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8634005448574581588}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -21608,7 +21608,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1de297159e05aad4bad74ad56d9d4bf6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: deb7868e15edf4290a81974af3885b01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -21663,7 +21663,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8638924670442478385}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -21870,7 +21870,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 63da17b6ef0ffc64981d1b6d605d6851, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47dc18597f69643baa74e4d0e4ce8a63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -21925,7 +21925,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8689602769797597437}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -22405,7 +22405,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -22460,7 +22460,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8848888391729690161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -22791,7 +22791,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1ae907e571c4a3840a03904c39e6f96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e122fe80bba0e41068feecaacc340cbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -22846,7 +22846,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9186212093872600235}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87acfbf127070c044a32025bcfe53f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 287f74707059b43a5aec9432fbb1d156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.SpriteBtn
   OnClicked:
@@ -22978,47 +22978,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1165638197713192838}
     m_Modifications:
-    - target: {fileID: 6296094655994176818, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6296094655994176818, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_Name
       value: Particle System (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.98
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalPosition.y
       value: -5.94
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7019111
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7019111
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0.08556206
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.08556206
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -103.9
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
@@ -23026,15 +23026,15 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
 --- !u!198 &5078966144410024686 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 5208961387786875846, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5208961387786875846, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
   m_PrefabInstance: {fileID: 1023986194734139688}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &6025322639201070444 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
   m_PrefabInstance: {fileID: 1023986194734139688}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1052498474472139231
@@ -23045,47 +23045,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 732846142104928541}
     m_Modifications:
-    - target: {fileID: 5816652368623445715, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 5816652368623445715, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_Name
       value: SuccessPlaced
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -23093,15 +23093,15 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
 --- !u!198 &201718032254681226 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 1052498474472139231}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &8395835634765372528 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 1052498474472139231}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2543644957285738113
@@ -23112,47 +23112,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1272181877304644691}
     m_Modifications:
-    - target: {fileID: 5816652368623445715, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 5816652368623445715, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_Name
       value: SuccessPlaced
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -23160,15 +23160,15 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
 --- !u!198 &3394389407936237524 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 2543644957285738113}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &6436750333681472302 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 2543644957285738113}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3659742629825813352
@@ -23179,47 +23179,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6646373820430863733}
     m_Modifications:
-    - target: {fileID: 5816652368623445715, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 5816652368623445715, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_Name
       value: SuccessPlaced
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -23227,15 +23227,15 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
 --- !u!198 &4511929776919196221 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 3659742629825813352}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &5248168318192578247 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 3659742629825813352}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4843155730948611887
@@ -23246,47 +23246,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1553383505093259107}
     m_Modifications:
-    - target: {fileID: 5816652368623445715, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 5816652368623445715, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_Name
       value: SuccessPlaced
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -23294,15 +23294,15 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
 --- !u!4 &4118930767384029824 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 4843155730948611887}
   m_PrefabAsset: {fileID: 0}
 --- !u!198 &5720069365811869306 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 4843155730948611887}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5824675243032190842
@@ -23313,47 +23313,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1165638197713192838}
     m_Modifications:
-    - target: {fileID: 6296094655994176818, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6296094655994176818, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_Name
       value: Particle System
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.53
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalPosition.y
       value: -6.12
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.70031446
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7003144
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0.09777383
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.09777379
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -74.104
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
@@ -23361,15 +23361,15 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
 --- !u!4 &972414979012082494 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
   m_PrefabInstance: {fileID: 5824675243032190842}
   m_PrefabAsset: {fileID: 0}
 --- !u!198 &1773456787294465212 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 5208961387786875846, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5208961387786875846, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
   m_PrefabInstance: {fileID: 5824675243032190842}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6680783168077953431
@@ -23380,47 +23380,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 660161869630826543}
     m_Modifications:
-    - target: {fileID: 5816652368623445715, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 5816652368623445715, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_Name
       value: SuccessPlaced
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -23428,15 +23428,15 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
 --- !u!4 &2785987825944562744 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 6680783168077953431}
   m_PrefabAsset: {fileID: 0}
 --- !u!198 &5828067310516588738 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 6680783168077953431}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7107555861674553437
@@ -23447,47 +23447,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4417170211073757348}
     m_Modifications:
-    - target: {fileID: 5816652368623445715, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 5816652368623445715, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_Name
       value: SuccessPlaced
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -23495,15 +23495,15 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
 --- !u!4 &1782340962712258034 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 7107555861674553437}
   m_PrefabAsset: {fileID: 0}
 --- !u!198 &7995156886989232392 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 7107555861674553437}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7340602569034648343
@@ -23514,47 +23514,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3602846239651693383}
     m_Modifications:
-    - target: {fileID: 5816652368623445715, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 5816652368623445715, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_Name
       value: SuccessPlaced
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+    - target: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -23562,14 +23562,14 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
 --- !u!4 &2287888995527278264 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8799815760731764143, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 7340602569034648343}
   m_PrefabAsset: {fileID: 0}
 --- !u!198 &7604490247505240642 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: fbbc248373ca1ed4e94a87c90e73f9e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 889351739895556437, guid: d583c165d7a8d4b59a9833b6fe3f1bf1, type: 3}
   m_PrefabInstance: {fileID: 7340602569034648343}
   m_PrefabAsset: {fileID: 0}

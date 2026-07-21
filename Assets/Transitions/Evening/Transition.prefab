@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10000
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 89364a38797c7824b919e69e5e22fbff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35ada3f32a228413f8618768ffb9e48e, type: 3}
   m_Color: {r: 1, g: 0.95928574, b: 0.7, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -172,7 +172,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10000
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 89364a38797c7824b919e69e5e22fbff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35ada3f32a228413f8618768ffb9e48e, type: 3}
   m_Color: {r: 0.99215686, g: 0.8243406, b: 0.5952941, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -263,7 +263,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10000
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 89364a38797c7824b919e69e5e22fbff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35ada3f32a228413f8618768ffb9e48e, type: 3}
   m_Color: {r: 0.99607843, g: 0.9913352, b: 0.84666663, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -319,7 +319,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4029082978822663708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0839cad5dfdeb084faa9bfa8318d756d, type: 3}
+  m_Script: {fileID: 11500000, guid: 214752cfd7e2e40f8ad5becc2042e1ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.Minigame.Evening.Transition
   capsules:
@@ -411,7 +411,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10000
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 89364a38797c7824b919e69e5e22fbff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35ada3f32a228413f8618768ffb9e48e, type: 3}
   m_Color: {r: 0.92027974, g: 0.7, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -502,7 +502,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10000
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 89364a38797c7824b919e69e5e22fbff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35ada3f32a228413f8618768ffb9e48e, type: 3}
   m_Color: {r: 1, g: 0.7744186, b: 0.7, a: 1}
   m_FlipX: 0
   m_FlipY: 0

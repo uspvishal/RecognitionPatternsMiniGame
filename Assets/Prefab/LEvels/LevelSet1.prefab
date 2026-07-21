@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: be86462c084b6674a965b794f46b8cac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 695ad344dc7e2439da97bd449354c794, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 343081384355219378}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 3412866780672053015}
@@ -232,7 +232,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: e3f7a702aa1a0b04cae716ea17d4e79c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0104577b7a62c417690fafc7cd61e55c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -323,7 +323,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 856db1242ca83dc4f9d827c1c6c2a6f2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1677dd064598420abdfa9ca717df5c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -382,7 +382,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 555396342828450751}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc8b7ef04bc1f1241b7cc07ce8b50d55, type: 3}
+  m_Script: {fileID: 11500000, guid: facc5b0aa019a45e78b94e20bc1701cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 0.2
@@ -473,7 +473,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 856db1242ca83dc4f9d827c1c6c2a6f2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1677dd064598420abdfa9ca717df5c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -564,7 +564,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: c0fc764b9d6ea6145b3725667ea1e6d2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40f0cdf29d9724f55a1abca1454a4cab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -705,7 +705,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 6398c9a5baa57b740a712aacc79d2719, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b6ee38aa0b0c42eda4bad58c55c40e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -760,7 +760,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1234397556622315430}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -819,7 +819,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1234397556622315430}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 7781655466204853452}
@@ -925,7 +925,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 6398c9a5baa57b740a712aacc79d2719, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b6ee38aa0b0c42eda4bad58c55c40e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -980,7 +980,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1281499898435360561}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 3733020226430591307}
@@ -1074,7 +1074,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: e3f7a702aa1a0b04cae716ea17d4e79c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0104577b7a62c417690fafc7cd61e55c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1165,7 +1165,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 0745e3cc36509b24fb608d6ee5c32e35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a63e6236c75a649ee8f8b8ce7e491901, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1256,7 +1256,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: c0fc764b9d6ea6145b3725667ea1e6d2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40f0cdf29d9724f55a1abca1454a4cab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1347,7 +1347,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: c0fc764b9d6ea6145b3725667ea1e6d2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40f0cdf29d9724f55a1abca1454a4cab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1443,7 +1443,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 7c426f324b6287e4192ab4500086a07c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9c950ba6961b4d839a5e021decaed42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1498,7 +1498,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1668426592669474240}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -1557,7 +1557,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1668426592669474240}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 6626976301041694326}
@@ -1666,7 +1666,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 6398c9a5baa57b740a712aacc79d2719, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b6ee38aa0b0c42eda4bad58c55c40e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1721,7 +1721,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1669344661702133507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -1780,7 +1780,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1669344661702133507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 5573354919762167090}
@@ -1884,7 +1884,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 50
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -3396728620038897857, guid: 8420e3bd047e4c543b857901bf45cea7, type: 3}
+  m_Sprite: {fileID: -3396728620038897857, guid: 3babeccc867824fdda38538dd5691d01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.43137255}
   m_FlipX: 0
   m_FlipY: 0
@@ -1975,7 +1975,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: a9364014d5d88294ab296ad47f609c75, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8a752bb40ee3b431182be198da50f083, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2071,7 +2071,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 7c426f324b6287e4192ab4500086a07c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9c950ba6961b4d839a5e021decaed42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2126,7 +2126,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1818923237877517179}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -2185,7 +2185,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1818923237877517179}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 5208114474588214693}
@@ -2289,7 +2289,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 856db1242ca83dc4f9d827c1c6c2a6f2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1677dd064598420abdfa9ca717df5c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2380,7 +2380,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: c0fc764b9d6ea6145b3725667ea1e6d2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40f0cdf29d9724f55a1abca1454a4cab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2473,7 +2473,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 094718809a6349c41a6aea3c73e21eb6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0bbfdd010cccd4902a4d64498e95bf5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2528,7 +2528,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1976836918994123097}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 5854670719272285535}
@@ -2589,7 +2589,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2056597839261723150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6e264e85d88ffc4b8c36feef47e26d8, type: 3}
+  m_Script: {fileID: 11500000, guid: d58d11b8df588489ead16b221df6b72c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Level
   ipadBg: {fileID: 3491244526095723133}
@@ -2657,7 +2657,7 @@ MonoBehaviour:
   levelIdleVo: 0
   EndingVoS: 14000000
   WrongVo:
-  - {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
+  - {fileID: 8300000, guid: f0c76b3df36284e36aeeea1ba96f3d55, type: 3}
   CorrectVO: []
   initialAudioDelay: 0.5
   SecondAudioDelay: 0.5
@@ -2698,7 +2698,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2056597839261723150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 650608adbfa5d1343836780ba150d05d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1578b75239d344bd19125281916aa36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SequenceTween
   ObjectList:
@@ -2843,7 +2843,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 094718809a6349c41a6aea3c73e21eb6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0bbfdd010cccd4902a4d64498e95bf5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2898,7 +2898,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2556100104289401432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 2000216443925836559}
@@ -2997,7 +2997,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: be86462c084b6674a965b794f46b8cac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 695ad344dc7e2439da97bd449354c794, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3052,7 +3052,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2636040339028578921}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -3111,7 +3111,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2636040339028578921}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 1713351645592007157}
@@ -3215,7 +3215,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 36fb4481837edbc4e9f4858bd137df48, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2f3aada6534a648afbe1fcd8b1bd8558, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3306,7 +3306,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: e3f7a702aa1a0b04cae716ea17d4e79c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0104577b7a62c417690fafc7cd61e55c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3364,7 +3364,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2982839622933512783}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6e264e85d88ffc4b8c36feef47e26d8, type: 3}
+  m_Script: {fileID: 11500000, guid: d58d11b8df588489ead16b221df6b72c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Level
   ipadBg: {fileID: 4529576170396999485}
@@ -3432,7 +3432,7 @@ MonoBehaviour:
   levelIdleVo: 0
   EndingVoS: 14000000
   WrongVo:
-  - {fileID: 8300000, guid: 2a3b08d1e7de480409bb128a0d423739, type: 3}
+  - {fileID: 8300000, guid: f0c76b3df36284e36aeeea1ba96f3d55, type: 3}
   CorrectVO: []
   initialAudioDelay: 0.5
   SecondAudioDelay: 0.5
@@ -3460,7 +3460,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2982839622933512783}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 650608adbfa5d1343836780ba150d05d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1578b75239d344bd19125281916aa36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.SequenceTween
   ObjectList:
@@ -3570,7 +3570,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: ae03dc4d4cb04614fad30792fd8761fd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f13da0300196b4a8083f6c0ff8534af0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3696,7 +3696,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: be86462c084b6674a965b794f46b8cac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 695ad344dc7e2439da97bd449354c794, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3751,7 +3751,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3389860536512783049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 2381295549171769414}
@@ -3850,7 +3850,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 7c426f324b6287e4192ab4500086a07c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9c950ba6961b4d839a5e021decaed42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3905,7 +3905,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3404662289784426013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -3964,7 +3964,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3404662289784426013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 2319603089557451909}
@@ -4068,7 +4068,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: dcb682d7a4823584c913034bc0e73ff4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b44c505875c340129cf8a8aa234103b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4161,7 +4161,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 6398c9a5baa57b740a712aacc79d2719, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b6ee38aa0b0c42eda4bad58c55c40e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4216,7 +4216,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3596957828196756825}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 7142326953534220475}
@@ -4310,7 +4310,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: e3f7a702aa1a0b04cae716ea17d4e79c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0104577b7a62c417690fafc7cd61e55c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4403,7 +4403,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 094718809a6349c41a6aea3c73e21eb6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0bbfdd010cccd4902a4d64498e95bf5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4458,7 +4458,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3916469967478703392}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 3125313738378501082}
@@ -4554,7 +4554,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 7c426f324b6287e4192ab4500086a07c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9c950ba6961b4d839a5e021decaed42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4609,7 +4609,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4024702095850593486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 7735286459200617742}
@@ -4708,7 +4708,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: be86462c084b6674a965b794f46b8cac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 695ad344dc7e2439da97bd449354c794, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4763,7 +4763,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4241875065324001689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -4822,7 +4822,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4241875065324001689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 3404682994965986506}
@@ -4926,7 +4926,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: a9364014d5d88294ab296ad47f609c75, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8a752bb40ee3b431182be198da50f083, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5017,7 +5017,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: dcb682d7a4823584c913034bc0e73ff4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b44c505875c340129cf8a8aa234103b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5108,7 +5108,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 36fb4481837edbc4e9f4858bd137df48, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2f3aada6534a648afbe1fcd8b1bd8558, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5199,7 +5199,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: a9364014d5d88294ab296ad47f609c75, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8a752bb40ee3b431182be198da50f083, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5292,7 +5292,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 7c426f324b6287e4192ab4500086a07c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9c950ba6961b4d839a5e021decaed42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5347,7 +5347,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4573177771189483358}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 4794913469685331640}
@@ -5446,7 +5446,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 6398c9a5baa57b740a712aacc79d2719, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b6ee38aa0b0c42eda4bad58c55c40e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5501,7 +5501,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4597389557856651744}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -5560,7 +5560,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4597389557856651744}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 5896209290159076623}
@@ -5626,7 +5626,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: b632902b1788cdb4e93509d2354158bf, type: 3}
+  m_Resource: {fileID: 8300000, guid: 93cc9b0e352764351971f691616ba9e4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -5793,7 +5793,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: a9364014d5d88294ab296ad47f609c75, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8a752bb40ee3b431182be198da50f083, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5889,7 +5889,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 094718809a6349c41a6aea3c73e21eb6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0bbfdd010cccd4902a4d64498e95bf5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5944,7 +5944,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4802279656813247514}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -6003,7 +6003,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4802279656813247514}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 5563872830353288588}
@@ -6109,7 +6109,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 6398c9a5baa57b740a712aacc79d2719, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b6ee38aa0b0c42eda4bad58c55c40e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6164,7 +6164,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4828750401826975025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 3380516664126378298}
@@ -6260,7 +6260,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 7c426f324b6287e4192ab4500086a07c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9c950ba6961b4d839a5e021decaed42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6315,7 +6315,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4887877594588705034}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 7660707236685020280}
@@ -6409,7 +6409,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 856db1242ca83dc4f9d827c1c6c2a6f2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1677dd064598420abdfa9ca717df5c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6500,7 +6500,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 05218e4af83e8514389ac3317925e856, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a7cdbf50aa0234eea89c612942016dde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6591,7 +6591,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 50
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1606586536922097901, guid: 876cc3482a38f3c4a9eba6033de72605, type: 3}
+  m_Sprite: {fileID: 1606586536922097901, guid: 5cef2764e933a4ba0824859f4c063ec5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.44705883}
   m_FlipX: 0
   m_FlipY: 0
@@ -6684,7 +6684,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 7c426f324b6287e4192ab4500086a07c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9c950ba6961b4d839a5e021decaed42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6739,7 +6739,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5332784105544553296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 4040126228983413531}
@@ -6833,7 +6833,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 50
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 3976687153933433707, guid: 81a636e21ff29e346887eb3c7882e36d, type: 3}
+  m_Sprite: {fileID: 3976687153933433707, guid: be342e0b4391143a39b8e9bb77a6a993, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6884,7 +6884,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5627174396732158681}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b367d4131143f94f85df7b659bdf259, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e979c114d9f74e96a9be92c09892a5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.ObjectScaleHighLighting
   highLightItems:
@@ -6996,7 +6996,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 094718809a6349c41a6aea3c73e21eb6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0bbfdd010cccd4902a4d64498e95bf5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7051,7 +7051,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5952003764830041606}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -7110,7 +7110,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5952003764830041606}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 7229337443476653520}
@@ -7216,7 +7216,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 094718809a6349c41a6aea3c73e21eb6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0bbfdd010cccd4902a4d64498e95bf5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7271,7 +7271,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5964688179774597573}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 283026174009734726}
@@ -7370,7 +7370,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: be86462c084b6674a965b794f46b8cac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 695ad344dc7e2439da97bd449354c794, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7425,7 +7425,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6002848613040523288}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -7484,7 +7484,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6002848613040523288}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 7346797681081790462}
@@ -7590,7 +7590,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 7c426f324b6287e4192ab4500086a07c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9c950ba6961b4d839a5e021decaed42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7645,7 +7645,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6036299784599804695}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 5193567181171881920}
@@ -7739,7 +7739,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 0745e3cc36509b24fb608d6ee5c32e35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a63e6236c75a649ee8f8b8ce7e491901, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7835,7 +7835,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 6398c9a5baa57b740a712aacc79d2719, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b6ee38aa0b0c42eda4bad58c55c40e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7890,7 +7890,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6552993081197689243}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -7949,7 +7949,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6552993081197689243}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 1260203087213046290}
@@ -8055,7 +8055,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 7c426f324b6287e4192ab4500086a07c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9c950ba6961b4d839a5e021decaed42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8110,7 +8110,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6572819387416246418}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 1878830344673682543}
@@ -8204,7 +8204,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: c63906904caa0804cb6abe8e33dfc61a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 492aded463d5e4cd28fde22e4a398e48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8263,7 +8263,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6718560233140388618}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc8b7ef04bc1f1241b7cc07ce8b50d55, type: 3}
+  m_Script: {fileID: 11500000, guid: facc5b0aa019a45e78b94e20bc1701cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.recognitionPatterns.WorldGridLayout
   spacing: 0.81
@@ -8359,7 +8359,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: be86462c084b6674a965b794f46b8cac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 695ad344dc7e2439da97bd449354c794, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8414,7 +8414,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6961426905208470596}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -8473,7 +8473,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6961426905208470596}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 1385562810072932919}
@@ -8579,7 +8579,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 7c426f324b6287e4192ab4500086a07c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9c950ba6961b4d839a5e021decaed42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8634,7 +8634,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7038203812855419299}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 5523606012988492465}
@@ -8728,7 +8728,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 05218e4af83e8514389ac3317925e856, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a7cdbf50aa0234eea89c612942016dde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8824,7 +8824,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 7c426f324b6287e4192ab4500086a07c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9c950ba6961b4d839a5e021decaed42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8879,7 +8879,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7171983763780349016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -8938,7 +8938,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7171983763780349016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 8636379479016536623}
@@ -9044,7 +9044,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 6398c9a5baa57b740a712aacc79d2719, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b6ee38aa0b0c42eda4bad58c55c40e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9099,7 +9099,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7219450372065054929}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 4610123430813785540}
@@ -9238,7 +9238,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: c63906904caa0804cb6abe8e33dfc61a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 492aded463d5e4cd28fde22e4a398e48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9334,7 +9334,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 094718809a6349c41a6aea3c73e21eb6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0bbfdd010cccd4902a4d64498e95bf5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9389,7 +9389,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7935106561557021333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -9448,7 +9448,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7935106561557021333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 4200430250498616888}
@@ -9517,7 +9517,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7978120925466733906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1352d52b58c8db4481879df38bed432, type: 3}
+  m_Script: {fileID: 11500000, guid: e0465e41d29304b79a1bef4342e9991a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
   levels:
@@ -9610,7 +9610,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 7c426f324b6287e4192ab4500086a07c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9c950ba6961b4d839a5e021decaed42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9665,7 +9665,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8037517201991815565}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 7031327172187217521}
@@ -9764,7 +9764,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 094718809a6349c41a6aea3c73e21eb6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0bbfdd010cccd4902a4d64498e95bf5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9819,7 +9819,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8142145153657319226}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a90e864d8b884f42a98a9ad92b035fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a73d7b10a8ca493eb3989024a52aba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.DraggableObject
   SmoothTime: 0.1
@@ -9878,7 +9878,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8142145153657319226}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08f18904b51053429ee926a2f88b99f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0c0714602a34ddfbc336f322ad4b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Piece
   renderer: {fileID: 8212538941991857629}
@@ -9982,7 +9982,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: ae03dc4d4cb04614fad30792fd8761fd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f13da0300196b4a8083f6c0ff8534af0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10033,7 +10033,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8488297827871265804}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b367d4131143f94f85df7b659bdf259, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e979c114d9f74e96a9be92c09892a5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.ObjectScaleHighLighting
   highLightItems:
@@ -10142,7 +10142,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: be86462c084b6674a965b794f46b8cac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 695ad344dc7e2439da97bd449354c794, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10197,7 +10197,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8749725678965222319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 5995688048262381252}
@@ -10291,7 +10291,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 50
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 3976687153933433707, guid: 81a636e21ff29e346887eb3c7882e36d, type: 3}
+  m_Sprite: {fileID: 3976687153933433707, guid: be342e0b4391143a39b8e9bb77a6a993, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10384,7 +10384,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: be86462c084b6674a965b794f46b8cac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 695ad344dc7e2439da97bd449354c794, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10439,7 +10439,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9060968011536148017}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d412a99d4896b40b6c430563f419ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e7a376aac1448abda3a451cf63ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::USP.MiniGame.Addition.Slot
   collider: {fileID: 6079887261475203319}
@@ -10460,47 +10460,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4942036913034559366}
     m_Modifications:
-    - target: {fileID: 6296094655994176818, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6296094655994176818, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_Name
       value: Particle System
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.53
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalPosition.y
       value: -6.12
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.70031446
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7003144
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0.09777383
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.09777379
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -74.104
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
@@ -10508,15 +10508,15 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
 --- !u!198 &5312762348533815310 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 5208961387786875846, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5208961387786875846, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
   m_PrefabInstance: {fileID: 140539566056451016}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &6654238860875403148 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
   m_PrefabInstance: {fileID: 140539566056451016}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7692649263255749833
@@ -10527,47 +10527,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4942036913034559366}
     m_Modifications:
-    - target: {fileID: 6296094655994176818, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6296094655994176818, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_Name
       value: Particle System (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.98
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalPosition.y
       value: -5.94
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7019111
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7019111
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0.08556206
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.08556206
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -103.9
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+    - target: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
@@ -10575,14 +10575,14 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
 --- !u!198 &2488297583395780367 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 5208961387786875846, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5208961387786875846, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
   m_PrefabInstance: {fileID: 7692649263255749833}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &3993029032445550733 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 6749718267138057284, guid: 5c25060f733e5654cafe96300c501865, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6749718267138057284, guid: bb1542dcaaf1e4dc4b6e10d8b787058b, type: 3}
   m_PrefabInstance: {fileID: 7692649263255749833}
   m_PrefabAsset: {fileID: 0}

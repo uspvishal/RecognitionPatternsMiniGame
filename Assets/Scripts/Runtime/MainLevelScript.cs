@@ -95,6 +95,25 @@ namespace USP.MiniGame.recognitionPatterns
             });
 
         }
+        
+        public void GenerateFromStartLevel()
+        {
+            foreach (var x in Levels)
+            {
+                x.isComplete = false;
+            }
+            Transition.Play(() =>
+            {
+                mainMenu.SetActive(false);
+                if (SpawnedLevel != null)
+                {
+                    Destroy(SpawnedLevel);
+                }
+                currentLevel = Levels[0];
+                SpawnedLevel = Instantiate(Levels[0].level);
+            });
+
+        }
 
         public void StartNextLevel()
         {
