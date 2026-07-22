@@ -144,7 +144,7 @@ MonoBehaviour:
   collider: {fileID: 3412866780672053015}
   mask: {fileID: 9127356220338867503}
   hint: {fileID: 9127356220338867503}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -986,7 +986,7 @@ MonoBehaviour:
   collider: {fileID: 3733020226430591307}
   mask: {fileID: 2391341570576433846}
   hint: {fileID: 2391341570576433846}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -2534,7 +2534,7 @@ MonoBehaviour:
   collider: {fileID: 5854670719272285535}
   mask: {fileID: 4496629418029618501}
   hint: {fileID: 4496629418029618501}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -2558,7 +2558,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6078331586191029499
 Transform:
   m_ObjectHideFlags: 0
@@ -2578,6 +2578,7 @@ Transform:
   - {fileID: 3416166299355321556}
   - {fileID: 6611842230887217708}
   - {fileID: 5616689276990590661}
+  - {fileID: 6548634892158801531}
   m_Father: {fileID: 4942036913034559366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5023582469685288065
@@ -2667,7 +2668,19 @@ MonoBehaviour:
       m_Calls: []
   OnEndingVoPlayed:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4456886548843622977}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onEndingVOFinished:
     m_PersistentCalls:
       m_Calls:
@@ -2904,7 +2917,7 @@ MonoBehaviour:
   collider: {fileID: 2000216443925836559}
   mask: {fileID: 2330082948718637232}
   hint: {fileID: 2330082948718637232}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -3353,6 +3366,7 @@ Transform:
   - {fileID: 7405942216790722990}
   - {fileID: 3699429658961823452}
   - {fileID: 3516323685911831078}
+  - {fileID: 747628522255122488}
   m_Father: {fileID: 4942036913034559366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7970168861011912255
@@ -3442,7 +3456,19 @@ MonoBehaviour:
       m_Calls: []
   OnEndingVoPlayed:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6931300417547082149}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onEndingVOFinished:
     m_PersistentCalls:
       m_Calls: []
@@ -3757,7 +3783,7 @@ MonoBehaviour:
   collider: {fileID: 2381295549171769414}
   mask: {fileID: 6355650472768031819}
   hint: {fileID: 6355650472768031819}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -4222,7 +4248,7 @@ MonoBehaviour:
   collider: {fileID: 7142326953534220475}
   mask: {fileID: 5358441198795844950}
   hint: {fileID: 5358441198795844950}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -4464,7 +4490,7 @@ MonoBehaviour:
   collider: {fileID: 3125313738378501082}
   mask: {fileID: 5490927522249464094}
   hint: {fileID: 5490927522249464094}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -4615,7 +4641,7 @@ MonoBehaviour:
   collider: {fileID: 7735286459200617742}
   mask: {fileID: 5637431229597392752}
   hint: {fileID: 5637431229597392752}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -4936,6 +4962,73 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &4456886548843622977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6548634892158801531}
+  - component: {fileID: 1385020167660987613}
+  m_Layer: 0
+  m_Name: EndingScal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6548634892158801531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4456886548843622977}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6078331586191029499}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1385020167660987613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4456886548843622977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e979c114d9f74e96a9be92c09892a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.ObjectScaleHighLighting
+  highLightItems:
+  - delay: 0.1
+    Obj:
+    - {fileID: 4547542714425358600}
+  - delay: 0.1
+    Obj:
+    - {fileID: 5129082236074335237}
+  - delay: 0.1
+    Obj:
+    - {fileID: 2800518498236356917}
+  - delay: 0.1
+    Obj:
+    - {fileID: 7118891827640976754}
+  firstDelay: 2.1
+  scaleUpSpeed: 0.2
+  OnStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  clip: 0
+  willStopOnUserInteraction: 1
 --- !u!1 &4529576170396999485
 GameObject:
   m_ObjectHideFlags: 0
@@ -5353,7 +5446,7 @@ MonoBehaviour:
   collider: {fileID: 4794913469685331640}
   mask: {fileID: 6537129473283165264}
   hint: {fileID: 6537129473283165264}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -6170,7 +6263,7 @@ MonoBehaviour:
   collider: {fileID: 3380516664126378298}
   mask: {fileID: 8936966692077212431}
   hint: {fileID: 8936966692077212431}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -6321,7 +6414,7 @@ MonoBehaviour:
   collider: {fileID: 7660707236685020280}
   mask: {fileID: 6744973522986781622}
   hint: {fileID: 6744973522986781622}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -6745,7 +6838,7 @@ MonoBehaviour:
   collider: {fileID: 4040126228983413531}
   mask: {fileID: 6641919295683629358}
   hint: {fileID: 6641919295683629358}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -7277,7 +7370,7 @@ MonoBehaviour:
   collider: {fileID: 283026174009734726}
   mask: {fileID: 8789731349191776620}
   hint: {fileID: 8789731349191776620}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -7651,7 +7744,7 @@ MonoBehaviour:
   collider: {fileID: 5193567181171881920}
   mask: {fileID: 8072409374064035514}
   hint: {fileID: 8072409374064035514}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -8116,7 +8209,7 @@ MonoBehaviour:
   collider: {fileID: 1878830344673682543}
   mask: {fileID: 5601858856333858750}
   hint: {fileID: 5601858856333858750}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -8273,6 +8366,73 @@ MonoBehaviour:
   delayedStart: 0
   keepUpdateingEveryInterval: 0
   sfxOnRefresh: {fileID: 0}
+--- !u!1 &6931300417547082149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 747628522255122488}
+  - component: {fileID: 7766523814530753711}
+  m_Layer: 0
+  m_Name: ObjectScale (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &747628522255122488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6931300417547082149}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2083418798829347035}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7766523814530753711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6931300417547082149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e979c114d9f74e96a9be92c09892a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: usp.minigame.recognitionandpatterns::USP.MiniGame.recognitionPatterns.ObjectScaleHighLighting
+  highLightItems:
+  - delay: 0.1
+    Obj:
+    - {fileID: 1329809956122271171}
+  - delay: 0.1
+    Obj:
+    - {fileID: 8162911171966800947}
+  - delay: 0.1
+    Obj:
+    - {fileID: 6157075135383673827}
+  - delay: 0.1
+    Obj:
+    - {fileID: 3094364249983138815}
+  firstDelay: 2.1
+  scaleUpSpeed: 0.12
+  OnStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  clip: 0
+  willStopOnUserInteraction: 1
 --- !u!1 &6961426905208470596
 GameObject:
   m_ObjectHideFlags: 0
@@ -8640,7 +8800,7 @@ MonoBehaviour:
   collider: {fileID: 5523606012988492465}
   mask: {fileID: 8110489181509494859}
   hint: {fileID: 8110489181509494859}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -9105,7 +9265,7 @@ MonoBehaviour:
   collider: {fileID: 4610123430813785540}
   mask: {fileID: 4027702670584635720}
   hint: {fileID: 4027702670584635720}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -9671,7 +9831,7 @@ MonoBehaviour:
   collider: {fileID: 7031327172187217521}
   mask: {fileID: 7649680686239144188}
   hint: {fileID: 7649680686239144188}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -10049,8 +10209,8 @@ MonoBehaviour:
   - delay: 0.5
     Obj:
     - {fileID: 3094364249983138815}
-  firstDelay: 5
-  scaleUpSpeed: 0.2
+  firstDelay: 4.7
+  scaleUpSpeed: 0.25
   OnStart:
     m_PersistentCalls:
       m_Calls: []
@@ -10203,7 +10363,7 @@ MonoBehaviour:
   collider: {fileID: 5995688048262381252}
   mask: {fileID: 3258077902594382349}
   hint: {fileID: 3258077902594382349}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0
@@ -10445,7 +10605,7 @@ MonoBehaviour:
   collider: {fileID: 6079887261475203319}
   mask: {fileID: 3479131062471366866}
   hint: {fileID: 3479131062471366866}
-  fadeTarget: {r: 1, g: 1, b: 1, a: 0.7176471}
+  fadeTarget: {r: 1, g: 1, b: 1, a: 1}
   fadeTweenDuration: 0.37
   fadeTweenEase: 9
   isComplete: 0

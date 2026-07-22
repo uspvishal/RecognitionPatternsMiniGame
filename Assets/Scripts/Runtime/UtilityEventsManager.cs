@@ -19,7 +19,7 @@ namespace USP.MiniGame.recognitionPatterns
 
         public static bool isControlEnabled
         {
-            get { Debug.Log("Check Control Enabled " + controlEnabled); return controlEnabled; }
+            get { /*Debug.Log("Check Control Enabled " + controlEnabled);*/ return controlEnabled; }
             set
             {
 

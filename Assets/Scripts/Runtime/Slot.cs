@@ -60,16 +60,31 @@ namespace USP.MiniGame.recognitionPatterns
 
 		public void Complete()
 		{
+			
+			HideAfterComplete();
 			collider.enabled = false;
 			isComplete = true;
 			OnComplete?.Invoke();
 		}
 
+		void HideAfterComplete()
+		{
+			Color color =Color.white ;
+			color.a = Mathf.Clamp01(0);
+			fadeTween.ChangeEndValue(color, true).Restart();
+		}
+
 		public void Fade(float alpha)
 		{
+			
 			Color color = alpha == 1F ? originalMaskColor : fadeTarget;
 			color.a = Mathf.Clamp01(alpha);
 			fadeTween.ChangeEndValue(color, true).Restart();
+			 //old 
+			/*Color color =Color.white ;
+			color.a = Mathf.Clamp01(1);
+			fadeTween.ChangeEndValue(color, true).Restart();*/
+			
 		}
 	}
 }
